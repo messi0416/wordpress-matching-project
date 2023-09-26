@@ -1,0 +1,73 @@
+# Translation of Plugins - User Switching - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - User Switching - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-17 01:08:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - User Switching - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://github.com/johnbillion/user-switching/graphs/contributors"
+msgstr "https://github.com/johnbillion/user-switching/graphs/contributors"
+
+#. Author of the plugin
+msgid "John Blackbourn & contributors"
+msgstr "John Blackbourn & contributors"
+
+#. Plugin URI of the plugin
+msgid "https://johnblackbourn.com/wordpress-plugin-user-switching/"
+msgstr "https://johnblackbourn.com/wordpress-plugin-user-switching/"
+
+#. Translators: 1: user display name; 2: username;
+#: user-switching.php:335 user-switching.php:395
+msgid "Switched to %1$s (%2$s)."
+msgstr "%1$s (%2$s) に切り替えました。"
+
+#. Translators: 1: user display name; 2: username;
+#: user-switching.php:349 user-switching.php:479 user-switching.php:513
+#: user-switching.php:545 user-switching.php:586 user-switching.php:613
+msgid "Switch back to %1$s (%2$s)"
+msgstr "%1$s (%2$s) に戻す"
+
+#. Translators: 1: user display name; 2: username;
+#: user-switching.php:388
+msgid "Switched back to %1$s (%2$s)."
+msgstr "%1$s (%2$s) に戻しました。"
+
+#: user-switching.php:166 user-switching.php:191 user-switching.php:200
+#: user-switching.php:205 user-switching.php:233
+msgid "Could not switch users."
+msgstr "ユーザーを切り替えられませんでした。"
+
+#. Description of the plugin
+msgid "Instant switching between user accounts in WordPress"
+msgstr "WordPress のユーザーアカウントをすばやく切り替え"
+
+#. Plugin Name of the plugin
+msgid "User Switching"
+msgstr "User Switching"
+
+#: user-switching.php:113
+msgctxt "User Switching title on user profile screen"
+msgid "User Switching"
+msgstr "User Switching"
+
+#: user-switching.php:114 user-switching.php:525 user-switching.php:659
+#: user-switching.php:699 user-switching.php:730
+msgid "Switch&nbsp;To"
+msgstr "切り替え"
+
+#. Translators: "switch off" means to temporarily log out
+#: user-switching.php:501
+msgid "Switch Off"
+msgstr "切り替えを元に戻す"
+
+#. Translators: "switch off" means to temporarily log out
+#: user-switching.php:242 user-switching.php:263
+msgid "Could not switch off."
+msgstr "切り替えを元に戻せませんでした。"

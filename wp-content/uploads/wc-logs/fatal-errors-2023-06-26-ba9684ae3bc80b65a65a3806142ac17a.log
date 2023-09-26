@@ -1,0 +1,168 @@
+2023-06-26T07:45:03+00:00 CRITICAL Uncaught Error: Call to undefined function advanced_search_buttons_shortcode() in D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php:12
+Stack trace:
+#0 D:\test\wordpress\wp-includes\template.php(783): require_once()
+#1 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', true, Array)
+#2 D:\test\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#3 D:\test\wordpress\wp-content\themes\cocoon-master\footer.php(11): get_sidebar()
+#4 D:\test\wordpress\wp-includes\template.php(783): require_once('D:\\test\\wordpre...')
+#5 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', true, Array)
+#6 D:\test\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 D:\test\wordpress\wp-content\themes\cocoon-master\page.php(21): get_footer()
+#8 D:\test\wordpress\wp-includes\template-loader.php(106): include('D:\\test\\wordpre...')
+#9 D:\test\wordpress\wp-blog-header.php(19): require_once('D:\\test\\wordpre...')
+#10 D:\test\wordpress\index.php(17): require('D:\\test\\wordpre...')
+#11 {main}
+  thrown in D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php on line 12
+
+2023-06-26T12:49:55+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php:78
+Stack trace:
+#0 D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php(78): in_array('date', '2023-06-02', true)
+#1 D:\test\wordpress\wp-includes\template.php(783): require_once('D:\\test\\wordpre...')
+#2 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', true, Array)
+#3 D:\test\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#4 D:\test\wordpress\wp-content\themes\cocoon-master\footer.php(11): get_sidebar()
+#5 D:\test\wordpress\wp-includes\template.php(783): require_once('D:\\test\\wordpre...')
+#6 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', true, Array)
+#7 D:\test\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 D:\test\wordpress\wp-content\themes\cocoon-master\page.php(21): get_footer()
+#9 D:\test\wordpress\wp-includes\template-loader.php(106): include('D:\\test\\wordpre...')
+#10 D:\test\wordpress\wp-blog-header.php(19): require_once('D:\\test\\wordpre...')
+#11 D:\test\wordpress\index.php(17): require('D:\\test\\wordpre...')
+#12 {main}
+  thrown in D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php on line 78
+
+2023-06-26T12:50:18+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php:78
+Stack trace:
+#0 D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php(78): in_array('date', '2023-06-02', true)
+#1 D:\test\wordpress\wp-includes\template.php(783): require_once('D:\\test\\wordpre...')
+#2 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', true, Array)
+#3 D:\test\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#4 D:\test\wordpress\wp-content\themes\cocoon-master\footer.php(11): get_sidebar()
+#5 D:\test\wordpress\wp-includes\template.php(783): require_once('D:\\test\\wordpre...')
+#6 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', true, Array)
+#7 D:\test\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 D:\test\wordpress\wp-content\themes\cocoon-master\page.php(21): get_footer()
+#9 D:\test\wordpress\wp-includes\template-loader.php(106): include('D:\\test\\wordpre...')
+#10 D:\test\wordpress\wp-blog-header.php(19): require_once('D:\\test\\wordpre...')
+#11 D:\test\wordpress\index.php(17): require('D:\\test\\wordpre...')
+#12 {main}
+  thrown in D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php on line 78
+
+2023-06-26T12:50:50+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php:78
+Stack trace:
+#0 D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php(78): in_array('date', '2023-06-02', true)
+#1 D:\test\wordpress\wp-includes\template.php(783): require_once('D:\\test\\wordpre...')
+#2 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', true, Array)
+#3 D:\test\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#4 D:\test\wordpress\wp-content\themes\cocoon-master\footer.php(11): get_sidebar()
+#5 D:\test\wordpress\wp-includes\template.php(783): require_once('D:\\test\\wordpre...')
+#6 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', true, Array)
+#7 D:\test\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 D:\test\wordpress\wp-content\themes\cocoon-master\page.php(21): get_footer()
+#9 D:\test\wordpress\wp-includes\template-loader.php(106): include('D:\\test\\wordpre...')
+#10 D:\test\wordpress\wp-blog-header.php(19): require_once('D:\\test\\wordpre...')
+#11 D:\test\wordpress\index.php(17): require('D:\\test\\wordpre...')
+#12 {main}
+  thrown in D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php on line 78
+
+2023-06-26T12:51:01+00:00 CRITICAL Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given in D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php:78
+Stack trace:
+#0 D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php(78): in_array('date', '2023-06-02', true)
+#1 D:\test\wordpress\wp-includes\template.php(783): require_once('D:\\test\\wordpre...')
+#2 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', true, Array)
+#3 D:\test\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#4 D:\test\wordpress\wp-content\themes\cocoon-master\footer.php(11): get_sidebar()
+#5 D:\test\wordpress\wp-includes\template.php(783): require_once('D:\\test\\wordpre...')
+#6 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', true, Array)
+#7 D:\test\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 D:\test\wordpress\wp-content\themes\cocoon-master\page.php(21): get_footer()
+#9 D:\test\wordpress\wp-includes\template-loader.php(106): include('D:\\test\\wordpre...')
+#10 D:\test\wordpress\wp-blog-header.php(19): require_once('D:\\test\\wordpre...')
+#11 D:\test\wordpress\index.php(17): require('D:\\test\\wordpre...')
+#12 {main}
+  thrown in D:\test\wordpress\wp-content\themes\cocoon-master\sidebar.php on line 78
+
+2023-06-26T15:12:14+00:00 CRITICAL Uncaught Error: Call to a member function get_global_option_value() on null in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\partials\profile-magic-profile.php:96
+Stack trace:
+#0 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\class-profile-magic-public.php(291): require()
+#1 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\class-profile-magic-public.php(462): Profile_Magic_Public->profile_magic_get_template_html('profile-magic-p...', '')
+#2 D:\test\wordpress\wp-includes\shortcodes.php(355): Profile_Magic_Public->profile_magic_profile_view('', '', 'profilegrid_pro...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 D:\test\wordpress\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(profil...', 'do_shortcode_ta...', '[profilegrid_pr...')
+#5 D:\test\wordpress\wp-includes\class-wp-hook.php(308): do_shortcode('[profilegrid_pr...')
+#6 D:\test\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('[profilegrid_pr...', Array)
+#7 D:\test\wordpress\wp-includes\post-template.php(255): apply_filters('the_content', '[profilegrid_pr...')
+#8 D:\test\wordpress\wp-content\themes\cocoon-child-master\tmp\content.php(131): the_content()
+#9 D:\test\wordpress\wp-includes\template.php(785): require('D:\\test\\wordpre...')
+#10 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', false, Array)
+#11 D:\test\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#12 D:\test\wordpress\wp-content\themes\cocoon-master\tmp\page-contents.php(15): get_template_part('tmp/content')
+#13 D:\test\wordpress\wp-includes\template.php(785): require('D:\\test\\wordpre...')
+#14 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', false, Array)
+#15 D:\test\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#16 D:\test\wordpress\wp-content\themes\cocoon-master\page.php(19): get_template_part('tmp/page-conten...')
+#17 D:\test\wordpress\wp-includes\template-loader.php(106): include('D:\\test\\wordpre...')
+#18 D:\test\wordpress\wp-blog-header.php(19): require_once('D:\\test\\wordpre...')
+#19 D:\test\wordpress\index.php(17): require('D:\\test\\wordpre...')
+#20 {main}
+  thrown in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\partials\profile-magic-profile.php on line 96
+
+2023-06-26T15:26:55+00:00 CRITICAL syntax error, unexpected token ":" in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\partials\profile-magic-profile.php on line 160
+
+2023-06-26T15:27:42+00:00 CRITICAL syntax error, unexpected token "else" in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\partials\profile-magic-profile.php on line 153
+
+2023-06-26T19:55:51+00:00 CRITICAL Uncaught Error: Call to a member function get_global_option_value() on null in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\partials\profile-magic-profile.php:96
+Stack trace:
+#0 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\class-profile-magic-public.php(291): require()
+#1 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\class-profile-magic-public.php(462): Profile_Magic_Public->profile_magic_get_template_html('profile-magic-p...', '')
+#2 D:\test\wordpress\wp-includes\shortcodes.php(355): Profile_Magic_Public->profile_magic_profile_view('', '', 'profilegrid_pro...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 D:\test\wordpress\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(profil...', 'do_shortcode_ta...', '[profilegrid_pr...')
+#5 D:\test\wordpress\wp-includes\class-wp-hook.php(308): do_shortcode('[profilegrid_pr...')
+#6 D:\test\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('[profilegrid_pr...', Array)
+#7 D:\test\wordpress\wp-includes\post-template.php(255): apply_filters('the_content', '[profilegrid_pr...')
+#8 D:\test\wordpress\wp-content\themes\cocoon-child-master\tmp\content.php(131): the_content()
+#9 D:\test\wordpress\wp-includes\template.php(785): require('D:\\test\\wordpre...')
+#10 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', false, Array)
+#11 D:\test\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#12 D:\test\wordpress\wp-content\themes\cocoon-master\tmp\page-contents.php(15): get_template_part('tmp/content')
+#13 D:\test\wordpress\wp-includes\template.php(785): require('D:\\test\\wordpre...')
+#14 D:\test\wordpress\wp-includes\template.php(718): load_template('D:\\test\\wordpre...', false, Array)
+#15 D:\test\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#16 D:\test\wordpress\wp-content\themes\cocoon-master\page.php(19): get_template_part('tmp/page-conten...')
+#17 D:\test\wordpress\wp-includes\template-loader.php(106): include('D:\\test\\wordpre...')
+#18 D:\test\wordpress\wp-blog-header.php(19): require_once('D:\\test\\wordpre...')
+#19 D:\test\wordpress\index.php(17): require('D:\\test\\wordpre...')
+#20 {main}
+  thrown in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\partials\profile-magic-profile.php on line 96
+
+2023-06-26T20:02:10+00:00 CRITICAL syntax error, unexpected token ":" in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\partials\profile-magic-profile.php on line 160
+
+2023-06-26T20:02:57+00:00 CRITICAL syntax error, unexpected token "endif" in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\partials\profile-magic-profile.php on line 162
+
+2023-06-26T20:03:10+00:00 CRITICAL Unclosed '{' on line 107 in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\partials\profile-magic-profile.php on line 177
+
+2023-06-26T20:11:06+00:00 CRITICAL syntax error, unexpected token "{", expecting ":" in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\partials\profile-magic-profile.php on line 142
+
+2023-06-26T20:12:01+00:00 CRITICAL syntax error, unexpected token "}", expecting "elseif" or "else" or "endif" in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\public\partials\profile-magic-profile.php on line 164
+
+2023-06-26T21:38:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\test\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Task.php on line 13
+
+2023-06-26T21:38:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\test\wordpress\wp-content\plugins\enable-media-replace\build\shortpixel\PackageLoader.php on line 73
+
+2023-06-26T21:38:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\test\wordpress\wp-content\themes\cocoon-master\lib\sns-follow.php on line 8
+
+2023-06-26T21:38:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\test\wordpress\wp-content\themes\cocoon-master\lib\page-settings\ads-funcs.php on line 296
+
+2023-06-26T21:38:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\test\wordpress\wp-includes\class-wpdb.php on line 2431
+
+2023-06-26T21:38:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\test\wordpress\wp-content\plugins\enable-media-replace\build\shortpixel\PackageLoader.php on line 73
+
+2023-06-26T21:38:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\test\wordpress\wp-includes\class-wpdb.php on line 2431
+
+2023-06-26T21:38:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\test\wordpress\wp-content\plugins\woocommerce\includes\class-wc-autoloader.php on line 100
+
+2023-06-26T21:38:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\test\wordpress\wp-includes\class-wpdb.php on line 2431
+
+2023-06-26T22:04:09+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in D:\test\wordpress\wp-content\themes\cocoon-master\searchform.php on line 18
+

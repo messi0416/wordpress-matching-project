@@ -1,0 +1,743 @@
+# Translation of Plugins - Gianism - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Gianism - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-07 05:27:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Gianism - Stable (latest release)\n"
+
+#: app/Gianism/Service/AbstractService.php:1024
+msgid "Profile"
+msgstr "プロフィール"
+
+#: app/Gianism/Bootstrap.php:154
+msgid "Confirm"
+msgstr "確認"
+
+#: app/Gianism/Service/AbstractService.php:590
+msgid "Log in"
+msgstr "ログイン"
+
+#: app/Gianism/Service/AbstractService.php:1025
+msgid "Email"
+msgstr "メール"
+
+#: app/Gianism/Bootstrap.php:155
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: app/Gianism/Service/AbstractService.php:1023
+msgid "%s User ID"
+msgstr "%s ユーザー ID"
+
+#: templates/setting/twitter.php:61 templates/setting/line.php:45
+#: templates/setting/google.php:46
+msgid "Copy"
+msgstr "コピー"
+
+#: templates/setting/line.php:21
+msgid "Channel ID"
+msgstr "チャンネル ID"
+
+#: templates/setting/twitter.php:61 templates/setting/line.php:45
+#: templates/setting/google.php:46 templates/setting/facebook.php:63
+msgid "Please copy this URL."
+msgstr "この URL をコピーしてください。"
+
+#: app/Gianism/Commands/TestCommand.php:156
+msgid "Post Title"
+msgstr "投稿タイトル"
+
+#: app/Gianism/Commands/TestCommand.php:156
+msgid "Post ID"
+msgstr "投稿 ID"
+
+#: app/Gianism/Commands/TestCommand.php:173
+msgid "If you need more instant articles, set --after=%s"
+msgstr "インスタント記事がもっと必要な場合は、--after=%s を設定してください。"
+
+#: app/Gianism/Commands/TestCommand.php:171
+msgid "Successfully retrieved instant articles!"
+msgstr "インスタント記事の取得に成功しました。"
+
+#: app/Gianism/Commands/TestCommand.php:73
+msgctxt "CLI"
+msgid "Got %d response."
+msgstr "%d件のレスポンスが返されました。"
+
+#: app/Gianism/Commands/TestCommand.php:45
+msgid "Media is successfully uploaded."
+msgstr "メディアをアップロードしました。"
+
+#: app/Gianism/Service/Twitter.php:475
+msgid "Failed to upload media to twitter."
+msgstr "Twitter にメディアをアップロードできませんでした。"
+
+#: app/Gianism/Service/Twitter.php:461
+msgid "Failed to download media"
+msgstr "メディアをダウンロードできませんでした"
+
+#: app/Gianism/Service/Twitter.php:450 app/Gianism/Service/Twitter.php:457
+#: app/Gianism/Service/Twitter.php:467
+msgid "File not found."
+msgstr "ファイルが見つかりません。"
+
+#: app/Gianism/Service/Twitter.php:426
+msgid "Failed to upload media"
+msgstr "メディアをアップロードできませんでした"
+
+#: app/Gianism/Service/Facebook.php:733
+msgid "No page found. Do you have permission for that page?"
+msgstr "ページが見つかりません。そのページに対しての権限をお持ちですか ?"
+
+#: app/Gianism/Service/Facebook.php:723
+msgid "Page is not set."
+msgstr "ページが設定されていません。"
+
+#: app/Gianism/Notices/SessionSetting.php:59
+msgid "For more details, please see our <a href=\"%s\" target=\"_blank\">blog post</a> about session."
+msgstr "詳細については、セッションに関する<a href=\"%s\" target=\"_blank\">ブログ記事</a>をご覧ください。"
+
+#: templates/setting.php:25
+msgid "User can't register account."
+msgstr "ユーザーはアカウントを登録できません。"
+
+#: templates/setting.php:22
+msgid "User can register account."
+msgstr "ユーザーはアカウントを登録できます。"
+
+#: app/Gianism/Pattern/AbstractNotice.php:166
+msgid "This notice is already dismissed."
+msgstr "この通知はすでに非表示になっています。"
+
+#: app/Gianism/Pattern/AbstractNotice.php:161
+msgid "This request type is not allowed."
+msgstr "このリクエストタイプは許可されていません。"
+
+#: templates/setting.php:43
+msgid "<strong>WooCommerce found!</strong> In spite of this setting, user can always register account."
+msgstr "<strong>WooCommerce が見つかりました。</strong>この設定に関わらず、ユーザーはアカウントを登録できます。"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/extend/plugins/gianism/"
+msgstr "https://ja.wordpress.org/plugins/gianism/"
+
+#. Author URI of the plugin
+msgid "https://gianism.info"
+msgstr "https://gianism.info"
+
+#. Author of the plugin
+msgid "Takahashi_Fumiki"
+msgstr "高橋文樹"
+
+#. Plugin Name of the plugin
+msgid "Gianism"
+msgstr "Gianism"
+
+#: app/Gianism/Api/Ajax.php:69 app/Gianism/Plugins/Analytics.php:169
+#: app/Gianism/Plugins/Analytics.php:191 app/Gianism/Plugins/Analytics.php:334
+#: app/Gianism/Plugins/Analytics.php:446
+#: app/Gianism/Pattern/AbstractNotice.php:157
+msgid "You have no permission."
+msgstr "実行する許可がありません。"
+
+#: app/Gianism/Api/Ajax.php:73
+msgid "Wrong value is returned."
+msgstr "間違った値が戻ってきました。"
+
+#: app/Gianism/Commands/TestCommand.php:28
+msgid "Tweet has been sent as %s. Response message is above."
+msgstr "ツイートが%sとして送信されました。レスポンスは上の通りです。"
+
+#: app/Gianism/Commands/TestCommand.php:87
+msgid "Google Analytics is not connected."
+msgstr "Google アナリティクスが接続されていません。"
+
+#: app/Gianism/Controller/Admin.php:69
+msgid "No service is enabled. Please go to <a href=\"%s\">Gianism Setting</a> and follow instructions there."
+msgstr "サービスが有効になっていません。<a href=\"%s\">Gianism 設定</a>へ行き、画面の指示に従ってください。"
+
+#: app/Gianism/Controller/Admin.php:73
+msgid "You should set rewrite rules. Go to <a href=\"%s\">Permalink Setting</a> and enable it."
+msgstr "リライトルールを設定してください。<a href=\"%s\">パーマリンク設定</a>へ行き、有効化してください。"
+
+#: app/Gianism/Controller/Admin.php:125
+msgid "Settings"
+msgstr "設定"
+
+#: app/Gianism/Controller/Admin.php:159
+msgid "Support"
+msgstr "サポート"
+
+#: app/Gianism/Controller/Profile.php:102
+msgid "Your mail address is automatically generated and is pseudo. <a href=\"#email\">Changing it</a> to valid mail address is highly recommended, else <strong>you might be unable to log in</strong>."
+msgstr "あなたのメールアドレスは自動生成された仮のものです。有効なメールアドレスに<a href=\"#email\">変更すること</a>を強くお勧めします。さもないと、<strong>ログインできなくなる</strong>かもしれません。"
+
+#: app/Gianism/Helper/Option.php:117
+msgid "Option updated."
+msgstr "設定が更新されました。"
+
+#: app/Gianism/Helper/Option.php:121
+msgid "Option failed to update."
+msgstr "設定を更新できませんでした。"
+
+#: app/Gianism/Helper/Option.php:271
+msgid "Medium"
+msgstr "中"
+
+#: app/Gianism/Helper/Option.php:272
+msgid "Large"
+msgstr "大"
+
+#: app/Gianism/Plugins/Analytics.php:85
+msgid "Interact with Google Analytics data."
+msgstr "Google アナリティクスデータと連携します。"
+
+#: app/Gianism/Plugins/Analytics.php:107
+msgid "Google Analytics"
+msgstr "Google アナリティクス"
+
+#: app/Gianism/Plugins/Analytics.php:130
+msgid "Token deleted."
+msgstr "トークンが削除されました。"
+
+#: app/Gianism/Plugins/Analytics.php:155
+msgid "Now you got token!"
+msgstr "トークンを手に入れました！"
+
+#: app/Gianism/Plugins/Analytics.php:176
+msgid "Options updated."
+msgstr "設定を更新しました。"
+
+#: app/Gianism/Plugins/Analytics.php:180
+msgid "Nothing changed."
+msgstr "変更はありませんでした。"
+
+#: app/Gianism/Plugins/Analytics.php:194
+msgid "Table is already exists."
+msgstr "テーブルはすでに存在します。"
+
+#: app/Gianism/Plugins/Analytics.php:215
+msgid "Sorry, but failed to create table."
+msgstr "申し訳ございません、テーブルを作成できませんでした。"
+
+#: app/Gianism/Plugins/Analytics.php:217
+msgid "Table created."
+msgstr "テーブルが作成されました。"
+
+#: app/Gianism/Plugins/Analytics.php:449
+msgid "Such action does not exist."
+msgstr "指定されたアクションは存在しません。"
+
+#: app/Gianism/Plugins/Bot.php:165
+msgid "This period is duplicated."
+msgstr "時間帯が重複しています。"
+
+#: app/Gianism/Plugins/Bot.php:376
+msgid "End Date"
+msgstr "終了日"
+
+#: app/Gianism/Plugins/Bot.php:415 app/Gianism/Plugins/Bot.php:416
+msgid "Tweet updated."
+msgstr "つぶやきが更新されました。"
+
+#: app/Gianism/Plugins/Bot.php:420
+msgid "Tweet scheduled for: <strong>%1$s</strong>. "
+msgstr "<strong>%1$s</strong>につぶやきが予約されました。"
+
+#: templates/edit/bot.php:28 app/Gianism/Plugins/Bot.php:436
+msgid "%s left"
+msgstr "あと%s"
+
+#: app/Gianism/Plugins/Bot.php:440
+msgid "%s months"
+msgstr "%sヶ月"
+
+#: app/Gianism/Plugins/Bot.php:442
+msgid "%s days"
+msgstr "%s日"
+
+#: app/Gianism/Plugins/Bot.php:444
+msgid "%s hours"
+msgstr "%s時間"
+
+#: app/Gianism/Plugins/Bot.php:446
+msgid "%s minutes"
+msgstr "%s分"
+
+#: app/Gianism/Service/Instagram.php:194
+#: app/Gianism/Service/AbstractService.php:232
+#: app/Gianism/Service/AbstractService.php:270
+#: app/Gianism/Service/Twitter.php:229
+msgid "You must be logged in."
+msgstr "ログインする必要があります。"
+
+#: app/Gianism/Service/AbstractService.php:236
+msgid "You are already connected with %s"
+msgstr "あなたのアカウントはすでに%sに接続されています。"
+
+#: app/Gianism/Service/AbstractService.php:274
+msgid "Your account is not connected with %s"
+msgstr "あなたのアカウントは%sに接続されていません。"
+
+#: app/Gianism/Service/AbstractService.php:278
+msgid "Your account is now unlinked from %s."
+msgstr "あなたのアカウントは%sとの接続を解除されました。"
+
+#: app/Gianism/Service/AbstractService.php:377
+msgid "Your account is already connected with %s account."
+msgstr "あなたのアカウントはすでに%sアカウントに接続されています。"
+
+#: app/Gianism/Service/AbstractService.php:380
+msgid "Connecting with %1$s, you can login with %2$s via %1$s without password or email address."
+msgstr "%1$sアカウントに接続すると、%2$sに%1$sアカウントでログインできるようになります。パスワードやメールアドレスは必要ありません。"
+
+#: app/Gianism/Service/AbstractService.php:614
+msgid "Log in with %s"
+msgstr "%sでログイン"
+
+#: app/Gianism/Service/AbstractService.php:653
+msgid "Login with %s"
+msgstr "%sでログイン"
+
+#: app/Gianism/Service/AbstractService.php:700
+msgid "Connect %s"
+msgstr "%sと接続"
+
+#: app/Gianism/Service/AbstractService.php:703
+msgid "Connect"
+msgstr "コネクト"
+
+#: app/Gianism/Service/AbstractService.php:723
+msgid "Disconnect %s"
+msgstr "%sを接続解除"
+
+#: app/Gianism/Service/AbstractService.php:727
+msgid "Disconnect"
+msgstr "切断"
+
+#: app/Gianism/Service/AbstractService.php:833
+msgid "%s API returns error."
+msgstr "%s APIがエラーを返しました。"
+
+#: app/Gianism/Service/AbstractService.php:842
+msgid "This %s account is already connected with others."
+msgstr "この%sアカウントはすでに別のアカウントに接続されています。"
+
+#: app/Gianism/Service/AbstractService.php:851
+msgid "Welcome, %s!"
+msgstr "ようこそ、%sさん！"
+
+#: app/Gianism/Service/AbstractService.php:869
+msgid "Cannot retrieve email address."
+msgstr "メールアドレスを取得できませんでした。"
+
+#: app/Gianism/Service/AbstractService.php:878
+msgid "Cannot register. Please try again later."
+msgstr "登録できませんでした。時間をおいてからもう一度試してみてください。"
+
+#: app/Gianism/Service/Instagram.php:230 app/Gianism/Service/Facebook.php:410
+#: app/Gianism/Service/Twitter.php:270 app/Gianism/Service/Line.php:278
+#: app/Gianism/Service/Google.php:232
+msgid "Sorry, but wrong access. Please go back to <a href=\"%s\">%s</a>."
+msgstr "不正なアクセスです。<a href=\"%s\">%s</a>に戻ってください。"
+
+#: app/Gianism/Service/Facebook.php:134
+msgid "Facebook API"
+msgstr "Facebook API"
+
+#: app/Gianism/Service/Facebook.php:256
+msgid "You are already logged in"
+msgstr "すでにログインしています。"
+
+#: app/Gianism/Service/Facebook.php:391
+msgid "Access token is saved."
+msgstr "アクセストークンが保存されました。"
+
+#: app/Gianism/Service/Facebook.php:463
+msgid "Saved facebook account to use."
+msgstr "利用するFacebookアカウントが保存されました。"
+
+#: app/Gianism/Service/Facebook.php:482
+msgid "Sorry, but failed to get user data."
+msgstr "申し訳ございません、ユーザー情報を取得できませんでした。"
+
+#: app/Gianism/Service/Facebook.php:635
+msgid "Token is not set. Please get it."
+msgstr "トークンが設定されていません。取得してください。"
+
+#: app/Gianism/Service/Facebook.php:647
+msgid "Token is outdated. Please update it."
+msgstr "トークンが期限切れです。更新してください。"
+
+#: app/Gianism/UI/Screen.php:118
+msgid "Template file <code>%s</code> is missing."
+msgstr "テンプレートファイル<code>%s</code>がありません。"
+
+#: app/Gianism/UI/SettingScreen.php:22 app/Gianism/UI/SettingScreen.php:23
+msgid "Gianism Setting"
+msgstr "Gianism設定"
+
+#: app/Gianism/UI/SettingScreen.php:32
+msgid "Home"
+msgstr "ホーム"
+
+#: app/Gianism/UI/SettingScreen.php:33
+msgid "Setting"
+msgstr "設定"
+
+#: templates/setting/twitter.php:17 templates/setting/instagram.php:23
+#: templates/setting/line.php:16 templates/setting/google.php:16
+#: templates/setting/facebook.php:23 app/Gianism/UI/SettingScreen.php:34
+msgid "How to set up"
+msgstr "設定方法"
+
+#: templates/setting.php:62 app/Gianism/UI/SettingScreen.php:35
+msgid "Customize"
+msgstr "カスタマイズ"
+
+#: app/Gianism/UI/SettingScreen.php:36
+msgid "Advanced Usage"
+msgstr "上級者向け使用法"
+
+#: templates/advanced.php:29
+msgid "URL which user will be redirected"
+msgstr "ユーザーがリダイレクトされるURL"
+
+#: templates/advanced.php:30
+msgid "Action name fired after authentication"
+msgstr "認証後に実行されるアクション名"
+
+#: templates/advanced.php:31
+msgid "Additional arguments passed to hook function"
+msgstr "フック関数に渡される追加の引数"
+
+#: templates/advanced.php:72
+msgid "Register action hook which you registered above."
+msgstr "上で登録したアクションにフックを登録します。"
+
+#: templates/advanced.php:73
+msgid "This funciton will be executed after authentication"
+msgstr "この関数は認証後に実行されます"
+
+#: templates/advanced.php:74
+msgid "Check if argument is propery passed and if post exists."
+msgstr "引数が適切に渡されており、投稿が存在するかチェックする"
+
+#: templates/advanced.php:75
+msgid "Read an artcile."
+msgstr "記事を読みました。"
+
+#: templates/advanced.php:76
+msgid "Do error handling if you wish."
+msgstr "必要ならエラーハンドリング"
+
+#: templates/advanced.php:77
+msgid "This funcion been executed, user will be redirected."
+msgstr "この関数が実行されたあと、ユーザーはリダイレクトされます。"
+
+#: templates/advanced.php:81
+msgid "<strong>Note:</strong> <code>$facebook</code> object is instance of Facebook class which is part of Facebook PHP SDK. To know what you can do with it, read the <a href=\"%s\">documentation</a>."
+msgstr "<strong>※</strong> <code>$facebook</code>オブジェクトはFacebookクラスのインスタンスであり、Facebook PHP SDKの一部です。より詳しくは<a href=\"%s\">ドキュメンテーション</a>を読んでください。"
+
+#: templates/advanced.php:93
+msgid "Hello, my followers. I updated new post."
+msgstr "フォロワーの皆さん、こんにちは。新しい投稿を公開しました。"
+
+#: templates/advanced.php:128
+msgid "%1$s pulbished %2$s. Please visit %3$s"
+msgstr "%1$s が %2$sを公開しました。URLはこちら %3$s"
+
+#: templates/advanced.php:139
+msgid "You can do many things with SNS API. But every solution is very specific and little bit difficult. If you need more, please visit our <a target=\"_blank\" href=\"%s\">support site</a>."
+msgstr "SNS APIを利用して様々なことができます。しかし、あらゆる解決法は場当たり的で、少し難しくなってしまいます。もっと詳しく知りたい方は私達の<a target=\"_blank\" href=\"%s\">サポートサイト</a>に起こしください。"
+
+#: templates/analytics.php:30
+msgid "Restore"
+msgstr "復元"
+
+#: templates/analytics.php:37
+msgid "Get"
+msgstr "取得"
+
+#: templates/analytics.php:179
+msgid "Create Table"
+msgstr "テーブルの作成"
+
+#: templates/analytics.php:230 templates/analytics.php:290
+msgid "Check Data"
+msgstr "データのチェック"
+
+#: templates/analytics.php:236
+msgid "Do you want to know how to install files? Here is <a href=\"%s\">blog post</a> about it."
+msgstr "インストールの方法を知りたいですか？ こちらの<a href=\"%s\">ブログ記事</a>を参考にしてください。"
+
+#: templates/fb-api.php:136 templates/customize.php:143
+msgid "For more detailed information, please visit our <a target=\"_blank\" href=\"%s\">support site</a>."
+msgstr "より詳しくは、私達の<a target=\"_blank\" href=\"%s\">サポートサイト</a>に起こしください。"
+
+#: templates/edit/bot.php:12
+msgid "What do you tweet as <a href=\"https://twitter.com/%1$s\" target=\"_blank\">@%1$s</a>?"
+msgstr "<a href=\"https://twitter.com/%1$s\" target=\"_blank\">@%1$s</a>として何をつぶやきますか？"
+
+#: templates/edit/bot.php:15
+msgid "Enter your tweet."
+msgstr "つぶやきを入力してください。"
+
+#: templates/edit/bot.php:18
+msgid "And ofcourse You can register your own shortcode with <a href=\"%s\">Shortcode API</a>."
+msgstr "もちろん、<a href=\"%s\">ショートコード API</a>を利用して、独自のショートコードを登録することもできます。"
+
+#: templates/edit/bot.php:28
+msgid "Place holder. Default is %s."
+msgstr "プレースホルダー。初期値は%sです。"
+
+#: templates/fb-api.php:22
+msgid "O.K. You have permission. If you want to renew token, please click link below. Token will be valid for %d days."
+msgstr "パーミッションが取得できました。トークンを更新したい場合は下のリンクをクリックしてください。トークンは%d日間有効です。"
+
+#: templates/fb-api.php:82
+msgid "You can get token-ready <a href=\"%s\">Facebook PHP SDK's API client</a>. For example, get latest news feed and show it on footer."
+msgstr "トークンを設定済みの<a href=\"%s\">Facebook PHP SDKのAPIクライアント</a>を取得できます。例として最新のニュースフィードを取得してフッターに表示してみましょう。"
+
+#: templates/home.php:58
+msgid "You can enable all services via <a href=\"%1$s\">Setting</a> and find more services at <a href=\"%2$s\">gianism.info</a>."
+msgstr "<a href=\"%1$s\">設定</a>からサービスを有効化できます。もっと沢山のサービスは<a href=\"%2$s\">gianism.info</a>でご紹介しています。"
+
+#: templates/home.php:103
+msgid "Are you interested with add-ons? Find more at <a href=\"%s\">gianism.info</a>!"
+msgstr "アドオンに興味を持っていただけましたか？　<a href=\"%s\">gianism.info</a>でもっと沢山紹介しています！"
+
+#: templates/parts/sidebar.php:14
+msgid "Have some questions? Go to our support site <a href=\"%s\" target=\"_blank\">gianism.info</a>!"
+msgstr "わからないことがありますか？　私達のサポートサイト<a href=\"%s\" target=\"_blank\">gianism.info</a>へお越しください！"
+
+#: templates/parts/sidebar.php:22
+msgid "This plugin's is hosted on <a href=\"%s\">Github</a>. Pull requests are welcomed."
+msgstr "このプラグインのリポジトリは<a href=\"%s\">Github</a>にあります。プルリクエストもお待ちしています。"
+
+#: templates/setting.php:40
+msgid "Whether registration setting depends on <a href=\"%s\">General setting</a>. If users are allowed to register, account will be created with information provided from Web service, or else only connected users can login via SNS account."
+msgstr "<a href=\"%s\">一般設定</a>に従うか否か。登録可能な場合、Webサービスから提供される情報を元にアカウントが作成されます。そうでない場合、接続済みのユーザーだけがSNSアカウントでログインできます。"
+
+#: templates/setting.php:62
+msgid "You can output login button manually. See detail at <a href=\"%2$s\">%1$s</a>."
+msgstr "ログインボタンは手動で表示できます。詳しくは<a href=\"%2$s\">%1$s</a>を見てください。"
+
+#: templates/setting/instagram.php:16 templates/setting/google.php:15
+#: templates/setting/facebook.php:16
+msgid "You have to create %1$s App <a target=\"_blank\" href=\"%2$s\">here</a> to get required infomation."
+msgstr "必要な情報を取得するには<a target=\"_blank\" href=\"%2$s\">ここ</a>で%1$sアプリケーションを作成する必要があります。"
+
+#: templates/setting/twitter.php:17 templates/setting/instagram.php:21
+#: templates/setting/line.php:16 templates/setting/google.php:16
+#: templates/setting/facebook.php:21
+msgid "See detail at <a href=\"%1$s\">%2$s</a>."
+msgstr "詳細はこちら：<a href=\"%1$s\">%2$s</a>"
+
+#: templates/setting/facebook.php:91
+msgid "You must set up token on <a href=\"%s\">Facebook API page</a>."
+msgstr "<a href=\"%s\">Facebook API ページ</a>でトークンを設定する必要があります。"
+
+#: templates/setting/twitter.php:11 templates/setting/instagram.php:11
+#: templates/setting/line.php:11 templates/setting/google.php:11
+msgid "Connect with %s"
+msgstr "%sと接続"
+
+#: templates/setting/twitter.php:47 templates/setting/instagram.php:47
+#: templates/setting/line.php:31 templates/setting/google.php:39
+#: templates/setting/facebook.php:57 templates/setup/line.php:32
+msgid "Redirect URI"
+msgstr "リダイレクトURI"
+
+#: templates/setting/twitter.php:53 templates/setting/instagram.php:46
+#: templates/setting/line.php:37 templates/setting/google.php:38
+msgid "Please set %1$s to %2$s on <a target=\"_blank\" href=\"%4$s\">%3$s</a>."
+msgstr "<a target=\"_blank\" href=\"%4$s\">%3$s</a>で%1$sを%2$sに設定してください。"
+
+#: templates/setting/google.php:50
+msgid "<strong>Notice: </strong> Setting is changed on <code>Gianims v2.0</code>. You must set up again on Google API Console."
+msgstr "<strong>注意： </strong><code>Gianims v2.0</code>から設定が変更されました。Google API Consoleで再設定する必要があります。"
+
+#: templates/setting/twitter.php:22 templates/setting/twitter.php:72
+msgid "Screen Name"
+msgstr "スクリーン名"
+
+#: templates/setting/twitter.php:27 templates/setting/twitter.php:72
+msgid "Consumer Key"
+msgstr "Consumer Key"
+
+#: templates/setting/twitter.php:32 templates/setting/twitter.php:72
+msgid "Consumer Secret"
+msgstr "Consumer Secret"
+
+#: templates/setting/twitter.php:37 templates/setting/twitter.php:73
+msgid "Access Token"
+msgstr "Access Token"
+
+#: templates/setting/twitter.php:42 templates/setting/twitter.php:73
+msgid "Access token secret"
+msgstr "Access token secret"
+
+#: templates/setting/twitter.php:54 templates/setting/line.php:38
+msgid "Callback URL"
+msgstr "コールバックURL"
+
+#: templates/setting/twitter.php:71
+msgid "If enabled, you can make twitter bot which tweet at the time you specified. %1$s, %2$s, %3$s, %4$s, and %5$s are required."
+msgstr "有効にすると、指定した時間に呟くボットを作成できます。%1$s、%2$s、%3$s、%4$s、%5$sが必要です。"
+
+#: templates/setup/facebook.php:56
+msgid "OFF"
+msgstr "オフ"
+
+#: templates/setup/google.php:23
+msgid "Then, go to <code>Credentials</code> below <code>API &amp; auth</code> and click <code>CREATE NEW  CLIENT ID</code>.  Enter below:"
+msgstr "それでは<code>API &amp; auth</code>の下にある<code>Credentials</code>へ行き、<code>CREATE NEW  CLIENT ID</code>をクリックしてください。入力するのは下記のものです:"
+
+#: templates/setup/google.php:29
+msgid "Select <code>%s</code>."
+msgstr "<code>%s</code>を選択"
+
+#: templates/setup/instagram.php:52
+msgid "Now you can get client's credentials. Save it on <a href=\"%s\">setting page</a>."
+msgstr "これでクライアント認証情報が取得できます。<a href=\"%s\">設定ページ</a>へ行ってください。"
+
+#: templates/setup/facebook.php:17
+msgid "Authenticated as developer, go to <a href=\"https://developers.facebook.com/apps\">Apps</a> and create new App. You can enter name as you like, but the same name as WordPress site name <code>%s</code> is recommended for usability."
+msgstr "開発者として登録したら、<a href=\"https://developers.facebook.com/apps\">アプリ</a>へ移動し、新しいアプリを作成してください。好きな名前を入力することができますが、ユーザーを混乱させないために WordPress サイト名 <code>%s</code>と同じにすることをお勧めします。"
+
+#: templates/setup/twitter.php:28 templates/setup/twitter.php:42
+#: templates/setup/twitter.php:50 templates/setup/instagram.php:25
+#: templates/setup/instagram.php:39 templates/setup/instagram.php:47
+#: templates/setup/facebook.php:27 templates/setup/facebook.php:34
+#: templates/setup/facebook.php:42 templates/setup/facebook.php:49
+#: templates/setup/facebook.php:56 templates/setup/facebook.php:71
+msgid "<strong>e.g.</strong> <code>%s</code>"
+msgstr "<strong>例:</strong> <code>%s</code>"
+
+#: templates/setup/facebook.php:78
+msgid "Once you create Facebook App, App ID and App secret will be provided. Now you can enter it on <a href=\"%s\">WordPress Admin screen</a>."
+msgstr "Facebook アプリを作成したら、App ID と App secret が提供されます。それではこれを <a href=\"%s\">WordPress 管理画面</a>から入力してください。"
+
+#: templates/setup/twitter.php:70
+msgid "Besides above, your twitter screen name will be required. Now please enter these credentials on <a href=\"%s\">Setting page</a>."
+msgstr "上記に加え、あなたの Twitter スクリーン名が必要です。<a href=\"%s\">設定ページ</a>にそれらの情報を入力してください。"
+
+#: templates/setup/twitter.php:17
+msgid "In Application detail section, enter application name(same as <code>%s</code> recommended), description and Website. If you are not bot, enter reCaptha and creation flow will be done :)"
+msgstr "Application detail の項目で、アプリケーション名 (<code>%s</code>と同じものをお勧めします)、詳細と Web サイトを入力してください。あなたがボットでない限り、reCaptha を入力すれば登録は終わりです :)"
+
+#: templates/setup/instagram.php:56 templates/setup/google.php:53
+msgid "Input and save 2 information(Client ID and Client Secret) on <a href=\"%s\">WordPress admin screen</a>."
+msgstr "2つの情報 (Client ID, Client Secret) を <a href=\"%s\">WordPress 管理画面</a>で入力してください。"
+
+#: templates/setup/google.php:49
+msgid "Finally, you must set up your application. Go to <code>Consent screen</code> below <code>APIs &amp; oauth</code>, and change Product name to your own. <code>%s</code> is recommended."
+msgstr "さらに、アプリケーションを設定しなければなりません。<code>APIs &amp; oauth</code> の下にある <code>Consent screen</code> へ移動し、プロダクト名を自分のものに変えてください。<code>%s</code>がおすすめです。"
+
+#: app/Gianism/Controller/Admin.php:77
+msgid "Google redirect URL is deprecated since version 2.0. <strong>You must change setting on Google API Console</strong>. Please <a href=\"%s\">update option</a> and follow the instruction there."
+msgstr "Google redirect URL は2.0から廃止されました。 <strong>Google API Console で設定を変更する必要があります</strong>。<a href=\"%s\">設定を更新し</a>、指示に従ってください。"
+
+#: app/Gianism/Controller/Profile.php:48
+msgid "Your password is now on your own!"
+msgstr "パスワードが独自のものに変更されました !"
+
+#: templates/setup/instagram.php:58
+msgid "By default, any instagram client is inside sandbox. This means that the instagram account which can log in to your site is just yours! So, to use it in production environment, you have to pass <a href=\"%s\">Permissions Review</a>. If you just need login, <code>basic</code> permission satisfies."
+msgstr "デフォルトでは、すべての Instagram クライアントがサンドボックスに置かれます。これはつまり、あなたのサイトにログインできる Instagram アカウントはあなたのものだけということです ! したがって、本番環境で利用するためには、<a href=\"%s\">Permissions Review</a> を通過しなくてはなりません。ログインだけに使うのであれば、<code>basic</code> で十分です。"
+
+#: app/Gianism/Controller/Profile.php:98
+msgid "Your password is automatically generated. Please <strong><a href=\"#pass1\">update password</a> to your own</strong> before disconnecting your account."
+msgstr "あなたのパスワードは自動生成されたものです。アカウントの接続を解除する前に<strong><a href=\"#pass1\">パスワードを更新</a></strong>してください。"
+
+#: app/Gianism/Plugins/Analytics.php:160
+msgid "Failed to authenticate with Google API."
+msgstr "Google API の認証に失敗しました。"
+
+#: app/Gianism/Plugins/Bot.php:94
+msgid "Twitter Bot"
+msgstr "Twitter ボット"
+
+#: app/Gianism/Plugins/Bot.php:92
+msgid "Twitter Bots"
+msgstr "Twitter ボット"
+
+#: app/Gianism/Plugins/Bot.php:91
+msgid "Twitter Bot by Gianism. Never show on admin screen."
+msgstr "Gianism による Twitter ボットです。管理画面には表示されません。"
+
+#: app/Gianism/Plugins/Bot.php:39
+msgid "Enables you to create twitter bot."
+msgstr "Twitter ボットを作れるようにします。"
+
+#: app/Gianism/Plugins/Bot.php:115
+msgid "Enter this bots name. Ex: Promotion Campaign 2014 mid"
+msgstr "このボットの名前を入力。例: 2014年夏プロモーションキャンペーン"
+
+#: app/Gianism/Plugins/Bot.php:164
+msgid "Are you sure to delete this period? You can't undo this operation."
+msgstr "この時間帯を削除してよろしいですか ? この操作は取り消せません。"
+
+#: app/Gianism/Plugins/Bot.php:276
+msgid "Every 10 minutes check for Gianism twitter bot."
+msgstr "Gianism Twitter ボット用の10分間隔のボットです。"
+
+#: app/Gianism/Plugins/Bot.php:417
+msgid "Tweet published, thus bot is enabled."
+msgstr "Twitter を公開し、ボットを有効化しました。"
+
+#: app/Gianism/Plugins/Bot.php:418
+msgid "Tweet saved."
+msgstr "ツイートを保存しました。"
+
+#: app/Gianism/Plugins/Bot.php:419
+msgid "Tweet submitted."
+msgstr "つぶやきを送信しました。"
+
+#: app/Gianism/Plugins/Bot.php:421
+msgid "Tweet draft updated."
+msgstr "つぶやきの下書きを更新しました。"
+
+#: app/Gianism/Controller/Profile.php:57
+msgid "Your email seems to be valid now."
+msgstr "メールアドレスを承認しました。"
+
+#: app/Gianism/Controller/Profile.php:54
+msgid "You mail address is still pseudo one! Please change it to valid one."
+msgstr "メールアドレスが仮のままです ! 承認してください。"
+
+#: wp-gianism.php:90
+msgid "[Gianism] Bootstrap file not found."
+msgstr "[Gianism] Bootstrap が見つかりません。"
+
+#: app/Gianism/Service/AbstractService.php:241
+#: app/Gianism/Service/AbstractService.php:301
+msgid "Sorry, but failed to connect with API."
+msgstr "API に接続できませんでした。"
+
+#: templates/analytics.php:12
+msgid "Google connect is not available. Go to <a href=\"%s\">setting page</a> and turn it on."
+msgstr "Google への接続が有効ではありません。<a href=\"%s\">設定ページ</a>へ行き、有効にしてください。"
+
+#: app/Gianism/Plugins/Bot.php:420
+msgid "M j, Y @ G:i"
+msgstr "Y年n月j日 @ G:i"
+
+#: app/Gianism/Commands/TestCommand.php:92
+msgid "Get popular pages from %1$s to %2$s."
+msgstr "%1$sから%2$sまでの人気ページを取得する。"
+
+#: app/Gianism/Notices/SessionSetting.php:55
+msgid "Maybe session is not working. Please check permission of <code>session.save_path</code>( current value is <code>%s</code>)."
+msgstr "セッションがうまく動作していないのかもしれません。<code>session.save_path</code> の書き込み権限をチェックしてください (現在の値は <code>%s</code> です)。"
+
+#: app/Gianism/Plugins/Analytics.php:358
+msgid "Invalid action."
+msgstr "無効な操作。"

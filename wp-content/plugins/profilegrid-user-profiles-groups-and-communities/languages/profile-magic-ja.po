@@ -1,0 +1,7125 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ProfileGrid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-09 07:16+0000\n"
+"PO-Revision-Date: 2021-04-29 10:41+0900\n"
+"Last-Translator: admin <support@profilegrid.co>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. Name of the plugin
+#: admin/class-profile-magic-access-options.php:53
+#: admin/class-profile-magic-access-options.php:54
+#: admin/class-profile-magic-access-options.php:55
+#: admin/class-profile-magic-access-options.php:56
+#: admin/partials/pm_extensions.php:23 admin/partials/shortcode.php:9
+msgid "ProfileGrid"
+msgstr "ProfileGrid"
+
+#: admin/class-profile-magic-admin.php:149
+#: includes/class-profile-magic-functions.php:46
+#: public/class-profile-magic-public.php:140
+msgid "Please enter a valid e-mail address."
+msgstr "有効なメールアドレスを入力してください。"
+
+#: admin/class-profile-magic-admin.php:150
+#: includes/class-profile-magic-functions.php:47
+#: includes/class-profile-magic-functions.php:51
+#: includes/class-profile-magic-functions.php:52
+#: includes/class-profile-magic-functions.php:53
+#: includes/class-profile-magic-functions.php:54
+#: public/class-profile-magic-public.php:141
+msgid "Please enter a valid number."
+msgstr "有効な数値を入力してください。"
+
+#: admin/class-profile-magic-admin.php:151
+#: public/class-profile-magic-public.php:142
+msgid "Please enter a valid date(yyyy-mm-dd format)."
+msgstr "有効な日付を入力してください（yyyy-mm-dd形式）。"
+
+#: admin/class-profile-magic-admin.php:152
+#: public/class-profile-magic-public.php:143
+msgid "This is a required field."
+msgstr "これは必要項目です。"
+
+#: admin/class-profile-magic-admin.php:153
+#: includes/class-profile-magic-functions.php:50
+#: includes/class-profile-magic-request.php:230
+#: includes/class-profile-magic-request.php:544
+#: includes/class-profile-magic-request.php:548
+#: public/class-profile-magic-public.php:145
+msgid "This file type is not allowed."
+msgstr "このファイルタイプは許可されていません。"
+
+#: admin/class-profile-magic-admin.php:154
+#: includes/class-profile-magic-functions.php:44
+#: public/class-profile-magic-public.php:146
+msgid "Your password should be at least 7 characters long."
+msgstr "パスワードは7文字以上にする必要があります。"
+
+#: admin/class-profile-magic-admin.php:155
+#: includes/class-profile-magic-functions.php:45
+#: includes/class-profile-magic-request.php:487
+#: public/class-profile-magic-public.php:147
+msgid "Password and confirm password do not match."
+msgstr "パスワードと確認パスワードが一致しません。"
+
+#: admin/class-profile-magic-admin.php:156
+#: includes/class-profile-magic-request.php:459
+#: public/class-profile-magic-public.php:148
+msgid "Sorry, username already exist."
+msgstr "ユーザー名は既に存在します。"
+
+#: admin/class-profile-magic-admin.php:157
+#: public/class-profile-magic-public.php:149
+msgid "Sorry, email already exist."
+msgstr "申し訳ありませんが、メールは既に存在します。"
+
+#: admin/class-profile-magic-admin.php:158
+msgid ""
+"You are changing the group of this user. All data associated with profile "
+"fields of old group will be hidden and the user will have to edit and fill "
+"profile fields associated with the new group. Do you wish to continue?"
+msgstr ""
+"このユーザーのグループを変更しています。 古いグループのプロフィールフィールド"
+"に関連付けられたすべてのデータは非表示になり、ユーザーは新しいグループに関連"
+"付けられたプロフィールフィールドを編集して入力する必要があります。 続行します"
+"か？"
+
+#: admin/class-profile-magic-admin.php:168
+#: includes/class-profile-magic-request.php:172
+#: includes/class-profile-magic-request.php:559
+#, php-format
+msgid ""
+"Image size exceeds the maximum limit. Maximum allowed image size is %d byte."
+msgstr "画像サイズが上限を超えています。 最大許容画像サイズは%dバイトです。"
+
+#: admin/class-profile-magic-admin.php:169
+#: includes/class-profile-magic-request.php:176
+#: includes/class-profile-magic-request.php:563
+#, php-format
+msgid "Image dimensions are too small. Minimum size is %d by %d pixels."
+msgstr "画像の寸法が小さすぎます。 最小サイズは%d × %dピクセルです。"
+
+#: admin/class-profile-magic-admin.php:509 admin/partials/add-field.php:165
+msgid "Select A Field"
+msgstr "フィールドを選択"
+
+#: admin/class-profile-magic-admin.php:510
+msgid "Comman Fields"
+msgstr "共通フィールド"
+
+#: admin/class-profile-magic-admin.php:511
+#: includes/class-profile-magic-export-import.php:358
+#: admin/partials/add-field.php:184 admin/partials/manage-fields.php:42
+#: public/partials/themes/default/my-account-tpl.php:9
+msgid "User Name"
+msgstr "ユーザー名"
+
+#: admin/class-profile-magic-admin.php:512
+msgid "User Password"
+msgstr "ユーザーパスワード"
+
+#: admin/class-profile-magic-admin.php:543
+#: includes/class-profile-magic-custom-fields.php:600
+#, php-format
+msgid ""
+"File Restrictions: Please make sure your image size fits within %d by %d "
+"pixels."
+msgstr ""
+"ファイルの制限：画像サイズが%d × %dピクセル以内に収まるようにしてください。"
+
+#: admin/class-profile-magic-admin.php:547
+#: includes/class-profile-magic-custom-fields.php:604
+#, php-format
+msgid ""
+"File Restrictions: Please make sure your image size fits within %d by %d "
+"pixels and does not exceeds total size of %d bytes."
+msgstr ""
+"ファイルの制限：画像サイズが%d × %dピクセル以内に収まり、合計サイズが%dバイト"
+"を超えないようにしてください。"
+
+#: admin/class-profile-magic-admin.php:571
+msgid "Profile Picture"
+msgstr "プロフィール写真"
+
+#: admin/class-profile-magic-admin.php:575 admin/partials/add-group.php:170
+#: admin/partials/user-settings.php:145
+msgid "Upload Icon"
+msgstr "アップロード アイコン"
+
+#: admin/class-profile-magic-admin.php:586
+msgid "User Group"
+msgstr "ユーザーグループ"
+
+#: admin/class-profile-magic-admin.php:655
+msgid "You have successfully activated the user."
+msgstr "ユーザーが正常にアクティブ化されました。"
+
+#: admin/class-profile-magic-admin.php:661
+msgid "Failed to upadte user information.Can not activate user"
+msgstr "ユーザー情報を更新できませんでした。ユーザーをアクティブにできません"
+
+#: admin/class-profile-magic-admin.php:713
+msgid ""
+"Your configuration file was successfully imported and included settings have "
+"been applied."
+msgstr "構成ファイルが正常にインポートされ、含まれている設定が適用されました。"
+
+#: admin/class-profile-magic-admin.php:723
+msgid "Select a JSON file earlier exported from ProfileGrid."
+msgstr "ProfileGridから以前にエクスポートしたJSONファイルを選択します。"
+
+#: admin/class-profile-magic-admin.php:841
+msgid "Group Creation Form"
+msgstr "グループ作成フォーム"
+
+#: admin/class-profile-magic-admin.php:844
+msgid ""
+"Allow registered users to create new Groups on front end. These Groups "
+"behave and work just like regular ProfileGrid groups."
+msgstr ""
+"登録ユーザーがフロントエンドで新しいグループを作成できるようにします。 これら"
+"のグループは、通常のProfileGridグループと同様に動作して機能します。"
+
+#: admin/class-profile-magic-admin.php:857
+msgid "Generate User Map"
+msgstr "ユーザーマップの生成"
+
+#: admin/class-profile-magic-admin.php:860
+msgid ""
+"Generate maps showing locations of all users or specific groups using simple "
+"shortcodes. Get location data from registration form."
+msgstr ""
+"シンプルなショートコードを使用して、すべてのユーザーまたは特定のグループの場"
+"所を示すマップを生成します。 登録フォームから位置データを取得します。"
+
+#: includes/class-profile-magic-custom-fields.php:42
+msgid "Username or Email"
+msgstr "ユーザー名またはメールアドレス"
+
+#: includes/class-profile-magic-custom-fields.php:56
+#: admin/partials/add-field.php:192 admin/partials/manage-fields.php:67
+#: public/partials/themes/default/delete-account-tpl.php:11
+#: public/partials/themes/default/login-form-tpl.php:29
+msgid "Password"
+msgstr "パスワード"
+
+#: includes/class-profile-magic-custom-fields.php:74
+msgid "Remember Me"
+msgstr "私の覚書"
+
+#: includes/class-profile-magic-custom-fields.php:582
+#: includes/class-profile-magic-custom-fields.php:651
+msgid "Add"
+msgstr "追加"
+
+#: includes/class-profile-magic-custom-fields.php:583
+#: includes/class-profile-magic-custom-fields.php:651
+#: includes/class-profile-magic-friends-integration.php:275
+#: includes/class-profile-magic-html-generator.php:471
+#: public/partials/profile-magic-my-friends.php:14
+#: public/partials/themes/default/edit-group-tpl.php:79
+#: public/partials/themes/default/profile-tpl.php:252
+msgid "Remove"
+msgstr "削除する"
+
+#: includes/class-profile-magic-dbhandler.php:306
+msgid "&laquo;"
+msgstr ""
+
+#: includes/class-profile-magic-dbhandler.php:307
+msgid "&raquo;"
+msgstr ""
+
+#: includes/class-profile-magic-email.php:118
+msgid "Your Registration is Pending Approval"
+msgstr "登録は承認待ちです"
+
+#: includes/class-profile-magic-email.php:124
+#, php-format
+msgid "You are now registered at %s."
+msgstr "これで%sに登録されました。"
+
+#: includes/class-profile-magic-email.php:125
+msgid ""
+"Before you can login, you need to activate your account by visiting this "
+"link:"
+msgstr ""
+"ログインする前に、次のリンクにアクセスしてアカウントを有効にする必要がありま"
+"す。"
+
+#: includes/class-profile-magic-email.php:128
+#: public/class-profile-magic-public.php:494
+msgid "Thanks!"
+msgstr "ありがとうございます"
+
+#: includes/class-profile-magic-export-import.php:175
+msgid "Import Process Complete"
+msgstr "インポートプロセスの完了"
+
+#: includes/class-profile-magic-export-import.php:176
+msgid "New Users Created"
+msgstr "作成された新しいユーザー"
+
+#: includes/class-profile-magic-export-import.php:177
+msgid "Existing Users Updated"
+msgstr "更新された既存のユーザー"
+
+#: includes/class-profile-magic-export-import.php:178
+msgid "Total Users Skipped"
+msgstr "スキップされたトータルユーザー"
+
+#: includes/class-profile-magic-export-import.php:179
+msgid "Import Details"
+msgstr "インポートの詳細"
+
+#: includes/class-profile-magic-export-import.php:339
+msgid "Section"
+msgstr "セクション"
+
+#: includes/class-profile-magic-export-import.php:353
+msgid ""
+"Step 5: Select a section inside this Group where all imported fields will "
+"go. You can later redistribute the fields among different sections in Fields "
+"Manager."
+msgstr ""
+"ステップ5：インポートされたすべてのフィールドが配置されるこのグループ内のセク"
+"ションを選択します。 後でフィールドマネージャーのさまざまなセクションにフィー"
+"ルドを再配布できます。"
+
+#: includes/class-profile-magic-export-import.php:372
+msgid ""
+"Step 6a: Map a column in your CSV to username field of this Group. New users "
+"will be assigned these usernames."
+msgstr ""
+"ステップ6a：CSVのカラムをこのグループのユーザー名フィールドにマッピングしま"
+"す。 新しいユーザーにはこれらのユーザー名が割り当てられます。"
+
+#: includes/class-profile-magic-export-import.php:377
+#: admin/partials/add-field.php:189 admin/partials/manage-fields.php:52
+#: admin/partials/user-manager.php:230
+msgid "User Email"
+msgstr "ユーザー メールアドレス"
+
+#: includes/class-profile-magic-export-import.php:391
+msgid ""
+"Step 6b: Map a column in your CSV to User email field of this Group. Make "
+"sure the column contain email IDs."
+msgstr ""
+"ステップ6b：CSVのカラムをこのグループのユーザーのメールフィールドにマッピング"
+"します。 列にメールIDが含まれていることを確認してください。"
+
+#: includes/class-profile-magic-friends-integration.php:267
+#: public/class-profile-magic-public.php:1486
+msgid "Message"
+msgstr "メッセージ"
+
+#: includes/class-profile-magic-friends-integration.php:284
+msgid "Select"
+msgstr "選択"
+
+#: includes/class-profile-magic-friends-integration.php:293
+#: includes/class-profile-magic-friends-integration.php:333
+#: includes/class-profile-magic-html-generator.php:479
+#: public/partials/profile-magic-friend-requested.php:14
+msgid "Accept"
+msgstr "承認"
+
+#: includes/class-profile-magic-friends-integration.php:300
+#: includes/class-profile-magic-friends-integration.php:334
+#: includes/class-profile-magic-html-generator.php:478
+#: admin/partials/manage-groups.php:33 admin/partials/user-manager.php:95
+#: public/partials/profile-magic-friend-requested.php:13
+msgid "Delete"
+msgstr "削除"
+
+#: includes/class-profile-magic-friends-integration.php:307
+#: includes/class-profile-magic-html-generator.php:486
+#: admin/partials/add-field.php:691 admin/partials/add-group.php:520
+#: admin/partials/add-section.php:152 admin/partials/blog-settings.php:117
+#: admin/partials/email-settings.php:343 admin/partials/email-template.php:123
+#: admin/partials/export-options.php:33 admin/partials/general-settings.php:362
+#: admin/partials/import-options.php:37 admin/partials/message-settings.php:55
+#: admin/partials/payment-settings-old.php:139
+#: admin/partials/payment-settings.php:148
+#: admin/partials/pm-export-users.php:64 admin/partials/pm-import-users.php:94
+#: admin/partials/security-settings.php:275 admin/partials/seo-settings.php:62
+#: admin/partials/thirdparty-settings.php:81
+#: admin/partials/upload-settings.php:94 admin/partials/user-settings.php:157
+#: public/partials/profile-magic-friend-sent-request.php:14
+#: public/partials/themes/default/edit-group-tpl.php:11
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/class-profile-magic-friends-integration.php:327
+msgid "Cancel Request"
+msgstr "リクエストの取消し"
+
+#: includes/class-profile-magic-friends-integration.php:392
+msgid "Add Friend"
+msgstr "友人を追加する"
+
+#. echo $this->profile_magic;
+#: includes/class-profile-magic-functions.php:20
+msgid ""
+"Some of the options below require selecting fields from your form. Since you "
+"are creating new form from scratch, there are no fields in this form yet. "
+"You can come back later and modify these field specific options. You can "
+"safely ignore them for now and save the settings."
+msgstr ""
+"以下のオプションの一部では、フォームからフィールドを選択する必要があります。 "
+"新しいフォームを最初から作成しているため、このフォームにはまだフィールドがあ"
+"りません。 後でこれらのフィールド固有のオプションを変更できます。 "
+
+#: includes/class-profile-magic-functions.php:48
+#: includes/class-profile-magic-request.php:599
+msgid "Please enter a valid date (yyyy-mm-dd format)"
+msgstr "有効な日付を入力してください（yyyy-mm-dd形式）"
+
+#: includes/class-profile-magic-functions.php:49
+msgid "This is a required field"
+msgstr "これは必要項目です"
+
+#: includes/class-profile-magic-html-generator.php:266
+msgid "Sorry, you didn't enter the correct captcha code."
+msgstr "申し訳ありませんが、正しいキャプチャコードを入力しませんでした。"
+
+#: includes/class-profile-magic-html-generator.php:315
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: includes/class-profile-magic-html-generator.php:336
+msgid "Load More"
+msgstr "もっと読む"
+
+#: includes/class-profile-magic-html-generator.php:349
+msgid ""
+"You have not written any blog posts yet. Once you do, they will appear here."
+msgstr "ブログの投稿はまだありません。 実行すると、ここに表示されます。"
+
+#: includes/class-profile-magic-html-generator.php:514
+msgid ""
+"<div class=\"pg-friend-error-notice\">You don't have any friends yet. Why "
+"don't you add one now?</div> "
+msgstr ""
+"<div class=\"pg-friend-error-notice\">まだお友達がいません。 今すぐ追加してみ"
+"ませんか？</div> "
+
+#: includes/class-profile-magic-html-generator.php:519
+msgid ""
+"  <span class=\"pg-friend-error-notice pg-no-friends\">does not have any "
+"friends yet.</span> "
+msgstr ""
+"  <span class=\"pg-friend-error-notice pg-no-friends\">まだ友達がいません。</"
+"span> "
+
+#: includes/class-profile-magic-html-generator.php:524
+msgid ""
+"<div class=\"pg-friend-error-notice\">No friend requests waiting for "
+"response</div>"
+msgstr ""
+"<div class=\"pg-friend-error-notice\">お友達リクエストはありません</div>"
+
+#: includes/class-profile-magic-html-generator.php:528
+msgid ""
+"<div class=\"pg-friend-error-notice\">No pending friend requests.</div> "
+msgstr ""
+"<div class=\"pg-friend-error-notice\">保留中のお友達リクエストはありません。"
+"</div> "
+
+#: includes/class-profile-magic-paypal-functions.php:71
+#: public/partials/profile-magic-payment-process.php:32
+msgid "Payment Transaction Done Successfully"
+msgstr "支払い取引が正常に完了しました"
+
+#: includes/class-profile-magic-paypal-functions.php:91
+msgid "Transaction Cancelled"
+msgstr "取引がキャンセルされました"
+
+#: includes/class-profile-magic-paypal-functions.php:115
+#: public/partials/profile-magic-payment-process.php:87
+msgid "Instant Payment Notification - Recieved Payment"
+msgstr "即時支払い通知-支払い受信済み"
+
+#: includes/class-profile-magic-paypal-functions.php:141
+#: public/partials/profile-magic-payment-process.php:99
+msgid "Instant Payment Notification - Payment Fail"
+msgstr "即時支払い通知-支払い失敗"
+
+#: includes/class-profile-magic-request.php:431
+#: includes/class-profile-magic-request.php:452
+#: includes/class-profile-magic-request.php:467
+#: includes/class-profile-magic-request.php:481
+#: includes/class-profile-magic-request.php:495
+#: includes/class-profile-magic-request.php:502
+#: includes/class-profile-magic-request.php:511
+msgid " is a required field"
+msgstr " は必須フィールドです"
+
+#: includes/class-profile-magic-request.php:438
+#: includes/class-profile-magic-request.php:577
+msgid "Please enter a valid e-mail address"
+msgstr "有効なメールアドレスを入力してください"
+
+#: includes/class-profile-magic-request.php:443
+msgid "This user is already registered. Please try with different email."
+msgstr ""
+"このユーザーは既に登録されています。 別のメールアドレスをお願いします。"
+
+#: includes/class-profile-magic-request.php:473
+#: includes/class-profile-magic-request.php:708
+#: public/class-profile-magic-public.php:979
+msgid "Password is too short. At least 7 characters please!"
+msgstr "パスワードが短すぎます。 少なくとも7文字以上入力してください"
+
+#: includes/class-profile-magic-request.php:585
+msgid "Please enter a valid number"
+msgstr "有効な数値を入力してください"
+
+#: includes/class-profile-magic-request.php:592
+msgid "Please enter a valid amount"
+msgstr "有効な金額を入力してください"
+
+#: includes/class-profile-magic-request.php:663
+msgid "You do have an email address, right?"
+msgstr "メールアドレスは正しいですか？"
+
+#: includes/class-profile-magic-request.php:666
+msgid "You need to enter a password to login."
+msgstr "ログインするにはパスワードを入力する必要があります。"
+
+#: includes/class-profile-magic-request.php:669
+msgid ""
+"We don't have any users with that email address. Maybe you used a different "
+"one when signing up?"
+msgstr ""
+"このメールアドレスのユーザーはいません。 サインアップ時に別のものを使用した可"
+"能性はありませんか？"
+
+#: includes/class-profile-magic-request.php:672
+#, php-format
+msgid ""
+"You entered incorrect password. Please try again or click on <a "
+"href='%s'>“Forgot Password”</a>"
+msgstr ""
+"間違ったパスワードを入力しました。 もう一度入力してください。または<a "
+"href='%s'>「パスワードを忘れた」</a>をクリックしてください"
+
+#: includes/class-profile-magic-request.php:677
+msgid "You need to enter your email address to continue."
+msgstr "続行するにはメールアドレスを入力する必要があります。"
+
+#: includes/class-profile-magic-request.php:680
+#: public/class-profile-magic-public.php:598
+msgid "Account disabled"
+msgstr "アカウントが無効です"
+
+#: includes/class-profile-magic-request.php:683
+#, php-format
+msgid ""
+"Your account has been deactivated due to a pending payment. <a href='%s'>Do "
+"you wish to pay now?</a>"
+msgstr ""
+"お支払いが保留されているため、アカウントは無効になりました。 <a href='%s'>今"
+"すぐ支払いますか？</a>"
+
+#: includes/class-profile-magic-request.php:688
+#: includes/class-profile-magic-request.php:691
+msgid "There are no users registered with this email address."
+msgstr "このメールアドレスで登録されたユーザーはいません。"
+
+#: includes/class-profile-magic-request.php:694
+#: includes/class-profile-magic-request.php:697
+msgid "The password reset link you used is not valid anymore."
+msgstr "使用したパスワードリセットリンクはもう有効ではありません。"
+
+#: includes/class-profile-magic-request.php:701
+msgid "The two passwords you entered don't match."
+msgstr "入力した2つのパスワードが一致しません。"
+
+#: includes/class-profile-magic-request.php:705
+msgid "Sorry, we don't accept empty passwords."
+msgstr "申し訳ありませんが、空のパスワードは使用できません。"
+
+#: includes/class-profile-magic-request.php:712
+#, php-format
+msgid "Login required to view this page. Please <a href='%s'>Login</a>."
+msgstr ""
+"このページを表示するにはログインが必要です。 <a href='%s'>ログイン</a>してく"
+"ださい。"
+
+#: includes/class-profile-magic-request.php:717
+msgid "You have not permitted to view this page."
+msgstr "このページを表示することを許可していません。"
+
+#: includes/class-profile-magic-request.php:720
+msgid "Failed to upadte user information.Can not activate user."
+msgstr "ユーザー情報を更新できませんでした。ユーザーをアクティブにできません。"
+
+#: includes/class-profile-magic-request.php:723
+msgid "Invalid Activation code."
+msgstr "無効なアクティベーションコード。"
+
+#: includes/class-profile-magic-request.php:726
+msgid ""
+"You have reached the limit for requesting password change for this user."
+msgstr "このユーザーのパスワード変更のリクエストの制限に達しました。"
+
+#: includes/class-profile-magic-request.php:729
+msgid "You have been logged out due to inactivity."
+msgstr "アクティビティがないためログアウトしました。"
+
+#: includes/class-profile-magic-request.php:732
+msgid "Your IP has been Banned. You don't access this page."
+msgstr ""
+"あなたのIPアドレスは禁止されています。 このページにはアクセスしません。"
+
+#: includes/class-profile-magic-request.php:735
+msgid ""
+"Sorry, you cannot register since this email has been blocked by a site "
+"administrator."
+msgstr ""
+"このメールアドレスまたはドメイン名はサイト管理者によってブロックされているた"
+"め、登録できません。"
+
+#: includes/class-profile-magic-request.php:738
+msgid ""
+"You don't able to logged in due to your domain has been blocked by "
+"administrator."
+msgstr "ドメインが管理者によってブロックされているため、ログインできません。"
+
+#: includes/class-profile-magic-request.php:741
+msgid ""
+"Sorry, you cannot registered with this username since it uses a word blocked "
+"by a site administrator."
+msgstr ""
+"サイト管理者によってブロックされた単語を使用しているため、このユーザー名で登"
+"録することはできません。"
+
+#: includes/class-profile-magic-request.php:744
+msgid ""
+"Sorry, you are not allowed to login. This email has been blocked by a site "
+"administrator."
+msgstr ""
+"ログインできません。 このメールアドレスはサイト管理者によってブロックされてい"
+"ます。"
+
+#: includes/class-profile-magic-request.php:747
+msgid "Your account was successfully removed and all profile data deleted."
+msgstr ""
+"アカウントは正常に削除され、すべてのプロフィールデータが削除されました。"
+
+#: includes/class-profile-magic-request.php:750
+msgid "An unknown error occurred. Please try again later."
+msgstr "不明なエラーが発生しました。 後でもう一度やり直してください。"
+
+#: includes/class-profile-magic-request.php:1476
+msgid "Do you like ProfileGrid? Help us  make it better…Please rate it "
+msgstr "ProfileGridは気入りましたか？ 改善にご協力ください…ご評価ください "
+
+#: includes/class-profile-magic-request.php:1483
+msgid " Stars on "
+msgstr " 星マーク "
+
+#: includes/country_option_list.php:1
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/country_option_list.php:2
+msgid "Åland Islands"
+msgstr ""
+
+#: includes/country_option_list.php:3
+msgid "Albania"
+msgstr ""
+
+#: includes/country_option_list.php:4
+msgid "Algeria"
+msgstr ""
+
+#: includes/country_option_list.php:5
+msgid "American Samoa"
+msgstr ""
+
+#: includes/country_option_list.php:6 includes/time_zone_option_list.php:328
+msgid "Andorra"
+msgstr ""
+
+#: includes/country_option_list.php:7
+msgid "Angola"
+msgstr ""
+
+#: includes/country_option_list.php:8 includes/time_zone_option_list.php:58
+msgid "Anguilla"
+msgstr ""
+
+#: includes/country_option_list.php:9
+msgid "Antarctica"
+msgstr ""
+
+#: includes/country_option_list.php:10
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/country_option_list.php:11
+msgid "Argentina"
+msgstr ""
+
+#: includes/country_option_list.php:12
+msgid "Armenia"
+msgstr ""
+
+#: includes/country_option_list.php:13 includes/time_zone_option_list.php:73
+msgid "Aruba"
+msgstr ""
+
+#: includes/country_option_list.php:14
+msgid "Australia"
+msgstr ""
+
+#: includes/country_option_list.php:15
+msgid "Austria"
+msgstr ""
+
+#: includes/country_option_list.php:16
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/country_option_list.php:17
+msgid "Bahamas"
+msgstr ""
+
+#: includes/country_option_list.php:18 includes/time_zone_option_list.php:228
+msgid "Bahrain"
+msgstr ""
+
+#: includes/country_option_list.php:19
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/country_option_list.php:20 includes/time_zone_option_list.php:78
+msgid "Barbados"
+msgstr ""
+
+#: includes/country_option_list.php:21
+msgid "Belarus"
+msgstr ""
+
+#: includes/country_option_list.php:22
+msgid "Belgium"
+msgstr ""
+
+#: includes/country_option_list.php:23 includes/time_zone_option_list.php:80
+msgid "Belize"
+msgstr ""
+
+#: includes/country_option_list.php:24
+msgid "Benin"
+msgstr ""
+
+#: includes/country_option_list.php:25 includes/time_zone_option_list.php:302
+msgid "Bermuda"
+msgstr ""
+
+#: includes/country_option_list.php:26
+msgid "Bhutan"
+msgstr ""
+
+#: includes/country_option_list.php:27
+msgid "Bolivia"
+msgstr ""
+
+#: includes/country_option_list.php:28
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/country_option_list.php:29
+msgid "Botswana"
+msgstr ""
+
+#: includes/country_option_list.php:30
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/country_option_list.php:31
+msgid "Brazil"
+msgstr ""
+
+#: includes/country_option_list.php:32
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/country_option_list.php:33
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: includes/country_option_list.php:34
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/country_option_list.php:35
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/country_option_list.php:36
+msgid "Burundi"
+msgstr ""
+
+#: includes/country_option_list.php:37
+msgid "Cambodia"
+msgstr ""
+
+#: includes/country_option_list.php:38
+msgid "Cameroon"
+msgstr ""
+
+#: includes/country_option_list.php:39
+msgid "Canada"
+msgstr ""
+
+#: includes/country_option_list.php:40 includes/time_zone_option_list.php:304
+msgid "Cape Verde"
+msgstr ""
+
+#: includes/country_option_list.php:41
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/country_option_list.php:42
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/country_option_list.php:43
+msgid "Chad"
+msgstr ""
+
+#: includes/country_option_list.php:44
+msgid "Chile"
+msgstr ""
+
+#: includes/country_option_list.php:45
+msgid "China"
+msgstr ""
+
+#: includes/country_option_list.php:46
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/country_option_list.php:47
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: includes/country_option_list.php:48
+msgid "Colombia"
+msgstr ""
+
+#: includes/country_option_list.php:49
+msgid "Comoros"
+msgstr ""
+
+#: includes/country_option_list.php:50
+msgid "Congo"
+msgstr ""
+
+#: includes/country_option_list.php:51
+msgid "Congo, The Democratic Republic of The"
+msgstr ""
+
+#: includes/country_option_list.php:52
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/country_option_list.php:53 includes/time_zone_option_list.php:93
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/country_option_list.php:54
+msgid "Cote D ivoire"
+msgstr ""
+
+#: includes/country_option_list.php:55
+msgid "Croatia"
+msgstr ""
+
+#: includes/country_option_list.php:56
+msgid "Cuba"
+msgstr ""
+
+#: includes/country_option_list.php:57
+msgid "Cyprus"
+msgstr ""
+
+#: includes/country_option_list.php:58
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/country_option_list.php:59
+msgid "Denmark"
+msgstr ""
+
+#: includes/country_option_list.php:60 includes/time_zone_option_list.php:20
+msgid "Djibouti"
+msgstr ""
+
+#: includes/country_option_list.php:61 includes/time_zone_option_list.php:102
+msgid "Dominica"
+msgstr ""
+
+#: includes/country_option_list.php:62
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/country_option_list.php:63
+msgid "Ecuador"
+msgstr ""
+
+#: includes/country_option_list.php:64
+msgid "Egypt"
+msgstr ""
+
+#: includes/country_option_list.php:65 includes/time_zone_option_list.php:105
+msgid "El Salvador"
+msgstr ""
+
+#: includes/country_option_list.php:66
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/country_option_list.php:67
+msgid "Eritrea"
+msgstr ""
+
+#: includes/country_option_list.php:68
+msgid "Estonia"
+msgstr ""
+
+#: includes/country_option_list.php:69
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/country_option_list.php:70
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: includes/country_option_list.php:71
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/country_option_list.php:72 includes/language_option_list.php:17
+#: includes/time_zone_option_list.php:406
+msgid "Fiji"
+msgstr ""
+
+#: includes/country_option_list.php:73
+msgid "Finland"
+msgstr ""
+
+#: includes/country_option_list.php:74
+msgid "France"
+msgstr ""
+
+#: includes/country_option_list.php:75
+msgid "French Guiana"
+msgstr ""
+
+#: includes/country_option_list.php:76
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/country_option_list.php:77
+msgid "French Southern Territories"
+msgstr ""
+
+#: includes/country_option_list.php:78
+msgid "Gabon"
+msgstr ""
+
+#: includes/country_option_list.php:79
+msgid "Gambia"
+msgstr ""
+
+#: includes/country_option_list.php:80
+msgid "Georgia"
+msgstr ""
+
+#: includes/country_option_list.php:81
+msgid "Germany"
+msgstr ""
+
+#: includes/country_option_list.php:82
+msgid "Ghana"
+msgstr ""
+
+#: includes/country_option_list.php:83 includes/time_zone_option_list.php:340
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/country_option_list.php:84
+msgid "Greece"
+msgstr ""
+
+#: includes/country_option_list.php:85
+msgid "Greenland"
+msgstr ""
+
+#: includes/country_option_list.php:86 includes/time_zone_option_list.php:111
+msgid "Grenada"
+msgstr ""
+
+#: includes/country_option_list.php:87 includes/time_zone_option_list.php:112
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/country_option_list.php:88 includes/time_zone_option_list.php:411
+msgid "Guam"
+msgstr ""
+
+#: includes/country_option_list.php:89 includes/time_zone_option_list.php:113
+msgid "Guatemala"
+msgstr ""
+
+#: includes/country_option_list.php:90 includes/time_zone_option_list.php:341
+msgid "Guernsey"
+msgstr ""
+
+#: includes/country_option_list.php:91
+msgid "Guinea"
+msgstr ""
+
+#: includes/country_option_list.php:92
+msgid "Guinea-bissau"
+msgstr ""
+
+#: includes/country_option_list.php:93 includes/time_zone_option_list.php:115
+msgid "Guyana"
+msgstr ""
+
+#: includes/country_option_list.php:94
+msgid "Haiti"
+msgstr ""
+
+#: includes/country_option_list.php:95
+msgid "Heard Island and Mcdonald Islands"
+msgstr ""
+
+#: includes/country_option_list.php:96
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: includes/country_option_list.php:97
+msgid "Honduras"
+msgstr ""
+
+#: includes/country_option_list.php:98 includes/time_zone_option_list.php:246
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/country_option_list.php:99
+msgid "Hungary"
+msgstr ""
+
+#: includes/country_option_list.php:100
+msgid "Iceland"
+msgstr ""
+
+#: includes/country_option_list.php:101
+msgid "India"
+msgstr ""
+
+#: includes/country_option_list.php:102
+msgid "Indonesia"
+msgstr ""
+
+#: includes/country_option_list.php:103
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+#: includes/country_option_list.php:104
+msgid "Iraq"
+msgstr ""
+
+#: includes/country_option_list.php:105
+msgid "Ireland"
+msgstr ""
+
+#: includes/country_option_list.php:106 includes/time_zone_option_list.php:343
+msgid "Isle of Man"
+msgstr ""
+
+#: includes/country_option_list.php:107
+msgid "Israel"
+msgstr ""
+
+#: includes/country_option_list.php:108
+msgid "Italy"
+msgstr ""
+
+#: includes/country_option_list.php:109 includes/time_zone_option_list.php:129
+msgid "Jamaica"
+msgstr ""
+
+#: includes/country_option_list.php:110
+msgid "Japan"
+msgstr "日本"
+
+#: includes/country_option_list.php:111 includes/time_zone_option_list.php:345
+msgid "Jersey"
+msgstr ""
+
+#: includes/country_option_list.php:112
+msgid "Jordan"
+msgstr ""
+
+#: includes/country_option_list.php:113
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/country_option_list.php:114
+msgid "Kenya"
+msgstr ""
+
+#: includes/country_option_list.php:115
+msgid "Kiribati"
+msgstr ""
+
+#: includes/country_option_list.php:116
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: includes/country_option_list.php:117
+msgid "Korea, Republic of"
+msgstr ""
+
+#: includes/country_option_list.php:118 includes/time_zone_option_list.php:262
+msgid "Kuwait"
+msgstr ""
+
+#: includes/country_option_list.php:119
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/country_option_list.php:120
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: includes/country_option_list.php:121
+msgid "Latvia"
+msgstr ""
+
+#: includes/country_option_list.php:122
+msgid "Lebanon"
+msgstr ""
+
+#: includes/country_option_list.php:123
+msgid "Lesotho"
+msgstr ""
+
+#: includes/country_option_list.php:124
+msgid "Liberia"
+msgstr ""
+
+#: includes/country_option_list.php:125
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: includes/country_option_list.php:126
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/country_option_list.php:127
+msgid "Lithuania"
+msgstr ""
+
+#: includes/country_option_list.php:128 includes/time_zone_option_list.php:351
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/country_option_list.php:129
+msgid "Macao"
+msgstr ""
+
+#: includes/country_option_list.php:130
+msgid "Macedonia, The Former Yugoslav Republic of"
+msgstr ""
+
+#: includes/country_option_list.php:131
+msgid "Madagascar"
+msgstr ""
+
+#: includes/country_option_list.php:132
+msgid "Malawi"
+msgstr ""
+
+#: includes/country_option_list.php:133
+msgid "Malaysia"
+msgstr ""
+
+#: includes/country_option_list.php:134 includes/time_zone_option_list.php:392
+msgid "Maldives"
+msgstr ""
+
+#: includes/country_option_list.php:135
+msgid "Mali"
+msgstr ""
+
+#: includes/country_option_list.php:136 includes/time_zone_option_list.php:353
+msgid "Malta"
+msgstr ""
+
+#: includes/country_option_list.php:137
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/country_option_list.php:138 includes/time_zone_option_list.php:142
+msgid "Martinique"
+msgstr ""
+
+#: includes/country_option_list.php:139
+msgid "Mauritania"
+msgstr ""
+
+#: includes/country_option_list.php:140 includes/time_zone_option_list.php:393
+msgid "Mauritius"
+msgstr ""
+
+#: includes/country_option_list.php:141 includes/time_zone_option_list.php:394
+msgid "Mayotte"
+msgstr ""
+
+#: includes/country_option_list.php:142
+msgid "Mexico"
+msgstr ""
+
+#: includes/country_option_list.php:143
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+#: includes/country_option_list.php:144
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: includes/country_option_list.php:145 includes/time_zone_option_list.php:356
+msgid "Monaco"
+msgstr ""
+
+#: includes/country_option_list.php:146
+msgid "Mongolia"
+msgstr ""
+
+#: includes/country_option_list.php:147
+msgid "Montenegro"
+msgstr ""
+
+#: includes/country_option_list.php:148 includes/time_zone_option_list.php:153
+msgid "Montserrat"
+msgstr ""
+
+#: includes/country_option_list.php:149
+msgid "Morocco"
+msgstr ""
+
+#: includes/country_option_list.php:150
+msgid "Mozambique"
+msgstr ""
+
+#: includes/country_option_list.php:151
+msgid "Myanmar"
+msgstr ""
+
+#: includes/country_option_list.php:152
+msgid "Namibia"
+msgstr ""
+
+#: includes/country_option_list.php:153 includes/time_zone_option_list.php:420
+msgid "Nauru"
+msgstr ""
+
+#: includes/country_option_list.php:154
+msgid "Nepal"
+msgstr ""
+
+#: includes/country_option_list.php:155
+msgid "Netherlands"
+msgstr ""
+
+#: includes/country_option_list.php:156
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: includes/country_option_list.php:157
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/country_option_list.php:158
+msgid "New Zealand"
+msgstr ""
+
+#: includes/country_option_list.php:159
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/country_option_list.php:160
+msgid "Niger"
+msgstr ""
+
+#: includes/country_option_list.php:161
+msgid "Nigeria"
+msgstr ""
+
+#: includes/country_option_list.php:162 includes/time_zone_option_list.php:421
+msgid "Niue"
+msgstr ""
+
+#: includes/country_option_list.php:163
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/country_option_list.php:164
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: includes/country_option_list.php:165
+msgid "Norway"
+msgstr ""
+
+#: includes/country_option_list.php:166
+msgid "Oman"
+msgstr ""
+
+#: includes/country_option_list.php:167
+msgid "Pakistan"
+msgstr ""
+
+#: includes/country_option_list.php:168 includes/time_zone_option_list.php:425
+msgid "Palau"
+msgstr ""
+
+#: includes/country_option_list.php:169
+msgid "Palestinian Territory, Occupied"
+msgstr ""
+
+#: includes/country_option_list.php:170 includes/time_zone_option_list.php:163
+msgid "Panama"
+msgstr ""
+
+#: includes/country_option_list.php:171
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/country_option_list.php:172
+msgid "Paraguay"
+msgstr ""
+
+#: includes/country_option_list.php:173
+msgid "Peru"
+msgstr ""
+
+#: includes/country_option_list.php:174
+msgid "Philippines"
+msgstr ""
+
+#: includes/country_option_list.php:175 includes/time_zone_option_list.php:426
+msgid "Pitcairn"
+msgstr ""
+
+#: includes/country_option_list.php:176
+msgid "Poland"
+msgstr ""
+
+#: includes/country_option_list.php:177
+msgid "Portugal"
+msgstr ""
+
+#: includes/country_option_list.php:178 includes/time_zone_option_list.php:170
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/country_option_list.php:179 includes/time_zone_option_list.php:276
+msgid "Qatar"
+msgstr ""
+
+#: includes/country_option_list.php:180 includes/time_zone_option_list.php:395
+msgid "Reunion"
+msgstr ""
+
+#: includes/country_option_list.php:181
+msgid "Romania"
+msgstr ""
+
+#: includes/country_option_list.php:182
+msgid "Russian Federation"
+msgstr ""
+
+#: includes/country_option_list.php:183
+msgid "Rwanda"
+msgstr ""
+
+#: includes/country_option_list.php:184
+msgid "Saint Helena"
+msgstr ""
+
+#: includes/country_option_list.php:185
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/country_option_list.php:186
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/country_option_list.php:187
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/country_option_list.php:188
+msgid "Saint Vincent and The Grenadines"
+msgstr ""
+
+#: includes/country_option_list.php:189
+msgid "Samoa"
+msgstr ""
+
+#: includes/country_option_list.php:190 includes/time_zone_option_list.php:365
+msgid "San Marino"
+msgstr ""
+
+#: includes/country_option_list.php:191
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: includes/country_option_list.php:192
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/country_option_list.php:193
+msgid "Senegal"
+msgstr ""
+
+#: includes/country_option_list.php:194
+msgid "Serbia"
+msgstr ""
+
+#: includes/country_option_list.php:195
+msgid "Seychelles"
+msgstr ""
+
+#: includes/country_option_list.php:196
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/country_option_list.php:197 includes/time_zone_option_list.php:284
+msgid "Singapore"
+msgstr ""
+
+#: includes/country_option_list.php:198
+msgid "Slovakia"
+msgstr ""
+
+#: includes/country_option_list.php:199
+msgid "Slovenia"
+msgstr ""
+
+#: includes/country_option_list.php:200
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/country_option_list.php:201
+msgid "Somalia"
+msgstr ""
+
+#: includes/country_option_list.php:202
+msgid "South Africa"
+msgstr ""
+
+#: includes/country_option_list.php:203
+msgid "South Georgia and The South Sandwich Islands"
+msgstr ""
+
+#: includes/country_option_list.php:204
+msgid "Spain"
+msgstr ""
+
+#: includes/country_option_list.php:205
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/country_option_list.php:206
+msgid "Sudan"
+msgstr ""
+
+#: includes/country_option_list.php:207
+msgid "Suriname"
+msgstr ""
+
+#: includes/country_option_list.php:208
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: includes/country_option_list.php:209
+msgid "Swaziland"
+msgstr ""
+
+#: includes/country_option_list.php:210
+msgid "Sweden"
+msgstr ""
+
+#: includes/country_option_list.php:211
+msgid "Switzerland"
+msgstr ""
+
+#: includes/country_option_list.php:212
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: includes/country_option_list.php:213
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: includes/country_option_list.php:214
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/country_option_list.php:215
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: includes/country_option_list.php:216
+msgid "Thailand"
+msgstr ""
+
+#: includes/country_option_list.php:217
+msgid "Timor-leste"
+msgstr ""
+
+#: includes/country_option_list.php:218
+msgid "Togo"
+msgstr ""
+
+#: includes/country_option_list.php:219
+msgid "Tokelau"
+msgstr ""
+
+#: includes/country_option_list.php:220 includes/language_option_list.php:65
+msgid "Tonga"
+msgstr ""
+
+#: includes/country_option_list.php:221
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/country_option_list.php:222
+msgid "Tunisia"
+msgstr ""
+
+#: includes/country_option_list.php:223
+msgid "Turkey"
+msgstr ""
+
+#: includes/country_option_list.php:224
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/country_option_list.php:225
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/country_option_list.php:226
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/country_option_list.php:227
+msgid "Uganda"
+msgstr ""
+
+#: includes/country_option_list.php:228
+msgid "Ukraine"
+msgstr ""
+
+#: includes/country_option_list.php:229
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/country_option_list.php:230
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/country_option_list.php:231
+msgid "United States"
+msgstr ""
+
+#: includes/country_option_list.php:232
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: includes/country_option_list.php:233
+msgid "Uruguay"
+msgstr ""
+
+#: includes/country_option_list.php:234
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/country_option_list.php:235
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/country_option_list.php:236
+msgid "Venezuela"
+msgstr ""
+
+#: includes/country_option_list.php:237
+msgid "Viet Nam"
+msgstr ""
+
+#: includes/country_option_list.php:238
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: includes/country_option_list.php:239
+msgid "Virgin Islands, U.S."
+msgstr ""
+
+#: includes/country_option_list.php:240
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: includes/country_option_list.php:241
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/country_option_list.php:242
+msgid "Yemen"
+msgstr ""
+
+#: includes/country_option_list.php:243
+msgid "Zambia"
+msgstr ""
+
+#: includes/country_option_list.php:244
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/language_option_list.php:1
+msgid "Afrikanns"
+msgstr ""
+
+#: includes/language_option_list.php:2
+msgid "Albanian"
+msgstr ""
+
+#: includes/language_option_list.php:3
+msgid "Arabic"
+msgstr ""
+
+#: includes/language_option_list.php:4
+msgid "Armenian"
+msgstr ""
+
+#: includes/language_option_list.php:5
+msgid "Basque"
+msgstr ""
+
+#: includes/language_option_list.php:6
+msgid "Bengali"
+msgstr ""
+
+#: includes/language_option_list.php:7
+msgid "Bulgarian"
+msgstr ""
+
+#: includes/language_option_list.php:8
+msgid "Catalan"
+msgstr ""
+
+#: includes/language_option_list.php:9
+msgid "Cambodian"
+msgstr ""
+
+#: includes/language_option_list.php:10
+msgid "Chinese (Mandarin)"
+msgstr ""
+
+#: includes/language_option_list.php:11
+msgid "Croation"
+msgstr ""
+
+#: includes/language_option_list.php:12
+msgid "Czech"
+msgstr ""
+
+#: includes/language_option_list.php:13
+msgid "Danish"
+msgstr ""
+
+#: includes/language_option_list.php:14
+msgid "Dutch"
+msgstr ""
+
+#: includes/language_option_list.php:15
+msgid "English"
+msgstr ""
+
+#: includes/language_option_list.php:16
+msgid "Estonian"
+msgstr ""
+
+#: includes/language_option_list.php:18
+msgid "Finnish"
+msgstr ""
+
+#: includes/language_option_list.php:19
+msgid "French"
+msgstr ""
+
+#: includes/language_option_list.php:20
+msgid "Georgian"
+msgstr ""
+
+#: includes/language_option_list.php:21
+msgid "German"
+msgstr ""
+
+#: includes/language_option_list.php:22
+msgid "Greek"
+msgstr ""
+
+#: includes/language_option_list.php:23
+msgid "Gujarati"
+msgstr ""
+
+#: includes/language_option_list.php:24
+msgid "Hebrew"
+msgstr ""
+
+#: includes/language_option_list.php:25
+msgid "Hindi"
+msgstr ""
+
+#: includes/language_option_list.php:26
+msgid "Hungarian"
+msgstr ""
+
+#: includes/language_option_list.php:27
+msgid "Icelandic"
+msgstr ""
+
+#: includes/language_option_list.php:28
+msgid "Indonesian"
+msgstr ""
+
+#: includes/language_option_list.php:29
+msgid "Irish"
+msgstr ""
+
+#: includes/language_option_list.php:30
+msgid "Italian"
+msgstr ""
+
+#: includes/language_option_list.php:31
+msgid "Japanese"
+msgstr "日本語"
+
+#: includes/language_option_list.php:32
+msgid "Javanese"
+msgstr ""
+
+#: includes/language_option_list.php:33
+msgid "Korean"
+msgstr ""
+
+#: includes/language_option_list.php:34
+msgid "Latin"
+msgstr ""
+
+#: includes/language_option_list.php:35
+msgid "Latvian"
+msgstr ""
+
+#: includes/language_option_list.php:36
+msgid "Lithuanian"
+msgstr ""
+
+#: includes/language_option_list.php:37
+msgid "Macedonian"
+msgstr ""
+
+#: includes/language_option_list.php:38
+msgid "Malay"
+msgstr ""
+
+#: includes/language_option_list.php:39
+msgid "Malayalam"
+msgstr ""
+
+#: includes/language_option_list.php:40
+msgid "Maltese"
+msgstr ""
+
+#: includes/language_option_list.php:41
+msgid "Maori"
+msgstr ""
+
+#: includes/language_option_list.php:42
+msgid "Marathi"
+msgstr ""
+
+#: includes/language_option_list.php:43
+msgid "Mongolian"
+msgstr ""
+
+#: includes/language_option_list.php:44
+msgid "Nepali"
+msgstr ""
+
+#: includes/language_option_list.php:45
+msgid "Norwegian"
+msgstr ""
+
+#: includes/language_option_list.php:46
+msgid "Persian"
+msgstr ""
+
+#: includes/language_option_list.php:47
+msgid "Polish"
+msgstr ""
+
+#: includes/language_option_list.php:48
+msgid "Portuguese"
+msgstr ""
+
+#: includes/language_option_list.php:49
+msgid "Punjabi"
+msgstr ""
+
+#: includes/language_option_list.php:50
+msgid "Quechua"
+msgstr ""
+
+#: includes/language_option_list.php:51
+msgid "Romanian"
+msgstr ""
+
+#: includes/language_option_list.php:52
+msgid "Russian"
+msgstr ""
+
+#: includes/language_option_list.php:53
+msgid "Samoan"
+msgstr ""
+
+#: includes/language_option_list.php:54
+msgid "Serbian"
+msgstr ""
+
+#: includes/language_option_list.php:55
+msgid "Slovak"
+msgstr ""
+
+#: includes/language_option_list.php:56
+msgid "Slovenian"
+msgstr ""
+
+#: includes/language_option_list.php:57
+msgid "Spanish"
+msgstr ""
+
+#: includes/language_option_list.php:58
+msgid "Swahili"
+msgstr ""
+
+#: includes/language_option_list.php:59
+msgid "Swedish"
+msgstr ""
+
+#: includes/language_option_list.php:60
+msgid "Tamil"
+msgstr ""
+
+#: includes/language_option_list.php:61
+msgid "Tatar"
+msgstr ""
+
+#: includes/language_option_list.php:62
+msgid "Telugu"
+msgstr ""
+
+#: includes/language_option_list.php:63
+msgid "Thai"
+msgstr ""
+
+#: includes/language_option_list.php:64
+msgid "Tibetan"
+msgstr ""
+
+#: includes/language_option_list.php:66
+msgid "Turkish"
+msgstr ""
+
+#: includes/language_option_list.php:67
+msgid "Ukranian"
+msgstr ""
+
+#: includes/language_option_list.php:68
+msgid "Urdu"
+msgstr ""
+
+#: includes/language_option_list.php:69
+msgid "Uzbek"
+msgstr ""
+
+#: includes/language_option_list.php:70
+msgid "Vietnamese"
+msgstr ""
+
+#: includes/language_option_list.php:71
+msgid "Welsh"
+msgstr ""
+
+#: includes/language_option_list.php:72
+msgid "Xhosa"
+msgstr ""
+
+#: includes/time_zone_option_list.php:2
+msgid "Africa/Abidjan"
+msgstr ""
+
+#: includes/time_zone_option_list.php:3
+msgid "Accra"
+msgstr ""
+
+#: includes/time_zone_option_list.php:4
+msgid "Addis_Ababa"
+msgstr ""
+
+#: includes/time_zone_option_list.php:5
+msgid "Algiers"
+msgstr ""
+
+#: includes/time_zone_option_list.php:6
+msgid "Asmara"
+msgstr ""
+
+#: includes/time_zone_option_list.php:7
+msgid "Bamako"
+msgstr ""
+
+#: includes/time_zone_option_list.php:8
+msgid "Bangui"
+msgstr ""
+
+#: includes/time_zone_option_list.php:9
+msgid "Banjul"
+msgstr ""
+
+#: includes/time_zone_option_list.php:10
+msgid "Bissau"
+msgstr ""
+
+#: includes/time_zone_option_list.php:11
+msgid "Blantyre"
+msgstr ""
+
+#: includes/time_zone_option_list.php:12
+msgid "Brazzaville"
+msgstr ""
+
+#: includes/time_zone_option_list.php:13
+msgid "Bujumbura"
+msgstr ""
+
+#: includes/time_zone_option_list.php:14
+msgid "Cairo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:15
+msgid "Casablanca"
+msgstr ""
+
+#: includes/time_zone_option_list.php:16
+msgid "Ceuta"
+msgstr ""
+
+#: includes/time_zone_option_list.php:17
+msgid "Conakry"
+msgstr ""
+
+#: includes/time_zone_option_list.php:18
+msgid "Dakar"
+msgstr ""
+
+#: includes/time_zone_option_list.php:19
+msgid "Dar_es_Salaam"
+msgstr ""
+
+#: includes/time_zone_option_list.php:21
+msgid "Douala"
+msgstr ""
+
+#: includes/time_zone_option_list.php:22
+msgid "El_Aaiun"
+msgstr ""
+
+#: includes/time_zone_option_list.php:23
+msgid "Freetown"
+msgstr ""
+
+#: includes/time_zone_option_list.php:24
+msgid "Gaborone"
+msgstr ""
+
+#: includes/time_zone_option_list.php:25
+msgid "Harare"
+msgstr ""
+
+#: includes/time_zone_option_list.php:26
+msgid "Johannesburg"
+msgstr ""
+
+#: includes/time_zone_option_list.php:27
+msgid "Juba"
+msgstr ""
+
+#: includes/time_zone_option_list.php:28
+msgid "Kampala"
+msgstr ""
+
+#: includes/time_zone_option_list.php:29
+msgid "Khartoum"
+msgstr ""
+
+#: includes/time_zone_option_list.php:30
+msgid "Kigali"
+msgstr ""
+
+#: includes/time_zone_option_list.php:31
+msgid "Kinshasa"
+msgstr ""
+
+#: includes/time_zone_option_list.php:32
+msgid "Lagos"
+msgstr ""
+
+#: includes/time_zone_option_list.php:33
+msgid "Libreville"
+msgstr ""
+
+#: includes/time_zone_option_list.php:34
+msgid "Lome"
+msgstr ""
+
+#: includes/time_zone_option_list.php:35
+msgid "Luanda"
+msgstr ""
+
+#: includes/time_zone_option_list.php:36
+msgid "Lubumbashi"
+msgstr ""
+
+#: includes/time_zone_option_list.php:37
+msgid "Lusaka"
+msgstr ""
+
+#: includes/time_zone_option_list.php:38
+msgid "Malabo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:39
+msgid "Maputo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:40
+msgid "Maseru"
+msgstr ""
+
+#: includes/time_zone_option_list.php:41
+msgid "Mbabane"
+msgstr ""
+
+#: includes/time_zone_option_list.php:42
+msgid "Mogadishu"
+msgstr ""
+
+#: includes/time_zone_option_list.php:43
+msgid "Monrovia"
+msgstr ""
+
+#: includes/time_zone_option_list.php:44
+msgid "Nairobi"
+msgstr ""
+
+#: includes/time_zone_option_list.php:45
+msgid "Ndjamena"
+msgstr ""
+
+#: includes/time_zone_option_list.php:46
+msgid "Niamey"
+msgstr ""
+
+#: includes/time_zone_option_list.php:47
+msgid "Nouakchott"
+msgstr ""
+
+#: includes/time_zone_option_list.php:48
+msgid "Ouagadougou"
+msgstr ""
+
+#: includes/time_zone_option_list.php:49
+msgid "Porto-Novo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:50
+msgid "Sao_Tome"
+msgstr ""
+
+#: includes/time_zone_option_list.php:51
+msgid "Tripoli"
+msgstr ""
+
+#: includes/time_zone_option_list.php:52
+msgid "Tunis"
+msgstr ""
+
+#: includes/time_zone_option_list.php:53
+msgid "Windhoek"
+msgstr ""
+
+#: includes/time_zone_option_list.php:56
+msgid "Adak"
+msgstr ""
+
+#: includes/time_zone_option_list.php:57
+msgid "Anchorage"
+msgstr ""
+
+#: includes/time_zone_option_list.php:59
+msgid "Antigua"
+msgstr ""
+
+#: includes/time_zone_option_list.php:60
+msgid "Araguaina"
+msgstr ""
+
+#: includes/time_zone_option_list.php:61
+msgid "Argentina - Buenos Aires"
+msgstr ""
+
+#: includes/time_zone_option_list.php:62
+msgid "Argentina - Catamarca"
+msgstr ""
+
+#: includes/time_zone_option_list.php:63
+msgid "Argentina - Cordoba"
+msgstr ""
+
+#: includes/time_zone_option_list.php:64
+msgid "Argentina - Jujuy"
+msgstr ""
+
+#: includes/time_zone_option_list.php:65
+msgid "Argentina - La Rioja"
+msgstr ""
+
+#: includes/time_zone_option_list.php:66
+msgid "Argentina - Mendoza"
+msgstr ""
+
+#: includes/time_zone_option_list.php:67
+msgid "Argentina - Rio Gallegos"
+msgstr ""
+
+#: includes/time_zone_option_list.php:68
+msgid "Argentina - Salta"
+msgstr ""
+
+#: includes/time_zone_option_list.php:69
+msgid "Argentina - San Juan"
+msgstr ""
+
+#: includes/time_zone_option_list.php:70
+msgid "Argentina - San Luis"
+msgstr ""
+
+#: includes/time_zone_option_list.php:71
+msgid "Argentina - Tucuman"
+msgstr ""
+
+#: includes/time_zone_option_list.php:72
+msgid "Argentina - Ushuaia"
+msgstr ""
+
+#: includes/time_zone_option_list.php:74
+msgid "Asuncion"
+msgstr ""
+
+#: includes/time_zone_option_list.php:75
+msgid "Atikokan"
+msgstr ""
+
+#: includes/time_zone_option_list.php:76
+msgid "Bahia"
+msgstr ""
+
+#: includes/time_zone_option_list.php:77
+msgid "Bahia Banderas"
+msgstr ""
+
+#: includes/time_zone_option_list.php:79
+msgid "Belem"
+msgstr ""
+
+#: includes/time_zone_option_list.php:81
+msgid "Blanc-Sablon"
+msgstr ""
+
+#: includes/time_zone_option_list.php:82
+msgid "Boa Vista"
+msgstr ""
+
+#: includes/time_zone_option_list.php:83
+msgid "Bogota"
+msgstr ""
+
+#: includes/time_zone_option_list.php:84
+msgid "Boise"
+msgstr ""
+
+#: includes/time_zone_option_list.php:85
+msgid "Cambridge Bay"
+msgstr ""
+
+#: includes/time_zone_option_list.php:86
+msgid "Campo Grande"
+msgstr ""
+
+#: includes/time_zone_option_list.php:87
+msgid "Cancun"
+msgstr ""
+
+#: includes/time_zone_option_list.php:88
+msgid "Caracas"
+msgstr ""
+
+#: includes/time_zone_option_list.php:89
+msgid "Cayenne"
+msgstr ""
+
+#: includes/time_zone_option_list.php:90
+msgid "Cayman"
+msgstr ""
+
+#: includes/time_zone_option_list.php:91
+msgid "Chicago"
+msgstr ""
+
+#: includes/time_zone_option_list.php:92
+msgid "Chihuahua"
+msgstr ""
+
+#: includes/time_zone_option_list.php:94
+msgid "Creston"
+msgstr ""
+
+#: includes/time_zone_option_list.php:95
+msgid "Cuiaba"
+msgstr ""
+
+#: includes/time_zone_option_list.php:96
+msgid "Curacao"
+msgstr ""
+
+#: includes/time_zone_option_list.php:97
+msgid "Danmarkshavn"
+msgstr ""
+
+#: includes/time_zone_option_list.php:98
+msgid "Dawson"
+msgstr ""
+
+#: includes/time_zone_option_list.php:99
+msgid "Dawson Creek"
+msgstr ""
+
+#: includes/time_zone_option_list.php:100
+msgid "Denver"
+msgstr ""
+
+#: includes/time_zone_option_list.php:101
+msgid "Detroit"
+msgstr ""
+
+#: includes/time_zone_option_list.php:103
+msgid "Edmonton"
+msgstr ""
+
+#: includes/time_zone_option_list.php:104
+msgid "Eirunepe"
+msgstr ""
+
+#: includes/time_zone_option_list.php:106
+msgid "Fortaleza"
+msgstr ""
+
+#: includes/time_zone_option_list.php:107
+msgid "Glace Bay"
+msgstr ""
+
+#: includes/time_zone_option_list.php:108
+msgid "Godthab"
+msgstr ""
+
+#: includes/time_zone_option_list.php:109
+msgid "Goose Bay"
+msgstr ""
+
+#: includes/time_zone_option_list.php:110
+msgid "Grand Turk"
+msgstr ""
+
+#: includes/time_zone_option_list.php:114
+msgid "Guayaquil"
+msgstr ""
+
+#: includes/time_zone_option_list.php:116
+msgid "Halifax"
+msgstr ""
+
+#: includes/time_zone_option_list.php:117
+msgid "Havana"
+msgstr ""
+
+#: includes/time_zone_option_list.php:118
+msgid "Hermosillo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:119
+msgid "Indiana - Indianapolis"
+msgstr ""
+
+#: includes/time_zone_option_list.php:120
+msgid "Indiana - Knox"
+msgstr ""
+
+#: includes/time_zone_option_list.php:121
+msgid "Indiana - Marengo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:122
+msgid "Indiana - Petersburg"
+msgstr ""
+
+#: includes/time_zone_option_list.php:123
+msgid "Indiana - Tell City"
+msgstr ""
+
+#: includes/time_zone_option_list.php:124
+msgid "Indiana - Vevay"
+msgstr ""
+
+#: includes/time_zone_option_list.php:125
+msgid "Indiana - Vincennes"
+msgstr ""
+
+#: includes/time_zone_option_list.php:126
+msgid "Indiana - Winamac"
+msgstr ""
+
+#: includes/time_zone_option_list.php:127
+msgid "Inuvik"
+msgstr ""
+
+#: includes/time_zone_option_list.php:128
+msgid "Iqaluit"
+msgstr ""
+
+#: includes/time_zone_option_list.php:130
+msgid "Juneau"
+msgstr ""
+
+#: includes/time_zone_option_list.php:131
+msgid "Kentucky - Louisville"
+msgstr ""
+
+#: includes/time_zone_option_list.php:132
+msgid "Kentucky - Monticello"
+msgstr ""
+
+#: includes/time_zone_option_list.php:133
+msgid "Kralendijk"
+msgstr ""
+
+#: includes/time_zone_option_list.php:134
+msgid "La Paz"
+msgstr ""
+
+#: includes/time_zone_option_list.php:135
+msgid "Lima"
+msgstr ""
+
+#: includes/time_zone_option_list.php:136
+msgid "Los Angeles"
+msgstr ""
+
+#: includes/time_zone_option_list.php:137
+msgid "Lower Princes"
+msgstr ""
+
+#: includes/time_zone_option_list.php:138
+msgid "Maceio"
+msgstr ""
+
+#: includes/time_zone_option_list.php:139
+msgid "Managua"
+msgstr ""
+
+#: includes/time_zone_option_list.php:140
+msgid "Manaus"
+msgstr ""
+
+#: includes/time_zone_option_list.php:141
+msgid "Marigot"
+msgstr ""
+
+#: includes/time_zone_option_list.php:143
+msgid "Matamoros"
+msgstr ""
+
+#: includes/time_zone_option_list.php:144
+msgid "Mazatlan"
+msgstr ""
+
+#: includes/time_zone_option_list.php:145
+msgid "Menominee"
+msgstr ""
+
+#: includes/time_zone_option_list.php:146
+msgid "Merida"
+msgstr ""
+
+#: includes/time_zone_option_list.php:147
+msgid "Metlakatla"
+msgstr ""
+
+#: includes/time_zone_option_list.php:148
+msgid "Mexico City"
+msgstr ""
+
+#: includes/time_zone_option_list.php:149
+msgid "Miquelon"
+msgstr ""
+
+#: includes/time_zone_option_list.php:150
+msgid "Moncton"
+msgstr ""
+
+#: includes/time_zone_option_list.php:151
+msgid "Monterrey"
+msgstr ""
+
+#: includes/time_zone_option_list.php:152
+msgid "Montevideo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:154
+msgid "Nassau"
+msgstr ""
+
+#: includes/time_zone_option_list.php:155
+msgid "New York"
+msgstr ""
+
+#: includes/time_zone_option_list.php:156
+msgid "Nipigon"
+msgstr ""
+
+#: includes/time_zone_option_list.php:157
+msgid "Nome"
+msgstr ""
+
+#: includes/time_zone_option_list.php:158
+msgid "Noronha"
+msgstr ""
+
+#: includes/time_zone_option_list.php:159
+msgid "North Dakota - Beulah"
+msgstr ""
+
+#: includes/time_zone_option_list.php:160
+msgid "North Dakota - Center"
+msgstr ""
+
+#: includes/time_zone_option_list.php:161
+msgid "North Dakota - New Salem"
+msgstr ""
+
+#: includes/time_zone_option_list.php:162
+msgid "Ojinaga"
+msgstr ""
+
+#: includes/time_zone_option_list.php:164
+msgid "Pangnirtung"
+msgstr ""
+
+#: includes/time_zone_option_list.php:165
+msgid "Paramaribo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:166
+msgid "Phoenix"
+msgstr ""
+
+#: includes/time_zone_option_list.php:167
+msgid "Port-au-Prince"
+msgstr ""
+
+#: includes/time_zone_option_list.php:168
+msgid "Port of Spain"
+msgstr ""
+
+#: includes/time_zone_option_list.php:169
+msgid "Porto Velho"
+msgstr ""
+
+#: includes/time_zone_option_list.php:171
+msgid "Rainy River"
+msgstr ""
+
+#: includes/time_zone_option_list.php:172
+msgid "Rankin Inlet"
+msgstr ""
+
+#: includes/time_zone_option_list.php:173
+msgid "Recife"
+msgstr ""
+
+#: includes/time_zone_option_list.php:174
+msgid "Regina"
+msgstr ""
+
+#: includes/time_zone_option_list.php:175
+msgid "Resolute"
+msgstr ""
+
+#: includes/time_zone_option_list.php:176
+msgid "Rio Branco"
+msgstr ""
+
+#: includes/time_zone_option_list.php:177
+msgid "Santa Isabel"
+msgstr ""
+
+#: includes/time_zone_option_list.php:178
+msgid "Santarem"
+msgstr ""
+
+#: includes/time_zone_option_list.php:179
+msgid "Santiago"
+msgstr ""
+
+#: includes/time_zone_option_list.php:180
+msgid "Santo Domingo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:181
+msgid "Sao Paulo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:182
+msgid "Scoresbysund"
+msgstr ""
+
+#: includes/time_zone_option_list.php:183
+msgid "Sitka"
+msgstr ""
+
+#: includes/time_zone_option_list.php:184
+msgid "St Barthelemy"
+msgstr ""
+
+#: includes/time_zone_option_list.php:185
+msgid "St Johns"
+msgstr ""
+
+#: includes/time_zone_option_list.php:186
+msgid "St Kitts"
+msgstr ""
+
+#: includes/time_zone_option_list.php:187
+msgid "St Lucia"
+msgstr ""
+
+#: includes/time_zone_option_list.php:188
+msgid "St Thomas"
+msgstr ""
+
+#: includes/time_zone_option_list.php:189
+msgid "St Vincent"
+msgstr ""
+
+#: includes/time_zone_option_list.php:190
+msgid "Swift Current"
+msgstr ""
+
+#: includes/time_zone_option_list.php:191
+msgid "Tegucigalpa"
+msgstr ""
+
+#: includes/time_zone_option_list.php:192
+msgid "Thule"
+msgstr ""
+
+#: includes/time_zone_option_list.php:193
+msgid "Thunder Bay"
+msgstr ""
+
+#: includes/time_zone_option_list.php:194
+msgid "Tijuana"
+msgstr ""
+
+#: includes/time_zone_option_list.php:195
+msgid "Toronto"
+msgstr ""
+
+#: includes/time_zone_option_list.php:196
+msgid "Tortola"
+msgstr ""
+
+#: includes/time_zone_option_list.php:197
+msgid "Vancouver"
+msgstr ""
+
+#: includes/time_zone_option_list.php:198
+msgid "Whitehorse"
+msgstr ""
+
+#: includes/time_zone_option_list.php:199
+msgid "Winnipeg"
+msgstr ""
+
+#: includes/time_zone_option_list.php:200
+msgid "Yakutat"
+msgstr ""
+
+#: includes/time_zone_option_list.php:201
+msgid "Yellowknife"
+msgstr ""
+
+#: includes/time_zone_option_list.php:204
+msgid "Casey"
+msgstr ""
+
+#: includes/time_zone_option_list.php:205
+msgid "Davis"
+msgstr ""
+
+#: includes/time_zone_option_list.php:206
+msgid "DumontDUrville"
+msgstr ""
+
+#: includes/time_zone_option_list.php:207
+msgid "Macquarie"
+msgstr ""
+
+#: includes/time_zone_option_list.php:208
+msgid "Mawson"
+msgstr ""
+
+#: includes/time_zone_option_list.php:209
+msgid "McMurdo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:210
+msgid "Palmer"
+msgstr ""
+
+#: includes/time_zone_option_list.php:211
+msgid "Rothera"
+msgstr ""
+
+#: includes/time_zone_option_list.php:212
+msgid "Syowa"
+msgstr "昭和"
+
+#: includes/time_zone_option_list.php:213
+msgid "Troll"
+msgstr ""
+
+#: includes/time_zone_option_list.php:214
+msgid "Vostok"
+msgstr ""
+
+#: includes/time_zone_option_list.php:217
+msgid "Longyearbyen"
+msgstr ""
+
+#: includes/time_zone_option_list.php:220
+msgid "Aden"
+msgstr ""
+
+#: includes/time_zone_option_list.php:221
+msgid "Almaty"
+msgstr ""
+
+#: includes/time_zone_option_list.php:222
+msgid "Amman"
+msgstr ""
+
+#: includes/time_zone_option_list.php:223
+msgid "Anadyr"
+msgstr ""
+
+#: includes/time_zone_option_list.php:224
+msgid "Aqtau"
+msgstr ""
+
+#: includes/time_zone_option_list.php:225
+msgid "Aqtobe"
+msgstr ""
+
+#: includes/time_zone_option_list.php:226
+msgid "Ashgabat"
+msgstr ""
+
+#: includes/time_zone_option_list.php:227
+msgid "Baghdad"
+msgstr ""
+
+#: includes/time_zone_option_list.php:229
+msgid "Baku"
+msgstr ""
+
+#: includes/time_zone_option_list.php:230
+msgid "Bangkok"
+msgstr ""
+
+#: includes/time_zone_option_list.php:231
+msgid "Beirut"
+msgstr ""
+
+#: includes/time_zone_option_list.php:232
+msgid "Bishkek"
+msgstr ""
+
+#: includes/time_zone_option_list.php:233
+msgid "Brunei"
+msgstr ""
+
+#: includes/time_zone_option_list.php:234
+msgid "Choibalsan"
+msgstr ""
+
+#: includes/time_zone_option_list.php:235
+msgid "Chongqing"
+msgstr ""
+
+#: includes/time_zone_option_list.php:236
+msgid "Colombo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:237
+msgid "Damascus"
+msgstr ""
+
+#: includes/time_zone_option_list.php:238
+msgid "Dhaka"
+msgstr ""
+
+#: includes/time_zone_option_list.php:239
+msgid "Dili"
+msgstr ""
+
+#: includes/time_zone_option_list.php:240
+msgid "Dubai"
+msgstr ""
+
+#: includes/time_zone_option_list.php:241
+msgid "Dushanbe"
+msgstr ""
+
+#: includes/time_zone_option_list.php:242
+msgid "Gaza"
+msgstr ""
+
+#: includes/time_zone_option_list.php:243
+msgid "Harbin"
+msgstr ""
+
+#: includes/time_zone_option_list.php:244
+msgid "Hebron"
+msgstr ""
+
+#: includes/time_zone_option_list.php:245
+msgid "Ho Chi Minh"
+msgstr ""
+
+#: includes/time_zone_option_list.php:247
+msgid "Hovd"
+msgstr ""
+
+#: includes/time_zone_option_list.php:248
+msgid "Irkutsk"
+msgstr ""
+
+#: includes/time_zone_option_list.php:249
+msgid "Jakarta"
+msgstr ""
+
+#: includes/time_zone_option_list.php:250
+msgid "Jayapura"
+msgstr ""
+
+#: includes/time_zone_option_list.php:251
+msgid "Jerusalem"
+msgstr ""
+
+#: includes/time_zone_option_list.php:252
+msgid "Kabul"
+msgstr ""
+
+#: includes/time_zone_option_list.php:253
+msgid "Kamchatka"
+msgstr ""
+
+#: includes/time_zone_option_list.php:254
+msgid "Karachi"
+msgstr ""
+
+#: includes/time_zone_option_list.php:255
+msgid "Kashgar"
+msgstr ""
+
+#: includes/time_zone_option_list.php:256
+msgid "Kathmandu"
+msgstr ""
+
+#: includes/time_zone_option_list.php:257
+msgid "Khandyga"
+msgstr ""
+
+#: includes/time_zone_option_list.php:258
+msgid "Kolkata"
+msgstr ""
+
+#: includes/time_zone_option_list.php:259
+msgid "Krasnoyarsk"
+msgstr ""
+
+#: includes/time_zone_option_list.php:260
+msgid "Kuala Lumpur"
+msgstr ""
+
+#: includes/time_zone_option_list.php:261
+msgid "Kuching"
+msgstr ""
+
+#: includes/time_zone_option_list.php:263
+msgid "Macau"
+msgstr ""
+
+#: includes/time_zone_option_list.php:264
+msgid "Magadan"
+msgstr ""
+
+#: includes/time_zone_option_list.php:265
+msgid "Makassar"
+msgstr ""
+
+#: includes/time_zone_option_list.php:266
+msgid "Manila"
+msgstr ""
+
+#: includes/time_zone_option_list.php:267
+msgid "Muscat"
+msgstr ""
+
+#: includes/time_zone_option_list.php:268
+msgid "Nicosia"
+msgstr ""
+
+#: includes/time_zone_option_list.php:269
+msgid "Novokuznetsk"
+msgstr ""
+
+#: includes/time_zone_option_list.php:270
+msgid "Novosibirsk"
+msgstr ""
+
+#: includes/time_zone_option_list.php:271
+msgid "Omsk"
+msgstr ""
+
+#: includes/time_zone_option_list.php:272
+msgid "Oral"
+msgstr ""
+
+#: includes/time_zone_option_list.php:273
+msgid "Phnom Penh"
+msgstr ""
+
+#: includes/time_zone_option_list.php:274
+msgid "Pontianak"
+msgstr ""
+
+#: includes/time_zone_option_list.php:275
+msgid "Pyongyang"
+msgstr ""
+
+#: includes/time_zone_option_list.php:277
+msgid "Qyzylorda"
+msgstr ""
+
+#: includes/time_zone_option_list.php:278
+msgid "Rangoon"
+msgstr ""
+
+#: includes/time_zone_option_list.php:279
+msgid "Riyadh"
+msgstr ""
+
+#: includes/time_zone_option_list.php:280
+msgid "Sakhalin"
+msgstr ""
+
+#: includes/time_zone_option_list.php:281
+msgid "Samarkand"
+msgstr ""
+
+#: includes/time_zone_option_list.php:282
+msgid "Seoul"
+msgstr ""
+
+#: includes/time_zone_option_list.php:283
+msgid "Shanghai"
+msgstr ""
+
+#: includes/time_zone_option_list.php:285
+msgid "Taipei"
+msgstr ""
+
+#: includes/time_zone_option_list.php:286
+msgid "Tashkent"
+msgstr ""
+
+#: includes/time_zone_option_list.php:287
+msgid "Tbilisi"
+msgstr ""
+
+#: includes/time_zone_option_list.php:288
+msgid "Tehran"
+msgstr ""
+
+#: includes/time_zone_option_list.php:289
+msgid "Thimphu"
+msgstr ""
+
+#: includes/time_zone_option_list.php:290
+msgid "Tokyo"
+msgstr "東京"
+
+#: includes/time_zone_option_list.php:291
+msgid "Ulaanbaatar"
+msgstr ""
+
+#: includes/time_zone_option_list.php:292
+msgid "Urumqi"
+msgstr ""
+
+#: includes/time_zone_option_list.php:293
+msgid "Ust-Nera"
+msgstr ""
+
+#: includes/time_zone_option_list.php:294
+msgid "Vientiane"
+msgstr ""
+
+#: includes/time_zone_option_list.php:295
+msgid "Vladivostok"
+msgstr ""
+
+#: includes/time_zone_option_list.php:296
+msgid "Yakutsk"
+msgstr ""
+
+#: includes/time_zone_option_list.php:297
+msgid "Yekaterinburg"
+msgstr ""
+
+#: includes/time_zone_option_list.php:298
+msgid "Yerevan"
+msgstr ""
+
+#: includes/time_zone_option_list.php:301
+msgid "Azores"
+msgstr ""
+
+#: includes/time_zone_option_list.php:303
+msgid "Canary"
+msgstr ""
+
+#: includes/time_zone_option_list.php:305
+msgid "Faroe"
+msgstr ""
+
+#: includes/time_zone_option_list.php:306
+msgid "Madeira"
+msgstr ""
+
+#: includes/time_zone_option_list.php:307
+msgid "Reykjavik"
+msgstr ""
+
+#: includes/time_zone_option_list.php:308
+msgid "South Georgia"
+msgstr ""
+
+#: includes/time_zone_option_list.php:309
+msgid "Stanley"
+msgstr ""
+
+#: includes/time_zone_option_list.php:310
+msgid "St Helena"
+msgstr ""
+
+#: includes/time_zone_option_list.php:313
+msgid "Adelaide"
+msgstr ""
+
+#: includes/time_zone_option_list.php:314
+msgid "Brisbane"
+msgstr ""
+
+#: includes/time_zone_option_list.php:315
+msgid "Broken Hill"
+msgstr ""
+
+#: includes/time_zone_option_list.php:316
+msgid "Currie"
+msgstr ""
+
+#: includes/time_zone_option_list.php:317
+msgid "Darwin"
+msgstr ""
+
+#: includes/time_zone_option_list.php:318
+msgid "Eucla"
+msgstr ""
+
+#: includes/time_zone_option_list.php:319
+msgid "Hobart"
+msgstr ""
+
+#: includes/time_zone_option_list.php:320
+msgid "Lindeman"
+msgstr ""
+
+#: includes/time_zone_option_list.php:321
+msgid "Lord Howe"
+msgstr ""
+
+#: includes/time_zone_option_list.php:322
+msgid "Melbourne"
+msgstr ""
+
+#: includes/time_zone_option_list.php:323
+msgid "Perth"
+msgstr ""
+
+#: includes/time_zone_option_list.php:324
+msgid "Sydney"
+msgstr ""
+
+#: includes/time_zone_option_list.php:327
+msgid "Amsterdam"
+msgstr ""
+
+#: includes/time_zone_option_list.php:329
+msgid "Athens"
+msgstr ""
+
+#: includes/time_zone_option_list.php:330
+msgid "Belgrade"
+msgstr ""
+
+#: includes/time_zone_option_list.php:331
+msgid "Berlin"
+msgstr ""
+
+#: includes/time_zone_option_list.php:332
+msgid "Bratislava"
+msgstr ""
+
+#: includes/time_zone_option_list.php:333
+msgid "Brussels"
+msgstr ""
+
+#: includes/time_zone_option_list.php:334
+msgid "Bucharest"
+msgstr ""
+
+#: includes/time_zone_option_list.php:335
+msgid "Budapest"
+msgstr ""
+
+#: includes/time_zone_option_list.php:336
+msgid "Busingen"
+msgstr ""
+
+#: includes/time_zone_option_list.php:337
+msgid "Chisinau"
+msgstr ""
+
+#: includes/time_zone_option_list.php:338
+msgid "Copenhagen"
+msgstr ""
+
+#: includes/time_zone_option_list.php:339
+msgid "Dublin"
+msgstr ""
+
+#: includes/time_zone_option_list.php:342
+msgid "Helsinki"
+msgstr ""
+
+#: includes/time_zone_option_list.php:344
+msgid "Istanbul"
+msgstr ""
+
+#: includes/time_zone_option_list.php:346
+msgid "Kaliningrad"
+msgstr ""
+
+#: includes/time_zone_option_list.php:347
+msgid "Kiev"
+msgstr ""
+
+#: includes/time_zone_option_list.php:348
+msgid "Lisbon"
+msgstr ""
+
+#: includes/time_zone_option_list.php:349
+msgid "Ljubljana"
+msgstr ""
+
+#: includes/time_zone_option_list.php:350
+msgid "London"
+msgstr ""
+
+#: includes/time_zone_option_list.php:352
+msgid "Madrid"
+msgstr ""
+
+#: includes/time_zone_option_list.php:354
+msgid "Mariehamn"
+msgstr ""
+
+#: includes/time_zone_option_list.php:355
+msgid "Minsk"
+msgstr ""
+
+#: includes/time_zone_option_list.php:357
+msgid "Moscow"
+msgstr ""
+
+#: includes/time_zone_option_list.php:358
+msgid "Oslo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:359
+msgid "Paris"
+msgstr ""
+
+#: includes/time_zone_option_list.php:360
+msgid "Podgorica"
+msgstr ""
+
+#: includes/time_zone_option_list.php:361
+msgid "Prague"
+msgstr ""
+
+#: includes/time_zone_option_list.php:362
+msgid "Riga"
+msgstr ""
+
+#: includes/time_zone_option_list.php:363
+msgid "Rome"
+msgstr ""
+
+#: includes/time_zone_option_list.php:364
+msgid "Samara"
+msgstr ""
+
+#: includes/time_zone_option_list.php:366
+msgid "Sarajevo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:367
+msgid "Simferopol"
+msgstr ""
+
+#: includes/time_zone_option_list.php:368
+msgid "Skopje"
+msgstr ""
+
+#: includes/time_zone_option_list.php:369
+msgid "Sofia"
+msgstr ""
+
+#: includes/time_zone_option_list.php:370
+msgid "Stockholm"
+msgstr ""
+
+#: includes/time_zone_option_list.php:371
+msgid "Tallinn"
+msgstr ""
+
+#: includes/time_zone_option_list.php:372
+msgid "Tirane"
+msgstr ""
+
+#: includes/time_zone_option_list.php:373
+msgid "Uzhgorod"
+msgstr ""
+
+#: includes/time_zone_option_list.php:374
+msgid "Vaduz"
+msgstr ""
+
+#: includes/time_zone_option_list.php:375
+msgid "Vatican"
+msgstr ""
+
+#: includes/time_zone_option_list.php:376
+msgid "Vienna"
+msgstr ""
+
+#: includes/time_zone_option_list.php:377
+msgid "Vilnius"
+msgstr ""
+
+#: includes/time_zone_option_list.php:378
+msgid "Volgograd"
+msgstr ""
+
+#: includes/time_zone_option_list.php:379
+msgid "Warsaw"
+msgstr ""
+
+#: includes/time_zone_option_list.php:380
+msgid "Zagreb"
+msgstr ""
+
+#: includes/time_zone_option_list.php:381
+msgid "Zaporozhye"
+msgstr ""
+
+#: includes/time_zone_option_list.php:382
+msgid "Zurich"
+msgstr ""
+
+#: includes/time_zone_option_list.php:385
+msgid "Antananarivo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:386
+msgid "Chagos"
+msgstr ""
+
+#: includes/time_zone_option_list.php:387
+msgid "Christmas"
+msgstr ""
+
+#: includes/time_zone_option_list.php:388
+msgid "Cocos"
+msgstr ""
+
+#: includes/time_zone_option_list.php:389
+msgid "Comoro"
+msgstr ""
+
+#: includes/time_zone_option_list.php:390
+msgid "Kerguelen"
+msgstr ""
+
+#: includes/time_zone_option_list.php:391
+msgid "Mahe"
+msgstr ""
+
+#: includes/time_zone_option_list.php:398
+msgid "Apia"
+msgstr ""
+
+#: includes/time_zone_option_list.php:399
+msgid "Auckland"
+msgstr ""
+
+#: includes/time_zone_option_list.php:400
+msgid "Chatham"
+msgstr ""
+
+#: includes/time_zone_option_list.php:401
+msgid "Chuuk"
+msgstr ""
+
+#: includes/time_zone_option_list.php:402
+msgid "Easter"
+msgstr ""
+
+#: includes/time_zone_option_list.php:403
+msgid "Efate"
+msgstr ""
+
+#: includes/time_zone_option_list.php:404
+msgid "Enderbury"
+msgstr ""
+
+#: includes/time_zone_option_list.php:405
+msgid "Fakaofo"
+msgstr ""
+
+#: includes/time_zone_option_list.php:407
+msgid "Funafuti"
+msgstr ""
+
+#: includes/time_zone_option_list.php:408
+msgid "Galapagos"
+msgstr ""
+
+#: includes/time_zone_option_list.php:409
+msgid "Gambier"
+msgstr ""
+
+#: includes/time_zone_option_list.php:410
+msgid "Guadalcanal"
+msgstr ""
+
+#: includes/time_zone_option_list.php:412
+msgid "Honolulu"
+msgstr ""
+
+#: includes/time_zone_option_list.php:413
+msgid "Johnston"
+msgstr ""
+
+#: includes/time_zone_option_list.php:414
+msgid "Kiritimati"
+msgstr ""
+
+#: includes/time_zone_option_list.php:415
+msgid "Kosrae"
+msgstr ""
+
+#: includes/time_zone_option_list.php:416
+msgid "Kwajalein"
+msgstr ""
+
+#: includes/time_zone_option_list.php:417
+msgid "Majuro"
+msgstr ""
+
+#: includes/time_zone_option_list.php:418
+msgid "Marquesas"
+msgstr ""
+
+#: includes/time_zone_option_list.php:419
+msgid "Midway"
+msgstr ""
+
+#: includes/time_zone_option_list.php:422
+msgid "Norfolk"
+msgstr ""
+
+#: includes/time_zone_option_list.php:423
+msgid "Noumea"
+msgstr ""
+
+#: includes/time_zone_option_list.php:424
+msgid "Pago Pago"
+msgstr ""
+
+#: includes/time_zone_option_list.php:427
+msgid "Pohnpei"
+msgstr ""
+
+#: includes/time_zone_option_list.php:428
+msgid "Port Moresby"
+msgstr ""
+
+#: includes/time_zone_option_list.php:429
+msgid "Rarotonga"
+msgstr ""
+
+#: includes/time_zone_option_list.php:430
+msgid "Saipan"
+msgstr ""
+
+#: includes/time_zone_option_list.php:431
+msgid "Tahiti"
+msgstr ""
+
+#: includes/time_zone_option_list.php:432
+msgid "Tarawa"
+msgstr ""
+
+#: includes/time_zone_option_list.php:433
+msgid "Tongatapu"
+msgstr ""
+
+#: includes/time_zone_option_list.php:434
+msgid "Wake"
+msgstr ""
+
+#: includes/time_zone_option_list.php:435
+msgid "Wallis"
+msgstr ""
+
+#: includes/time_zone_option_list.php:438
+msgid "UTC"
+msgstr ""
+
+#: includes/time_zone_option_list.php:441
+msgid "UTC-12"
+msgstr ""
+
+#: includes/time_zone_option_list.php:442
+msgid "UTC-11:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:443
+msgid "UTC-11"
+msgstr ""
+
+#: includes/time_zone_option_list.php:444
+msgid "UTC-10:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:445
+msgid "UTC-10"
+msgstr ""
+
+#: includes/time_zone_option_list.php:446
+msgid "UTC-9:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:447
+msgid "UTC-9"
+msgstr ""
+
+#: includes/time_zone_option_list.php:448
+msgid "UTC-8:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:449
+msgid "UTC-8"
+msgstr ""
+
+#: includes/time_zone_option_list.php:450
+msgid "UTC-7:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:451
+msgid "UTC-7"
+msgstr ""
+
+#: includes/time_zone_option_list.php:452
+msgid "UTC-6:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:453
+msgid "UTC-6"
+msgstr ""
+
+#: includes/time_zone_option_list.php:454
+msgid "UTC-5:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:455
+msgid "UTC-5"
+msgstr ""
+
+#: includes/time_zone_option_list.php:456
+msgid "UTC-4:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:457
+msgid "UTC-4"
+msgstr ""
+
+#: includes/time_zone_option_list.php:458
+msgid "UTC-3:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:459
+msgid "UTC-3"
+msgstr ""
+
+#: includes/time_zone_option_list.php:460
+msgid "UTC-2:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:461
+msgid "UTC-2"
+msgstr ""
+
+#: includes/time_zone_option_list.php:462
+msgid "UTC-1:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:463
+msgid "UTC-1"
+msgstr ""
+
+#: includes/time_zone_option_list.php:464
+msgid "UTC-0:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:465
+msgid "UTC+0"
+msgstr ""
+
+#: includes/time_zone_option_list.php:466
+msgid "UTC+0:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:467
+msgid "UTC+1"
+msgstr ""
+
+#: includes/time_zone_option_list.php:468
+msgid "UTC+1:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:469
+msgid "UTC+2"
+msgstr ""
+
+#: includes/time_zone_option_list.php:470
+msgid "UTC+2:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:471
+msgid "UTC+3"
+msgstr ""
+
+#: includes/time_zone_option_list.php:472
+msgid "UTC+3:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:473
+msgid "UTC+4"
+msgstr ""
+
+#: includes/time_zone_option_list.php:474
+msgid "UTC+4:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:475
+msgid "UTC+5"
+msgstr ""
+
+#: includes/time_zone_option_list.php:476
+msgid "UTC+5:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:477
+msgid "UTC+5:45"
+msgstr ""
+
+#: includes/time_zone_option_list.php:478
+msgid "UTC+6"
+msgstr ""
+
+#: includes/time_zone_option_list.php:479
+msgid "UTC+6:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:480
+msgid "UTC+7"
+msgstr ""
+
+#: includes/time_zone_option_list.php:481
+msgid "UTC+7:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:482
+msgid "UTC+8"
+msgstr ""
+
+#: includes/time_zone_option_list.php:483
+msgid "UTC+8:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:484
+msgid "UTC+8:45"
+msgstr ""
+
+#: includes/time_zone_option_list.php:485
+msgid "UTC+9"
+msgstr ""
+
+#: includes/time_zone_option_list.php:486
+msgid "UTC+9:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:487
+msgid "UTC+10"
+msgstr ""
+
+#: includes/time_zone_option_list.php:488
+msgid "UTC+10:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:489
+msgid "UTC+11"
+msgstr ""
+
+#: includes/time_zone_option_list.php:490
+msgid "UTC+11:30"
+msgstr ""
+
+#: includes/time_zone_option_list.php:491
+msgid "UTC+12"
+msgstr ""
+
+#: includes/time_zone_option_list.php:492
+msgid "UTC+12:45"
+msgstr ""
+
+#: includes/time_zone_option_list.php:493
+msgid "UTC+13"
+msgstr ""
+
+#: includes/time_zone_option_list.php:494
+msgid "UTC+13:45"
+msgstr ""
+
+#: includes/time_zone_option_list.php:495
+msgid ">UTC+14"
+msgstr ""
+
+#: public/class-profile-magic-public.php:144
+msgid "Please fill all the required fields."
+msgstr "すべての必須フィールドに入力してください。"
+
+#: public/class-profile-magic-public.php:150
+msgid "More..."
+msgstr "もっと..."
+
+#: public/class-profile-magic-public.php:151
+msgid "Show less"
+msgstr "少なく表示"
+
+#: public/class-profile-magic-public.php:152
+msgid "Username does not exist."
+msgstr "ユーザー名は存在しません。"
+
+#: public/class-profile-magic-public.php:153
+msgid "Password changed Successfully"
+msgstr "パスワードは正常に変更されました"
+
+#: public/class-profile-magic-public.php:155
+msgid "Please enter a valid phone number."
+msgstr "有効な電話番号を入力して下さい。"
+
+#: public/class-profile-magic-public.php:156
+msgid "Please enter a valid mobile number."
+msgstr "有効な携帯電話番号を入力してください。"
+
+#: public/class-profile-magic-public.php:157
+msgid "Please enter a valid Facebook url."
+msgstr "有効なFacebookのURLを入力してください。"
+
+#: public/class-profile-magic-public.php:158
+msgid "Please enter a Twitter url."
+msgstr "TwitterのURLを入力してください。"
+
+#: public/class-profile-magic-public.php:159
+msgid "Please enter a valid Google url."
+msgstr "有効なGoogleのURLを入力してください。"
+
+#: public/class-profile-magic-public.php:160
+msgid "Please enter a Linked In url."
+msgstr "LinkedinのURLを入力してください。"
+
+#: public/class-profile-magic-public.php:161
+msgid "Please enter a valid Youtube url."
+msgstr "有効なYouTubeのURLを入力してください。"
+
+#: public/class-profile-magic-public.php:162
+msgid "Please enter a valid Instagram url."
+msgstr "有効なInstagramのURLを入力してください。"
+
+#: public/class-profile-magic-public.php:247
+msgid ""
+"Admin has disabled blog submissions. You cannot submit a new blog post at "
+"the moment."
+msgstr ""
+"管理者がブログの送信を無効にしました。 現在、新しいブログ投稿を送信することは"
+"できません。"
+
+#: public/class-profile-magic-public.php:307
+msgid "You are already signed in."
+msgstr "既にサインインしています。"
+
+#: public/class-profile-magic-public.php:331
+msgid "Invalid password reset link."
+msgstr "無効なパスワードリセットリンク。"
+
+#: public/class-profile-magic-public.php:489
+msgid "Hello!"
+msgstr "お疲れ様です"
+
+#: public/class-profile-magic-public.php:490
+#, php-format
+msgid ""
+"You asked us to reset your password for your account using the email address "
+"%s."
+msgstr ""
+"メールアドレス %sを使用してアカウントのパスワードをリセットするように依頼しま"
+"した。"
+
+#: public/class-profile-magic-public.php:491
+msgid ""
+"If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen."
+msgstr ""
+"パスワードのリセットを要求しなかった場合は、このメールを無視してください。何"
+"も起こりません。"
+
+#: public/class-profile-magic-public.php:492
+msgid "To reset your password, visit the following address:"
+msgstr "パスワードリセットを要求するには、次のリンクにアクセスしてください:"
+
+#: public/class-profile-magic-public.php:602
+#: public/partials/profile-magic-login-form.php:23
+msgid "Your account has been successfully activated."
+msgstr "アカウントが正常にアクティブ化されました。"
+
+#: public/class-profile-magic-public.php:995
+msgid "New Password and Repeat password does not match."
+msgstr "新しいパスワードとリピートパスワードが一致しません。"
+
+#: public/class-profile-magic-public.php:1001
+msgid "Password didn't changed."
+msgstr "パスワードは変更されていません。"
+
+#: public/class-profile-magic-public.php:1027
+msgid "New User Created"
+msgstr "新しいユーザーが作成されました"
+
+#: public/class-profile-magic-public.php:1028
+msgid "New user created"
+msgstr "新しいユーザーが作成されました"
+
+#: public/class-profile-magic-public.php:1054
+#: admin/partials/email-settings.php:105
+msgid "New user awaiting review"
+msgstr "承認待ちの新しいユーザー"
+
+#: public/class-profile-magic-public.php:1055
+#: admin/partials/email-settings.php:123
+msgid ""
+"{{display_name}} has just registered in {{group_name}} group and waiting to "
+"be reviewed. To review this member please click the following link: "
+"{{profile_link}}"
+msgstr ""
+"{{display_name}}さんが{{group_name}}グループに登録され承認待ちです。 このメン"
+"バーを確認するには、次のリンクをクリックしてください：{{profile_link}}"
+
+#: public/class-profile-magic-public.php:1189
+#: public/partials/themes/default/privacy-settings-tpl.php:13
+msgid "Friends"
+msgstr "お友達"
+
+#: public/class-profile-magic-public.php:1365
+#, php-format
+msgid "You cancelled friend request from %s."
+msgstr "%s さんからの友達リクエストをキャンセルしました。"
+
+#: public/class-profile-magic-public.php:1414
+msgid "Request Removed!"
+msgstr "リクエストが削除されました！"
+
+#: public/class-profile-magic-public.php:1417
+#, php-format
+msgid "You have removed %s from your friend list."
+msgstr "友達リストから%sを削除しました。"
+
+#: public/class-profile-magic-public.php:1543
+msgid "Price"
+msgstr "価格"
+
+#: public/class-profile-magic-public.php:1564
+msgid "Payment Method"
+msgstr "支払方法"
+
+#: public/class-profile-magic-public.php:1569
+#: admin/partials/payment-settings-old.php:46
+msgid "PayPal"
+msgstr ""
+
+#: public/class-profile-magic-public.php:1590
+msgid ""
+"Oops! It looks like the PayPal payment system is not configured properly. "
+"Please check its settings."
+msgstr ""
+"PayPal支払いシステムが正しく設定されていないようです。 設定を確認してくださ"
+"い。"
+
+#: public/class-profile-magic-public.php:1907
+#: admin/partials/email-settings.php:155
+msgid "Account deleted"
+msgstr "アカウントを削除しました"
+
+#: public/class-profile-magic-public.php:1908
+#: admin/partials/email-settings.php:173
+msgid "{{display_name}} has just deleted their account."
+msgstr "{{display_name}}さんがアカウントを削除しました。"
+
+#: public/class-profile-magic-public.php:1984
+#: admin/partials/manage-groups.php:77
+msgid "Settings"
+msgstr "設定"
+
+#: admin/partials/access-meta-box.php:3
+msgid "Apply custom access settings?"
+msgstr "カスタムアクセス設定を適用しますか？"
+
+#: admin/partials/access-meta-box.php:14
+msgid "Content Availability"
+msgstr "コンテンツの可用性"
+
+#: admin/partials/access-meta-box.php:20
+#: public/partials/themes/default/add-blog-tpl.php:74
+msgid "Content accessible to Everyone"
+msgstr "誰もがアクセスできるコンテンツ"
+
+#: admin/partials/access-meta-box.php:24
+#: public/partials/themes/default/add-blog-tpl.php:78
+msgid "Content accessible to Logged In Users"
+msgstr "ログインしたユーザーがアクセスできるコンテンツ"
+
+#: admin/partials/access-meta-box.php:28
+#: public/partials/themes/default/add-blog-tpl.php:82
+msgid "Content accessible to My Friends"
+msgstr "友達がアクセスできるコンテンツ"
+
+#: admin/partials/access-meta-box.php:32
+#: public/partials/themes/default/add-blog-tpl.php:90
+msgid "Content accessible to Only Me"
+msgstr "自分だけがアクセスできるコンテンツ"
+
+#: admin/partials/access-meta-box.php:42
+msgid "Select the User Group that can see this content?"
+msgstr "このコンテンツを表示できるユーザーグループを選択しますか？"
+
+#: admin/partials/access-meta-box.php:50
+msgid "All Registered Users"
+msgstr "すべての登録ユーザー"
+
+#: admin/partials/add-field.php:39
+msgid "you have already created a user email field."
+msgstr "Eメールフィールドは既に作成されています。"
+
+#: admin/partials/add-field.php:43 admin/partials/export-options.php:10
+#: admin/partials/pm-export-users.php:10
+#: public/partials/profile-magic-add-blog.php:21
+#: public/partials/profile-magic-group.php:17
+#: public/partials/profile-magic-group.php:36
+#: public/partials/profile-magic-login-form.php:49
+msgid "Failed security check"
+msgstr "セキュリティチェックに失敗しました"
+
+#: admin/partials/add-field.php:126 admin/partials/manage-fields.php:333
+msgid "New Field"
+msgstr "新規フィールド"
+
+#: admin/partials/add-field.php:130
+msgid "Edit Field"
+msgstr "フィールドの編集"
+
+#: admin/partials/add-field.php:140
+msgid "Field Name"
+msgstr "プロフィールフィールド名"
+
+#: admin/partials/add-field.php:146
+msgid ""
+"Label of the field as it appears on forms and profiles. This does not apply "
+"to fields without labels such as Heading, Paragraph, Divider, Spacing."
+msgstr ""
+"フォームおよびプロフィールに表示されるフィールドのラベル。 これは、見出し、段"
+"落、仕切り、間隔などのラベルのないフィールドには適用されません。"
+
+#: admin/partials/add-field.php:150
+msgid "Field Description:"
+msgstr "フィールドの説明："
+
+#: admin/partials/add-field.php:156
+msgid ""
+"For your reference only. Not visible on front-end. Description can help you "
+"remember the purpose of the field."
+msgstr ""
+"フロントエンドには表示されません。 このフィールドは単なるメモにお使いくださ"
+"い。"
+
+#: admin/partials/add-field.php:161
+msgid "Field Type"
+msgstr "フィールドタイプ"
+
+#: admin/partials/add-field.php:166 admin/partials/manage-fields.php:131
+msgid "Heading"
+msgstr "見出し"
+
+#: admin/partials/add-field.php:167 admin/partials/manage-fields.php:138
+msgid "Paragraph"
+msgstr "段落"
+
+#: admin/partials/add-field.php:168 admin/partials/manage-fields.php:96
+msgid "Text"
+msgstr "テキスト"
+
+#: admin/partials/add-field.php:169
+msgid "Drop Down"
+msgstr "ドロップダウンリスト"
+
+#: admin/partials/add-field.php:170
+msgid "Radio Button"
+msgstr "ラジオボタン"
+
+#: admin/partials/add-field.php:171 admin/partials/manage-fields.php:117
+msgid "Text Area"
+msgstr "テキストエリア"
+
+#: admin/partials/add-field.php:172
+msgid "Check Box"
+msgstr "チェックボックス"
+
+#: admin/partials/add-field.php:173 admin/partials/manage-fields.php:145
+msgid "Date"
+msgstr "日付"
+
+#: admin/partials/add-field.php:174 admin/partials/manage-fields.php:152
+#: admin/partials/user-profile.php:101
+msgid "Email"
+msgstr "メールアドレス"
+
+#: admin/partials/add-field.php:175 admin/partials/manage-fields.php:159
+msgid "Number"
+msgstr "数"
+
+#: admin/partials/add-field.php:176 admin/partials/manage-fields.php:166
+msgid "Country"
+msgstr "国名"
+
+#: admin/partials/add-field.php:177 admin/partials/manage-fields.php:173
+msgid "Timezone"
+msgstr "タイムゾーン"
+
+#: admin/partials/add-field.php:178 admin/partials/manage-fields.php:180
+msgid "T&C Checkbox"
+msgstr "利用規約チェックボックス"
+
+#: admin/partials/add-field.php:179
+msgid "File Upload"
+msgstr "ファイルのアップロード"
+
+#: admin/partials/add-field.php:180
+msgid "Pricing"
+msgstr "価格"
+
+#: admin/partials/add-field.php:181 admin/partials/manage-fields.php:194
+msgid "Repeatable Text"
+msgstr "繰り返し可能なテキスト"
+
+#: admin/partials/add-field.php:182 admin/partials/manage-fields.php:28
+#: admin/partials/user-profile.php:93
+#: public/partials/themes/default/my-account-tpl.php:20
+msgid "First Name"
+msgstr "氏名(姓名)"
+
+#: admin/partials/add-field.php:183 admin/partials/manage-fields.php:35
+#: admin/partials/user-profile.php:97
+#: public/partials/themes/default/my-account-tpl.php:32
+msgid "Last Name"
+msgstr "氏名(名前)"
+
+#: admin/partials/add-field.php:191
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: admin/partials/add-field.php:193 admin/partials/manage-fields.php:74
+msgid "Confirm Password"
+msgstr "確認用パスワード"
+
+#: admin/partials/add-field.php:194 admin/partials/manage-fields.php:81
+msgid "Biographical Info"
+msgstr "プロフィール"
+
+#: admin/partials/add-field.php:195 admin/partials/manage-fields.php:88
+msgid "Profile Image"
+msgstr "プロフィール画像"
+
+#: admin/partials/add-field.php:196 admin/partials/manage-fields.php:201
+msgid "Mobile Number"
+msgstr "携帯電話番号"
+
+#: admin/partials/add-field.php:197 admin/partials/manage-fields.php:209
+msgid "Phone Number"
+msgstr "電話番号"
+
+#: admin/partials/add-field.php:198 admin/partials/manage-fields.php:217
+msgid "Gender"
+msgstr "性別"
+
+#: admin/partials/add-field.php:199 admin/partials/manage-fields.php:225
+msgid "Language"
+msgstr "言語"
+
+#: admin/partials/add-field.php:200
+msgid "Birth Date"
+msgstr "誕生日"
+
+#: admin/partials/add-field.php:201 admin/partials/manage-fields.php:241
+msgid "Divider"
+msgstr "仕切り"
+
+#: admin/partials/add-field.php:202 admin/partials/manage-fields.php:249
+msgid "Spacing"
+msgstr "スペース(間隔)"
+
+#: admin/partials/add-field.php:203 admin/partials/manage-fields.php:257
+msgid "Multi Dropdown"
+msgstr "マルチドロップダウン"
+
+#: admin/partials/add-field.php:204 admin/partials/manage-fields.php:265
+msgid "Facebook"
+msgstr ""
+
+#: admin/partials/add-field.php:205 admin/partials/manage-fields.php:273
+msgid "Twitter"
+msgstr ""
+
+#: admin/partials/add-field.php:206 admin/partials/manage-fields.php:282
+msgid "Google+"
+msgstr ""
+
+#: admin/partials/add-field.php:207 admin/partials/manage-fields.php:291
+msgid "Linked In"
+msgstr ""
+
+#: admin/partials/add-field.php:208 admin/partials/manage-fields.php:300
+msgid "Youtube"
+msgstr ""
+
+#: admin/partials/add-field.php:209 admin/partials/manage-fields.php:309
+msgid "Instagram"
+msgstr ""
+
+#: admin/partials/add-field.php:213
+msgid ""
+"Change the type of this field. Please note, changing a type of an existing "
+"field with values may result in data loss. Use this carefully."
+msgstr ""
+"このフィールドのタイプを変更します。 既存のフィールドのタイプを値で変更する"
+"と、データが失われる可能性があることに注意してください。 慎重に使用してくださ"
+"い。"
+
+#: admin/partials/add-field.php:226
+msgid "Placeholder text:"
+msgstr "プレースホルダーテキスト："
+
+#: admin/partials/add-field.php:231
+msgid ""
+"Placeholder text appears inside input box as guidlines to the user. It "
+"disappears when the user clicks on the input box. For e.g. <i>Enter your "
+"age</i> inside a number input box."
+msgstr ""
+"プレースホルダーテキストは、ユーザーへのガイドラインとして入力ボックス内に表"
+"示されます。 ユーザーが入力ボックスをクリックすると消えます。 たとえば 数字入"
+"力ボックスに<i>年齢を入力</i>します。"
+
+#: admin/partials/add-field.php:236
+msgid "CSS Class Attribute:"
+msgstr "CSSクラス属性："
+
+#: admin/partials/add-field.php:241
+msgid ""
+"If you know a bit of CSS, you can create and assign a custom class to this "
+"field. Just enter the name of the class as it appears in your stylesheet. "
+"For e.g. <i>my-input-class</i>"
+msgstr ""
+"CSSのカスタムクラスを作成してこのフィールドに割り当てることができます。 スタ"
+"イルシートに表示されるクラスの名前を入力するだけです。 たとえば <i> my-input-"
+"class </i>"
+
+#: admin/partials/add-field.php:246
+msgid "Maximum Length:"
+msgstr "最大長："
+
+#: admin/partials/add-field.php:251
+msgid "Maximum lenght of the allowed field value in characters (count)."
+msgstr "許可されるフィールド値の最大長（文字数）。"
+
+#: admin/partials/add-field.php:256
+msgid "Default Value:"
+msgstr "デフォルト値："
+
+#: admin/partials/add-field.php:261
+msgid ""
+"Default values work for selection boxes where you want a value to be pre-"
+"selected when the form loads. You need to enter the value exactly as you "
+"have created in the options below."
+msgstr ""
+"デフォルト値は、フォームのロード時に値を事前に選択する選択ボックスです。 次の"
+"オプションで作成した値を正確に入力する必要があります。"
+
+#: admin/partials/add-field.php:266
+msgid "First Option Value:"
+msgstr "最初のオプション値："
+
+#: admin/partials/add-field.php:271 admin/partials/add-field.php:329
+msgid ""
+"Add options for your selection field below. Click on <i>Click to add option</"
+"i> to add an extra option to existing ones."
+msgstr ""
+"以下の選択フィールドのオプションを追加します。 <i>クリックしてオプションを追"
+"加</i>をクリックして、既存のオプションにオプションを追加します。"
+
+#: admin/partials/add-field.php:276 admin/partials/add-field.php:287
+msgid "Options:"
+msgstr "オプション："
+
+#: admin/partials/add-field.php:282
+msgid "Options for drop down list. Separate multiple values with a comma(,)."
+msgstr "ドロップダウンリストのオプション。 複数の値はカンマ(,)で区切ります。"
+
+#: admin/partials/add-field.php:334
+msgid "Paragraph Text:"
+msgstr "段落テキスト："
+
+#: admin/partials/add-field.php:339
+msgid ""
+"The text you want to appear in this field. HTML is supported. Which means "
+"you can use HTML tags like <i>b,i, u, em, strong, h1, h2...</i> etc. to "
+"style your content."
+msgstr ""
+"このフィールドに表示するテキスト。 HTMLがサポートされています。 つまり、<i> "
+"b、i、u、em、strong、h1、h2 ... </i>などのHTMLタグを使用して、コンテンツのス"
+"タイルを設定できます。"
+
+#: admin/partials/add-field.php:344
+msgid "Columns:"
+msgstr "カラム："
+
+#: admin/partials/add-field.php:349
+msgid ""
+"Number of columns (equavalent to character count) allowed in this field. "
+"Leave blank for no limit."
+msgstr ""
+"このフィールドで許可される列数（文字数に相当）。 無制限の場合は空白のままにし"
+"ます。"
+
+#: admin/partials/add-field.php:354
+msgid "Rows:"
+msgstr "ライン："
+
+#: admin/partials/add-field.php:359
+msgid ""
+"Number of rows (of text) allowed in this field. Leave blank for no limit."
+msgstr ""
+"このフィールドで許可されるテキスト行数。 無制限の場合は空白のままにします。"
+
+#: admin/partials/add-field.php:364
+msgid "Terms & Conditions:"
+msgstr "利用規約："
+
+#: admin/partials/add-field.php:369
+msgid ""
+"Paste the contents of your Terms and Conditions here. Users will be able to "
+"scroll through it and read in full before accepting them."
+msgstr ""
+"利用規約の内容をここに貼り付けてください。 ユーザーはそれをスクロールして、そ"
+"れらを受け入れる前に完全に読むことができます。"
+
+#: admin/partials/add-field.php:374
+msgid "Define allowed file types (file extensions):"
+msgstr "許可されるファイルタイプ（ファイル拡張子）を定義します:"
+
+#: admin/partials/add-field.php:379
+msgid "Separate multiple values by â€œ|â€?. For example PDF|JPEG|XLS"
+msgstr "複数の値は\\\"|\\\"で区切ります。 たとえば、PDF | JPEG | XLS"
+
+#: admin/partials/add-field.php:384
+msgid "Heading Text:"
+msgstr "見出しテキスト："
+
+#: admin/partials/add-field.php:389
+msgid ""
+"Text inside your heading. Remember, headings have large font sizes, "
+"therefore a very long text may appear odd. Best used to grab attention for "
+"something important. Combine it with <i>Paragraph</i> field type to add "
+"extra content."
+msgstr ""
+"見出し内のテキスト。 見出しのフォントサイズは大きいため、非常に長いテキストは"
+"奇妙に見える場合があります。 注視用途が最適です。 <i> 段落</i>フィールドタイ"
+"プと組み合わせて、コンテンツを追加します。"
+
+#: admin/partials/add-field.php:394
+msgid "Heading Tag:"
+msgstr "見出しタグ："
+
+#: admin/partials/add-field.php:398
+msgid "Heading 1"
+msgstr "見出し１"
+
+#: admin/partials/add-field.php:399
+msgid "Heading 2"
+msgstr "見出し２"
+
+#: admin/partials/add-field.php:400
+msgid "Heading 3"
+msgstr "見出し３"
+
+#: admin/partials/add-field.php:401
+msgid "Heading 4"
+msgstr "見出し４"
+
+#: admin/partials/add-field.php:402
+msgid "Heading 5"
+msgstr "見出し５"
+
+#: admin/partials/add-field.php:403
+msgid "Heading 6"
+msgstr "見出し６"
+
+#: admin/partials/add-field.php:406
+msgid ""
+"Text size decreases from H2 to H6. There maybe additional style applied to "
+"the heading text based on your theme CSS."
+msgstr ""
+"テキストサイズがH2からH6に減少します。 CSSに基づいて、見出しテキストに追加の"
+"スタイルが適用される場合があります。"
+
+#: admin/partials/add-field.php:411
+msgid "Price:"
+msgstr "価格："
+
+#: admin/partials/add-field.php:416
+msgid "Price - Obviously, only numbers accepted. A read only field."
+msgstr "数字のみが受け入れられます。 読み取り専用フィールド。"
+
+#: admin/partials/add-field.php:425
+msgid "Field Icon"
+msgstr "フィールドアイコン"
+
+#: admin/partials/add-field.php:444
+msgid ""
+"Jazz up your forms with field icons &#128247;. Icons appear at the beginning "
+"of the label. For best results use a square image. For e.g. <i>16px x 16px, "
+"256px x 256px, 512px x 512px</i>..."
+msgstr ""
+"フィールドアイコンでフォームを盛り上げます&＃128247;。 ラベルの先頭にアイコン"
+"が表示されます。 最良の結果を得るには、正方形の画像を使用してください。 たと"
+"えば <i> 16px x 16px、256px x 256px、512px x 512px </i> ..."
+
+#: admin/partials/add-field.php:449 admin/partials/add-section.php:130
+msgid "Associate with Group"
+msgstr "グループに関連付ける"
+
+#: admin/partials/add-field.php:463
+msgid ""
+"Move this field to a different group. Use carefully, since this will remove "
+"the field from current group."
+msgstr ""
+"このフィールドを別のグループに移動します。 現在のグループからフィールドが削除"
+"されるため、慎重に使用してください。"
+
+#: admin/partials/add-field.php:468
+msgid "Associate with Section"
+msgstr "セクションに関連付ける"
+
+#: admin/partials/add-field.php:481
+msgid ""
+"If you have multiple Profile sections in this group, you can move the field "
+"to a different section here. By default, each new field is added to the "
+"first section. For e.g. moving a date field labelled <i>Date of Birth</i> "
+"from <i>Career</i> section to <i>About</i> section."
+msgstr ""
+"このグループに複数のプロフィールセクションがある場合、ここからフィールドを別"
+"のセクションに移動できます。 デフォルトでは、新しいフィールドはそれぞれ最初の"
+"セクションに追加されます。 たとえば <i>生年月日</i>というラベルの日付フィール"
+"ドを<i> キャリア</i>セクションから<i> About </i>セクションに移動します。"
+
+#: admin/partials/add-field.php:487
+msgid "Show in Sign-Up form"
+msgstr "サインアップフォームの表示"
+
+#: admin/partials/add-field.php:499
+msgid ""
+"The field will appear in the registration form when members sign up for this "
+"group. Alternatively, you can hide from the form, and users can then fill it "
+"up when editing their profiles later on."
+msgstr ""
+"メンバーがこのグループにサインアップすると、登録フォームにフィールドが表示さ"
+"れます。 または、フォームから非表示にして、ユーザーが後でプロフィールを編集す"
+"るときに入力することもできます。"
+
+#: admin/partials/add-field.php:514
+msgid "Required?"
+msgstr "必須？"
+
+#: admin/partials/add-field.php:520
+msgid ""
+"Make this field mandatory. Users will receive an error if they try to submit "
+"the form without filling up this field."
+msgstr ""
+"このフィールドを必須にします。 このフィールドに入力せずに登録しようとすると、"
+"エラー表示されます。"
+
+#: admin/partials/add-field.php:536
+msgid "Display on Profile Page"
+msgstr "プロフィールページに表示"
+
+#: admin/partials/add-field.php:542
+msgid ""
+"Show this field on profile page of the members. It is totally possible to "
+"show a field in group registration form but hide from the profile page."
+msgstr ""
+"メンバーのプロフィールページにこのフィールドを表示します。 グループ登録フォー"
+"ムにフィールドを表示することは完全に可能ですが、プロフィールページには表示さ"
+"れません。"
+
+#: admin/partials/add-field.php:553
+msgid "Display on Group Page"
+msgstr "グループページに表示"
+
+#: admin/partials/add-field.php:559
+msgid ""
+"Group pages show snippet of member profiles. While user profile and cover "
+"images appear there by default, you can show specific fields in these "
+"snippets too. Also adding too many large fields may not look very pretty. "
+"Try to strike a balance between infromation and structure."
+msgstr ""
+"グループページには、メンバープロフィールの一部が表示されます。 ユーザープロ"
+"ファイルとカバー画像はデフォルトでそこに表示されますが、これらの一部フィール"
+"ドも表示できます。 また、あまりにも多くの大きなフィールドを追加すると、見栄え"
+"が悪くなる場合があります。 情報と構造のバランスを取るようにしてください。"
+
+#: admin/partials/add-field.php:564
+msgid "Visible for:"
+msgstr "表示対象："
+
+#: admin/partials/add-field.php:574
+msgid "Public"
+msgstr "パブリック"
+
+#: admin/partials/add-field.php:578
+msgid "Registered"
+msgstr "登録済み"
+
+#: admin/partials/add-field.php:582
+msgid "Only Group Manager"
+msgstr "グループマネージャーのみ"
+
+#: admin/partials/add-field.php:588
+msgid "Set visibility of the profile field."
+msgstr "プロフィールフィールドの可視性を設定します。"
+
+#: admin/partials/add-field.php:593
+msgid "Display in Advance Search"
+msgstr "事前検索の表示"
+
+#: admin/partials/add-field.php:599
+msgid ""
+"This will display the field in advance search above the members directory on "
+"front end. Selecting it during search will allow users to restrict keyword "
+"search to selected field(s)."
+msgstr ""
+"これにより、フロントエンドのメンバーディレクトリの上に事前検索フィールドが表"
+"示されます。 検索中に選択すると、ユーザーはキーワード検索を選択したフィールド"
+"に制限できます。"
+
+#: admin/partials/add-field.php:604
+msgid "range of year dropdown"
+msgstr "年のドロップダウン範囲"
+
+#: admin/partials/add-field.php:610
+msgid ""
+"This will Enable this to force selection of date of birth from a certain "
+"range."
+msgstr "特定の範囲から誕生日を強制的に選択できるようになります。"
+
+#: admin/partials/add-field.php:625
+msgid "Start Year"
+msgstr "開始年"
+
+#: admin/partials/add-field.php:631
+msgid "Maximum date of for the field."
+msgstr "フィールドの最大日付。"
+
+#: admin/partials/add-field.php:635
+msgid "End Year"
+msgstr "終了年"
+
+#: admin/partials/add-field.php:641
+msgid "Minimum date of for the field."
+msgstr "フィールドの最小日付。"
+
+#: admin/partials/add-field.php:650
+msgid "Allow fields"
+msgstr "フィールドの許可"
+
+#: admin/partials/add-field.php:676
+msgid "Select address fields which you want to show on frontend."
+msgstr "フロントエンドに表示するアドレスフィールドを選択します。"
+
+#: admin/partials/add-field.php:698 admin/partials/add-group.php:525
+#: admin/partials/add-section.php:158 admin/partials/blog-settings.php:121
+#: admin/partials/email-settings.php:347 admin/partials/email-template.php:128
+#: admin/partials/general-settings.php:366 admin/partials/manage-fields.php:429
+#: admin/partials/message-settings.php:59
+#: admin/partials/payment-settings-old.php:143
+#: admin/partials/payment-settings.php:152
+#: admin/partials/security-settings.php:279 admin/partials/seo-settings.php:66
+#: admin/partials/thirdparty-settings.php:85
+#: admin/partials/upload-settings.php:98 admin/partials/user-settings.php:161
+#: public/partials/themes/default/edit-group-tpl.php:10
+#: public/partials/themes/default/edit-profile-tpl - Copy.php:16
+#: public/partials/themes/default/edit-profile-tpl.php:16
+msgid "Save"
+msgstr "保存"
+
+#: admin/partials/add-group.php:131
+msgid "New Group"
+msgstr "新規グループ"
+
+#: admin/partials/add-group.php:135
+#: public/partials/themes/default/edit-group-tpl.php:7
+msgid "Edit Group"
+msgstr "グループの編集"
+
+#: admin/partials/add-group.php:146
+#: public/partials/themes/default/edit-group-tpl.php:26
+msgid "Group Name"
+msgstr "グループ名"
+
+#: admin/partials/add-group.php:152
+msgid ""
+"Name of this Group. The name will appear on Single and All Groups page and "
+"Member Profiles."
+msgstr ""
+"このグループの名前。 名前は、[単一および全グループ]ページとメンバープロファイ"
+"ルに表示されます。"
+
+#: admin/partials/add-group.php:156
+msgid "Group Description:"
+msgstr "グループの説明："
+
+#: admin/partials/add-group.php:162
+msgid ""
+"Description or details of the group. It will appear on the individual Group "
+"page and as intro text on All Groups page."
+msgstr ""
+"グループの説明または詳細。 個々のグループページに表示され、[全グループ]ページ"
+"に導入テキストとして表示されます。"
+
+#: admin/partials/add-group.php:166
+msgid "Group Icon/ Badge"
+msgstr "グループアイコン/バッジ"
+
+#: admin/partials/add-group.php:185
+msgid ""
+"Group badge, icon or image. This will appear with group description and on "
+"member user profiles belonging to this group."
+msgstr ""
+"グループバッジ、アイコンまたは画像。 この画像はグループの説明とともに、グルー"
+"プに属するメンバーユーザープロフィールに表示されます。"
+
+#: admin/partials/add-group.php:189
+msgid "Hide Group Card"
+msgstr "グループカードの非表示"
+
+#: admin/partials/add-group.php:195
+msgid "Turn on to hide group card on its group page."
+msgstr "オンにすると、グループページでグループカードが非表示になります。"
+
+#: admin/partials/add-group.php:199
+msgid "Membership Limit"
+msgstr "メンバーシップ制限"
+
+#: admin/partials/add-group.php:205
+msgid ""
+"Limit the number of membership slots for this group. Turn off for unlimited "
+"members."
+msgstr ""
+"このグループに登録できるメンバー数を制限します。 無制限の場合はオフにします。"
+
+#: admin/partials/add-group.php:210
+msgid "Max no. of Members"
+msgstr "最大メンバー数"
+
+#: admin/partials/add-group.php:216
+msgid "Define the maximum number of members allowed for this group."
+msgstr "このグループに許可されるメンバーの最大数を定義します。"
+
+#: admin/partials/add-group.php:220
+msgid "Limit Reached Message"
+msgstr "メンバー数超過のメッセージ"
+
+#: admin/partials/add-group.php:226
+msgid ""
+"Users trying to register for this group will see this message once all "
+"membership slots are filled."
+msgstr "最大メンバー数に達すると、ユーザーにこのメッセージが表示されます。"
+
+#: admin/partials/add-group.php:234
+msgid "Associated WP Role"
+msgstr "関連付けるWordPress権限"
+
+#: admin/partials/add-group.php:238
+msgid "Select User Role"
+msgstr "権限の選択"
+
+#: admin/partials/add-group.php:249
+msgid ""
+"Inherit the access rights for the members of this group based on WP User "
+"Role."
+msgstr ""
+"WordPressのユーザー権限に基づいて、このグループメンバーのアクセス権を継承しま"
+"す。"
+
+#: admin/partials/add-group.php:253
+msgid "Group Manager"
+msgstr "グループマネージャー"
+
+#: admin/partials/add-group.php:259
+msgid ""
+"A group leader is mentioned on the Group page prominently. The leader also "
+"has special Privileges to moderate the group."
+msgstr ""
+"グループリーダーは、グループページに目立つように記載されています。 リーダーに"
+"は、グループを管理する特別な特権もあります。"
+
+#: admin/partials/add-group.php:264
+msgid "Select Manager:"
+msgstr "マネージャーを選択："
+
+#: admin/partials/add-group.php:271
+msgid "Select from existing users. Start typing for real-time search."
+msgstr "既存のユーザーから選択します。リアルタイム検索の入力を開始します。"
+
+#: admin/partials/add-group.php:313
+msgid "After Registration, Redirect to"
+msgstr "登録後にリダイレクト"
+
+#: admin/partials/add-group.php:321 admin/partials/email-settings.php:245
+msgid "None"
+msgstr "なし"
+
+#: admin/partials/add-group.php:325 admin/partials/add-group.php:339
+msgid "Page"
+msgstr "ページ"
+
+#: admin/partials/add-group.php:329 admin/partials/add-group.php:370
+msgid "URL"
+msgstr ""
+
+#: admin/partials/add-group.php:333
+msgid ""
+"Redirect users to a page or URL after they successfully submit the group "
+"registration form."
+msgstr ""
+"グループ登録フォームを正常に送信した後、ユーザーをページまたはURLにリダイレク"
+"トします。"
+
+#: admin/partials/add-group.php:360
+msgid ""
+"Select the page where user will be redirected after registration. Usually "
+"this page will have relevant information related to the group of "
+"registration process."
+msgstr ""
+"登録後にユーザーがリダイレクトされるページを選択します。 通常、このページに"
+"は、登録プロセスのグループに関連する関連情報があります。"
+
+#: admin/partials/add-group.php:376
+msgid "Enter the URL of the page where the user will be redirected."
+msgstr "ユーザーがリダイレクトされるURLページを入力します。"
+
+#: admin/partials/add-group.php:384
+msgid "Display a Message after Registration"
+msgstr "登録後にメッセージを表示する"
+
+#: admin/partials/add-group.php:390
+msgid ""
+"This message will appear to the user after the form is submitted. If "
+"redirection is turned on, it will appear for a few seconds before "
+"redirection is triggered."
+msgstr ""
+"このメッセージは、フォームが送信された後にユーザーに表示されます。 リダイレク"
+"トがオンになっている場合、リダイレクトがトリガーされるまで数秒間表示されま"
+"す。"
+
+#: admin/partials/add-group.php:396
+msgid "Success Message"
+msgstr "成功メッセージ"
+
+#: admin/partials/add-group.php:401
+msgid "The contents of the success message. Rich text is supported."
+msgstr "成功メッセージの内容。 リッチテキストがサポートされています。"
+
+#: admin/partials/add-group.php:408
+msgid "Member Email Notifications"
+msgstr "メンバーのメール通知"
+
+#: admin/partials/add-group.php:414
+msgid ""
+"Send relevant custom email notifications to the user on important "
+"registration events. If you have not created any custom email templates, you "
+"can save the group now, and come back later to assign them."
+msgstr ""
+"重要な登録イベントについて、関連するカスタム電子メール通知をユーザーに送信し"
+"ます。 カスタムメールテンプレートを作成していない場合は、ここでグループを保存"
+"し、後で戻ってそれらを割り当てることができます。"
+
+#: admin/partials/add-group.php:421
+msgid "On Registration"
+msgstr "登録時"
+
+#: admin/partials/add-group.php:425 admin/partials/add-group.php:444
+#: admin/partials/add-group.php:463 admin/partials/add-group.php:483
+#: admin/partials/add-group.php:502
+msgid "Select Email Template"
+msgstr "メールテンプレートを選択"
+
+#: admin/partials/add-group.php:435
+msgid ""
+"Sends this message to the user on successful registration form submission."
+msgstr "登録フォームの送信が成功すると、このメッセージをユーザーに送信します。"
+
+#: admin/partials/add-group.php:440
+msgid "On User Activate"
+msgstr "ユーザーアクティベート時"
+
+#: admin/partials/add-group.php:454
+msgid ""
+"Sends this message to the user on his/ her user account activation in WP "
+"dashboard."
+msgstr ""
+"WordPressダッシュボードでのユーザーアカウントのアクティブ化で、このメッセージ"
+"をユーザーに送信します。"
+
+#: admin/partials/add-group.php:459
+msgid "On User Deactivate"
+msgstr "ユーザー非アクティブ化時"
+
+#: admin/partials/add-group.php:473
+msgid ""
+"Sends this message to the user when his/ her user account is deactivate in "
+"WP dashboard."
+msgstr ""
+"ユーザーアカウントがWordPressダッシュボードで非アクティブになったときに、この"
+"メッセージをユーザーに送信します。"
+
+#: admin/partials/add-group.php:479
+msgid "On Password Change"
+msgstr "パスワード変更時"
+
+#: admin/partials/add-group.php:493
+msgid "Sends this message to the user when his/ her password is changed."
+msgstr ""
+"ユーザーのパスワードが変更されたときに、このメッセージをユーザーに送信しま"
+"す。"
+
+#: admin/partials/add-group.php:498
+msgid "On Account Deletion"
+msgstr "アカウント削除時"
+
+#: admin/partials/add-group.php:512
+msgid ""
+"This email is sent to the user when his/ her account has been deleted from "
+"the site."
+msgstr ""
+"このメールは、ユーザーのアカウントがサイトから削除されたときにユーザーに送信"
+"されます。"
+
+#: admin/partials/add-section.php:103 admin/partials/manage-fields.php:337
+msgid "New Section"
+msgstr "新規セクション"
+
+#: admin/partials/add-section.php:107
+msgid "Edit Section"
+msgstr "セクションの編集"
+
+#: admin/partials/add-section.php:117 admin/partials/manage-fields.php:414
+msgid "Section Name"
+msgstr "セクション名"
+
+#: admin/partials/add-section.php:123
+msgid "Enter a new name for this Profile Section."
+msgstr "このプロフィールセクションの新しい名前を入力します。"
+
+#: admin/partials/add-section.php:134 admin/partials/manage-fields.php:344
+#: admin/partials/user-manager.php:99 admin/partials/user-manager.php:120
+#: public/partials/themes/default/search-tpl.php:26
+msgid "Select A Group"
+msgstr "グループの選択"
+
+#: admin/partials/add-section.php:144
+msgid "Move this Profile section to another Group."
+msgstr "このプロフィールセクションを別のグループに移動します。"
+
+#: admin/partials/blog-settings.php:35
+msgid "Blog Settings"
+msgstr "ブログ設定"
+
+#: admin/partials/blog-settings.php:46
+msgid "Enable Blog"
+msgstr "ブログを有効にする"
+
+#: admin/partials/blog-settings.php:52
+msgid ""
+"Turn on social blogging for your users. Make sure you have a page with User "
+"Blog shortcode for users to submit posts."
+msgstr ""
+"ユーザーのソーシャルブログを有効にします。 ユーザーが投稿を送信するためのユー"
+"ザーブログショートコードを含む（固定）ページがあることを確認してください。"
+
+#: admin/partials/blog-settings.php:58
+msgid "Default Blog post Status"
+msgstr "デフォルトのブログ投稿状態"
+
+#: admin/partials/blog-settings.php:62
+msgid "Published"
+msgstr "公開済み"
+
+#: admin/partials/blog-settings.php:63
+msgid "Pending"
+msgstr "保留中"
+
+#: admin/partials/blog-settings.php:64
+msgid "Draft"
+msgstr "下書き"
+
+#: admin/partials/blog-settings.php:67
+msgid ""
+"Status of the blog post after user submits it. You can allow it to be "
+"automatically approved or save it as Pending for moderation."
+msgstr ""
+"ユーザーが投稿した後のブログ投稿のステータス。 自動的に承認されるようにするこ"
+"とも、保留として保存することもできます。"
+
+#: admin/partials/blog-settings.php:72
+msgid "Feature Image"
+msgstr "イメージ画像"
+
+#: admin/partials/blog-settings.php:78
+msgid ""
+"Turn on to allow users to add featured image to their post. A featured image "
+"is displayed prominently above the blog post."
+msgstr ""
+"オンにすると、ユーザーがイメージ画像を投稿に追加できるようになります。イメー"
+"ジ画像は、ブログ投稿の上に目立つように表示されます。"
+
+#: admin/partials/blog-settings.php:83
+#: public/partials/themes/default/add-blog-tpl.php:36
+msgid "Tags"
+msgstr "タグ"
+
+#: admin/partials/blog-settings.php:89
+msgid "Turn on to allow users to add tags to their posts."
+msgstr "オンにして、ユーザーが投稿にタグ付けできるようにします。"
+
+#: admin/partials/blog-settings.php:94
+msgid "Use Tinymce Editor"
+msgstr "Tinymce Editorを使用する"
+
+#: admin/partials/blog-settings.php:100
+msgid ""
+"Turn it on to allow users to use WordPress' rich text editor for post "
+"formatting. Keep it off if you only wish to allow users to post content in "
+"plain text."
+msgstr ""
+"オンにすると、ユーザーが投稿の書式設定にWordPressのリッチテキストエディターを"
+"使用できるようになります。 ユーザーがコンテンツをプレーンテキストで投稿するこ"
+"とのみを許可する場合は、オフにしてください。"
+
+#: admin/partials/blog-settings.php:105
+msgid "Enable content Privacy"
+msgstr "コンテンツのプライバシーを有効にする"
+
+#: admin/partials/blog-settings.php:111
+msgid ""
+"Turning this on will ask users to set privacy level for their blog post "
+"while submitting it."
+msgstr ""
+"オンにすると、投稿中にブログ投稿のプライバシーレベルを設定するようユーザーに"
+"要求します。"
+
+#: admin/partials/email-settings.php:36
+msgid "Email Notification"
+msgstr "Eメール通知"
+
+#: admin/partials/email-settings.php:47
+msgid "Send Notification To Site Manager:"
+msgstr "サイトマネージャーに通知を送信："
+
+#: admin/partials/email-settings.php:53
+msgid ""
+"The site administrator will be notified for each individual registration."
+msgstr "サイト管理者は、個々の登録ごとに通知されます。"
+
+#: admin/partials/email-settings.php:59
+msgid "Or Define Recipients Manually:"
+msgstr "または、受信者を手動で定義します。"
+
+#: admin/partials/email-settings.php:85
+msgid ""
+"If you want to notify multiple people about registrations, enter each one's "
+"email address individually."
+msgstr ""
+"登録について複数の人に通知する場合は、各人のメールアドレスを個別に入力しま"
+"す。"
+
+#: admin/partials/email-settings.php:90
+msgid "Account Needs Review Notification"
+msgstr "アカウント承認通知が必要"
+
+#: admin/partials/email-settings.php:96
+msgid "Administrator will be notified about user account that needs review."
+msgstr "管理者承認が必要なユーザーアカウントが通知されます。"
+
+#: admin/partials/email-settings.php:102 admin/partials/email-settings.php:152
+#: admin/partials/email-template.php:74
+msgid "Email Subject"
+msgstr "Eメールの件名"
+
+#: admin/partials/email-settings.php:108 admin/partials/email-settings.php:158
+msgid "Subject of the email sent to the admin."
+msgstr "管理者に送信されるメールの件名。"
+
+#: admin/partials/email-settings.php:128 admin/partials/email-settings.php:177
+msgid "Email Content"
+msgstr "Eメールコンテンツ"
+
+#: admin/partials/email-settings.php:133 admin/partials/email-settings.php:182
+msgid "Content of the email sent to the admin."
+msgstr "管理者に送信されるメールの内容。"
+
+#: admin/partials/email-settings.php:141
+msgid "Account Deletion Notification"
+msgstr "アカウント削除通知"
+
+#: admin/partials/email-settings.php:147
+msgid "Administrator will be notified when a user deletes their account."
+msgstr "ユーザーがアカウントを削除すると、管理者に通知されます。"
+
+#: admin/partials/email-settings.php:192
+msgid "From Email Name"
+msgstr "Eメール送信者名"
+
+#: admin/partials/email-settings.php:198
+msgid ""
+"The <i>Sender's Name</i> inside the header of emails delivering "
+"notifications to the admin and the members."
+msgstr ""
+"管理者とメンバーに通知を配信するメールヘッダー内の<i>送信者の名前</i>。"
+
+#: admin/partials/email-settings.php:203
+msgid "From Email Address"
+msgstr "送信者のEメールアドレス"
+
+#: admin/partials/email-settings.php:209
+msgid ""
+"The <i>Reply-to</i> email address inside the emails delivering notifications "
+"to the admin and the members. It is a good idea to use an email address "
+"different from the admin's email address to avoid being trapped by spam "
+"filters. Also users, may directly reply to notifications emails - therefore "
+"you can either user an actively monitored email or specifically mention in "
+"your email templates that any replies to automated emails will be ignored."
+msgstr ""
+"管理者とメンバーに通知を送信するメールヘッダ内の<i> Reply-to </i>返信先メール"
+"アドレス。 管理者のEメールアドレスとは異なるEメールアドレスを使用して、スパム"
+"フィルターに利用されないようにすることをお勧めします。"
+
+#: admin/partials/email-settings.php:214
+msgid "Enable SMTP:"
+msgstr "SMTPを有効にする："
+
+#: admin/partials/email-settings.php:220
+msgid ""
+"Route emails from a dedicated email services instead of using your server's "
+"mail functionality. Allows a lot more control and better chances to avoid "
+"overzealous spam filters."
+msgstr ""
+"サーバーのメール機能を使用する代わりに、専用のメールサービスからメールをルー"
+"ティングします。 過度に制御し、過度のスパムフィルターを回避できる可能性があり"
+"ます。"
+
+#: admin/partials/email-settings.php:229
+msgid "SMTP Host"
+msgstr "SMTPホスト"
+
+#: admin/partials/email-settings.php:235
+msgid ""
+"Host Server name. For e.g.<i>smtp.gmail.com</i> if you wish to use Gmail. "
+"Consult your SMTP service provider for exact name."
+msgstr ""
+"ホストサーバー名。 たとえば、Gmailを使用する場合は、<i> smtp.gmail.com </i>を"
+"使用します。 正確な名前については、SMTPサービスプロバイダーに問い合わせてくだ"
+"さい。"
+
+#: admin/partials/email-settings.php:241
+msgid "Type of Encription:"
+msgstr "暗号化タイプ："
+
+#: admin/partials/email-settings.php:246
+msgid "TLS"
+msgstr ""
+
+#: admin/partials/email-settings.php:247
+msgid "SSL"
+msgstr ""
+
+#: admin/partials/email-settings.php:251
+msgid "Encryption supported by your SMTP provider."
+msgstr "SMTPプロバイダーでサポートされている暗号化。"
+
+#: admin/partials/email-settings.php:256
+msgid "SMTP Port:"
+msgstr "SMTPポート："
+
+#: admin/partials/email-settings.php:262
+msgid "SMTP port. Usually number. For e.g. <i>465</i>"
+msgstr "SMTPポート番号。 たとえば <i>465</i>"
+
+#: admin/partials/email-settings.php:267
+msgid "SMTP Authentication:"
+msgstr "SMTP認証："
+
+#: admin/partials/email-settings.php:271
+msgid "Yes"
+msgstr ""
+
+#: admin/partials/email-settings.php:272
+msgid "No"
+msgstr ""
+
+#: admin/partials/email-settings.php:276
+msgid "Authentication supported by your SMTP service provider."
+msgstr "SMTPサービスプロバイダーでサポートされている認証方式。"
+
+#: admin/partials/email-settings.php:281
+msgid "SMTP Username:"
+msgstr "SMTPユーザー名："
+
+#: admin/partials/email-settings.php:287
+msgid "Your SMTP Username"
+msgstr "SMTPユーザー名"
+
+#: admin/partials/email-settings.php:292
+msgid "SMTP Password:"
+msgstr "SMTPパスワード："
+
+#: admin/partials/email-settings.php:298
+msgid "Your SMTP Password"
+msgstr "SMTPパスワード"
+
+#: admin/partials/email-settings.php:303
+msgid "From Email Name:"
+msgstr "Eメール名："
+
+#: admin/partials/email-settings.php:309
+msgid ""
+"The <i>From</i> name in your outgoing emails. For e.g. <i>John Doe</i>, "
+"<i>Acme Corp.</i> etc."
+msgstr ""
+"送信メールの<i>From</i>名。 たとえば <i> 山田太郎</i>、<i> 会社名</i>など。"
+
+#: admin/partials/email-settings.php:314
+msgid "From Email Address:"
+msgstr "メールアドレス："
+
+#: admin/partials/email-settings.php:320
+msgid "Your SMTP Email Address"
+msgstr "SMTPメールアドレス"
+
+#: admin/partials/email-settings.php:325
+msgid "Test Outgoing Connection:"
+msgstr "発信接続テスト："
+
+#: admin/partials/email-settings.php:336
+msgid ""
+"For Testing Purpose Only. Once you have filled in all required SMTP details, "
+"you can enter an email address here, click \"TEST\" button and check if the "
+"email is sent successfully."
+msgstr ""
+"テスト目的のみ。 必要なすべてのSMTP詳細を入力したら、ここにメールアドレスを入"
+"力し、[テスト]ボタンをクリックして、メールが正常に送信されたかどうかを確認し"
+"ます。"
+
+#: admin/partials/email-template.php:50
+#: admin/partials/email-templates-list.php:41
+msgid "New Template"
+msgstr "新しいテンプレート"
+
+#: admin/partials/email-template.php:54
+msgid "Edit Template"
+msgstr "テンプレート編集"
+
+#: admin/partials/email-template.php:64
+#: public/partials/themes/default/add-blog-tpl.php:9
+msgid "Title"
+msgstr "タイトル"
+
+#: admin/partials/email-template.php:70
+msgid ""
+"Define a name for this template. Front-end user never sees this. Only for "
+"your reference."
+msgstr ""
+"このテンプレートの名前を定義します。 フロントエンドユーザーには表示されませ"
+"ん。 あなたの参照のみ。"
+
+#: admin/partials/email-template.php:80
+msgid "Subject of the email sent to the user."
+msgstr "ユーザーに送信されるEメールの件名。"
+
+#: admin/partials/email-template.php:85
+msgid "Email Template"
+msgstr "Eメールテンプレート"
+
+#: admin/partials/email-template.php:115
+msgid ""
+"Content of the email sent to the user. You can add profile field values "
+"using <i>Select A Field</i> dropdown. <hr/><strong>Important</strong> - if "
+"you do not have Password field in your Group sign up form, add Password "
+"field to the email template you plan to assign to user activation event. "
+"This will make sure that new users receive an auto-generated password inside "
+"their account activation email."
+msgstr ""
+"ユーザーに送信されたEメールの内容。 [<i>フィールドを選択</i>]ドロップダウンを"
+"使用して、プロフィールフィールドの値を追加できます。 <hr /> <strong>重要</"
+"strong>-グループサインアップフォームにパスワードフィールドがない場合、ユー"
+"ザーアクティベーションイベントに割り当てる予定のEメールテンプレートにパスワー"
+"ドフィールドを追加します。 これにより、新しいユーザーがアカウントアクティベー"
+"ションメール内で自動生成されたパスワードを確実に受信できるようになります。"
+
+#: admin/partials/email-templates-list.php:35
+msgid "Email Templates"
+msgstr "Eメールテンプレート"
+
+#: admin/partials/email-templates-list.php:63
+msgid "SR"
+msgstr ""
+
+#: admin/partials/email-templates-list.php:64
+msgid "Name"
+msgstr "名前"
+
+#: admin/partials/email-templates-list.php:65
+msgid "Subject"
+msgstr "件名"
+
+#: admin/partials/email-templates-list.php:66
+#: admin/partials/user-manager.php:232
+msgid "Action"
+msgstr "アクション"
+
+#: admin/partials/email-templates-list.php:81
+#: admin/partials/user-profile.php:70
+#: public/partials/themes/default/group-tpl.php:24
+#: public/partials/themes/default/profile-tpl.php:98
+msgid "Edit"
+msgstr "編集"
+
+#: admin/partials/email-templates-list.php:90
+msgid ""
+"You haven’t created any email templates yet. Why don’t you go ahead and "
+"create one now!"
+msgstr "メールテンプレートはまだ作成していません。 今すぐ作成してみませんか？"
+
+#: admin/partials/export-fields.php:10
+msgid "Select Field(s):"
+msgstr "フィールドを選択:"
+
+#: admin/partials/export-fields.php:23
+msgid ""
+"Step 2: Now select the fields you wish to export for each user in above "
+"selected Group(s). If you want to export everything, click on a field and "
+"press Ctrl+A or ⌘+A to select all of them."
+msgstr ""
+"ステップ2：次に、上記で選択したグループの各ユーザーに対してエクスポートする"
+"フィールドを選択します。 すべてをエクスポートする場合は、フィールドをクリック"
+"し、Ctrl + Aまたは⌘+ Aを押してすべてを選択します。"
+
+#: admin/partials/export-options.php:20
+msgid "Export Options"
+msgstr "エクスポートオプション"
+
+#: admin/partials/export-options.php:24
+msgid ""
+"Here you can download your current Global Settings option values. Keep this "
+"safe as you can use it as a backup should anything go wrong, or you can use "
+"it to restore your settings on this site (or any other site)."
+msgstr ""
+"ここで、現在のグローバル設定オプション値をダウンロードできます。 何か問題が発"
+"生した場合のバックアップとして使用したり、このサイト（または他のサイト）の設"
+"定を復元するために使用したりできるので保管してください。"
+
+#: admin/partials/export-options.php:37 admin/partials/pm-export-users.php:68
+msgid "Export"
+msgstr "書き出す"
+
+#: admin/partials/general-settings.php:39 admin/partials/pm-settings.php:20
+msgid "General"
+msgstr "全般"
+
+#: admin/partials/general-settings.php:49
+msgid "Template"
+msgstr "テンプレート"
+
+#: admin/partials/general-settings.php:62
+msgid ""
+"You can create new templates by copying and renaming \"default\" folder "
+"(&#128194;) inside \"[plugin root]/public/partials/themes\" to \"[your "
+"current theme directory]/profilegrid-user-profiles-groups-and-communities/"
+"themes\"."
+msgstr ""
+"「[plugin root] / public / partials / themes」内の「default」フォルダー"
+"（&#128194;）を「[現在のテーマディレクトリ] / profilegrid-user-profiles-"
+"groups-and-communities/themes」にコピーして名前を変更することにより、新しいテ"
+"ンプレートを作成できます。"
+
+#: admin/partials/general-settings.php:67
+msgid "Theme"
+msgstr "テーマ"
+
+#: admin/partials/general-settings.php:71
+msgid "Light"
+msgstr "明るい(Light)"
+
+#: admin/partials/general-settings.php:72
+msgid "Dark"
+msgstr "暗い(Dark)"
+
+#: admin/partials/general-settings.php:76
+msgid ""
+"While Light will fit most of the themes, choose Dark if your WordPress theme "
+"has black or dark background."
+msgstr ""
+"Lightはほとんどのテーマに適合しますが、WordPressテーマの背景が黒または暗い場"
+"合はDarkを選択します。"
+
+#: admin/partials/general-settings.php:81
+msgid "Automatically Redirect Author Page to their Profile?"
+msgstr "著者ページをプロフィールに自動的にリダイレクトしますか？"
+
+#: admin/partials/general-settings.php:87
+msgid ""
+"When visitors accesses author page, they will be redirected to author's "
+"profile page."
+msgstr ""
+"訪問者が著者ページにアクセスすると、著者のプロフィールページにリダイレクトさ"
+"れます。"
+
+#: admin/partials/general-settings.php:92
+msgid "Enable Gravatar"
+msgstr "Gravatarを有効にする"
+
+#: admin/partials/general-settings.php:98
+msgid ""
+"When enabled, if user has not uploaded a profile image, ProfileGrid will "
+"fetch profile image associated with user email on <a href=\"https://gravatar."
+"com\" target=\"_blank\">Gravatar</a>, a WordPress service for uploading and "
+"managing user avatars."
+msgstr ""
+"有効にすると、ユーザーがプロフィール画像をアップロードしていない場合、"
+"ProfileGridはユーザーアバターをアップロードおよび管理するためのWordPressサー"
+"ビスである<a href=\"https://gravatar.com\" target=\"_blank\">Gravatar </a>上"
+"のユーザーメールに関連付けられたプロフィール画像を取得します。"
+
+#: admin/partials/general-settings.php:103
+msgid "Make Primary Email Field Editable in Profile View"
+msgstr "プロフィールビューでプライマリメールフィールドを編集可能にする"
+
+#: admin/partials/general-settings.php:109
+msgid ""
+"Users will see their registered email address as editable field while "
+"editing their profiles."
+msgstr ""
+"ユーザーは、プロフィールの編集中に、登録済みのEメールアドレスを編集可能な"
+"フィールドとして表示します。"
+
+#: admin/partials/general-settings.php:114
+msgid "Allow Dashboard Login Page Access to Guests"
+msgstr "ゲストへのダッシュボードログインページアクセスを許可する"
+
+#: admin/partials/general-settings.php:120
+msgid ""
+"Users will be allowed to login using WordPress' default dashboard login "
+"page. When turned off, guests will be redirected to ProfileGrid login page "
+"when trying to access dashboard login page directly."
+msgstr ""
+"ユーザーは、WordPressのデフォルトのダッシュボードログインページを使用してログ"
+"インできます。 オフにすると、ダッシュボードのログインページに直接アクセスしよ"
+"うとしたときに、ゲストがProfileGridログインページにリダイレクトされます。"
+
+#: admin/partials/general-settings.php:125
+msgid "Allow Dashboard Register Page access to Guests"
+msgstr "ゲストへのダッシュボード登録ページへのアクセスを許可"
+
+#: admin/partials/general-settings.php:131
+msgid ""
+"Users will be allowed to register using WordPress' default dashboard "
+"registration page. When turned off, guests will be redirected to "
+"ProfileGrid's default registration page when trying to access dashboard "
+"register page directly."
+msgstr ""
+"ユーザーは、WordPressのデフォルトのダッシュボード登録ページを使用して登録でき"
+"ます。 オフにすると、ダッシュボードの登録ページに直接アクセスしようとすると、"
+"ゲストはProfileGridのデフォルトの登録ページにリダイレクトされます。"
+
+#: admin/partials/general-settings.php:136
+msgid "Set Limit for Password Reset Tries"
+msgstr "パスワードリセット試行の制限を設定する"
+
+#: admin/partials/general-settings.php:142
+msgid "Define number of times user can try to reset password."
+msgstr "ユーザーがパスワードをリセットできる回数を定義します。"
+
+#: admin/partials/general-settings.php:148
+msgid "Number of Allowed Tries"
+msgstr "許可された試行回数"
+
+#: admin/partials/general-settings.php:154
+msgid ""
+"User will not be allowed to reset password more than this defined number. If "
+"exceeded, user will see an error next time he/ she tries to reset the "
+"password."
+msgstr ""
+"ユーザーは、この定義された数を超えてパスワードをリセットすることはできませ"
+"ん。 超過した場合、ユーザーは次にパスワードをリセットしようとするとエラーが表"
+"示されます。"
+
+#: admin/partials/general-settings.php:159
+msgid "Disable Password Reset Rule for Managers"
+msgstr "マネージャーのパスワードリセットルールを無効にする"
+
+#: admin/partials/general-settings.php:165
+msgid "The password reset limit rule will not apply to the admin."
+msgstr "パスワードリセット制限ルールは管理者には適用されません。"
+
+#: admin/partials/general-settings.php:172
+msgid "Allow Multiple Attachments"
+msgstr "複数の添付ファイルを許可する"
+
+#: admin/partials/general-settings.php:178
+msgid "Allow users to attach more than one file to file upload fields."
+msgstr ""
+"ユーザーがファイルアップロードフィールドに複数のファイルを添付できるようにし"
+"ます。"
+
+#: admin/partials/general-settings.php:183
+msgid "Default WP Registration Page:"
+msgstr "デフォルトのWordPress登録ページ："
+
+#: admin/partials/general-settings.php:193
+#: admin/partials/general-settings.php:215
+#: admin/partials/general-settings.php:237
+#: admin/partials/general-settings.php:254
+#: admin/partials/general-settings.php:270
+#: admin/partials/general-settings.php:286
+#: admin/partials/general-settings.php:302
+#: admin/partials/general-settings.php:318
+#: admin/partials/general-settings.php:335
+#: admin/partials/general-settings.php:351
+msgid "Select Page"
+msgstr "ページを選択"
+
+#: admin/partials/general-settings.php:200
+msgid ""
+"Redirect all registration links to this page on your site. This helps in "
+"hiding the default WP registration form."
+msgstr ""
+"すべての登録リンクをサイトのこのページにリダイレクトします。 これは、デフォル"
+"トのWordPress登録フォームを隠すのに役立ちます。"
+
+#: admin/partials/general-settings.php:205
+msgid "After Login Redirect User to:"
+msgstr "ログイン後のユーザーのリダイレクト先:"
+
+#: admin/partials/general-settings.php:222
+#: admin/partials/general-settings.php:244
+msgid ""
+"When the user logs in, he/ she will be redirected to this page. This is "
+"usually a member specific area, like user profile page."
+msgstr ""
+"ユーザーがログインすると、このページにリダイレクトされます。 これは通常、ユー"
+"ザープロフィールページのようなメンバー固有の場所です。"
+
+#: admin/partials/general-settings.php:227
+msgid "After Logout Redirect User to:"
+msgstr "ログアウト後のユーザーのリダイレクト先："
+
+#: admin/partials/general-settings.php:249
+msgid "All Groups Page:"
+msgstr "すべてのグループページ："
+
+#: admin/partials/general-settings.php:260
+msgid ""
+"All Groups page displays all the groups on your site beautifully on a single "
+"page. A great way to allow visitors to decide and sign up for relevant group."
+msgstr ""
+"[すべてのグループ]ページには、サイト上のすべてのグループが1つのページに表示さ"
+"れます。 訪問者が関連グループを決定してサインアップできるようにする方法です。"
+
+#: admin/partials/general-settings.php:265
+msgid "Registration Page:"
+msgstr "登録ページ："
+
+#: admin/partials/general-settings.php:276
+msgid "This will add Username and Password fields to this form."
+msgstr "このフォームにユーザー名とパスワードのフィールドが追加されます。"
+
+#: admin/partials/general-settings.php:281
+msgid "Profile Page:"
+msgstr "プロフィールページ："
+
+#: admin/partials/general-settings.php:292
+msgid ""
+"Default member profile page. Make sure it has profile shortcode pasted "
+"inside it."
+msgstr ""
+"デフォルトのメンバープロフィールページ。 プロフィールショートコードを内部に貼"
+"り付ける必要があります。"
+
+#: admin/partials/general-settings.php:297
+msgid "Login Page:"
+msgstr "ログインページ："
+
+#: admin/partials/general-settings.php:308
+msgid ""
+"The page where users can log in. It should have the login shortcode pasted "
+"inside."
+msgstr ""
+"ユーザーがログインできるページ。ログインショートコードを内部に貼り付ける必要"
+"があります。"
+
+#: admin/partials/general-settings.php:313
+msgid "Password Recovery Page:"
+msgstr "パスワード回復ページ："
+
+#: admin/partials/general-settings.php:324
+msgid "This page will allows users to start password recovery process."
+msgstr "このページでは、ユーザーはパスワード回復プロセスを開始できます。"
+
+#: admin/partials/general-settings.php:330
+msgid "Password Reset Page:"
+msgstr "パスワードリセットページ："
+
+#: admin/partials/general-settings.php:341
+msgid ""
+"After successfully starting password recovery process, this page is the "
+"final step to reset lost passwords."
+msgstr ""
+"パスワード回復プロセスを正常に開始した後、このページは、失われたパスワードを"
+"リセットする最後のステップです。"
+
+#: admin/partials/general-settings.php:346
+msgid "Group Page:"
+msgstr "グループページ："
+
+#: admin/partials/general-settings.php:357
+msgid ""
+"Single group page where users can see group details and other members of the "
+"group."
+msgstr ""
+"ユーザーがグループの詳細とグループの他のメンバーを表示できる単一のグループ"
+"ページ。"
+
+#: admin/partials/import-options.php:13
+msgid "Import Options"
+msgstr "オプション設定のインポート（取込み）"
+
+#: admin/partials/import-options.php:25
+msgid "Upload Json File"
+msgstr "JSONファイルのアップロード"
+
+#: admin/partials/import-options.php:41 admin/partials/pm-import-users.php:98
+msgid "Import"
+msgstr "インポート（取込み）"
+
+#: admin/partials/manage-fields.php:19
+msgid "Choose a field type"
+msgstr "フィールドタイプを選択してください"
+
+#: admin/partials/manage-fields.php:30
+msgid ""
+"This field is connected directly to WordPress’ User Profile First Name field."
+msgstr ""
+"このフィールドは、WordPressの[ユーザープロフィール名]フィールドに直結されてい"
+"ます。"
+
+#: admin/partials/manage-fields.php:37
+msgid ""
+"This field is connected directly to WordPress’ User Profile Last Name field."
+msgstr ""
+"このフィールドは、WordPressの[ユーザープロフィールの姓]フィールドに直結されて"
+"います。"
+
+#: admin/partials/manage-fields.php:44
+msgid "If you want members to login using Username instead of email."
+msgstr ""
+"メンバーにEメールアドレスではなくユーザー名を使用してログインさせたい場合。"
+
+#: admin/partials/manage-fields.php:54
+msgid ""
+"Member's email. Only use <u>once</u> for each profile. For secondary email, "
+"use <i>Email</i> field type."
+msgstr ""
+"メンバーのメール。 各プロフィールには<u>once</u>のみを使用してください。 セカ"
+"ンダリメールの場合は、<i>Email</i>フィールドタイプを使用します。"
+
+#: admin/partials/manage-fields.php:60
+msgid "User URL"
+msgstr "ユーザーURL"
+
+#: admin/partials/manage-fields.php:62
+msgid "Allows members to add website address to their profiles."
+msgstr ""
+"メンバーが自分のプロフィールにWebサイトのアドレスを追加できるようにします。"
+
+#: admin/partials/manage-fields.php:69
+msgid "Allows members to define their own password during registration."
+msgstr "メンバーは登録時に自分のパスワードを定義できます。"
+
+#: admin/partials/manage-fields.php:76
+msgid "To be used in conjunction with <i>Password</i> field."
+msgstr "<i>パスワード</i>フィールドと組み合わせて使用します。"
+
+#: admin/partials/manage-fields.php:83
+msgid "Allows members to enter long text."
+msgstr "メンバーが長いテキストを入力できるようにします。"
+
+#: admin/partials/manage-fields.php:90
+msgid ""
+"Allows members to upload their Profile image during registration. This can "
+"be changed or removed later."
+msgstr ""
+"メンバーは、登録時にプロフィール画像をアップロードできます。 これは後で変更ま"
+"たは削除できます。"
+
+#: admin/partials/manage-fields.php:98
+msgid "The common text field allowing user a single line of text."
+msgstr "ユーザーが1行のテキストを入力できるテキストフィールド。"
+
+#: admin/partials/manage-fields.php:103
+msgid "DropDown"
+msgstr "ドロップダウン"
+
+#: admin/partials/manage-fields.php:105
+msgid ""
+"A dropdown with selection of predefined options. Members can only select one "
+"option."
+msgstr ""
+"事前定義されたオプションを選択できるドロップダウン方式。 メンバーは1つのオプ"
+"ションのみを選択できます。"
+
+#: admin/partials/manage-fields.php:110
+msgid "Radio"
+msgstr "ラジオボタン"
+
+#: admin/partials/manage-fields.php:112
+msgid ""
+"A radiobox selection with predefined options. Members can only select one "
+"option."
+msgstr ""
+"定義済みのオプションを含むラジオボックスの選択。 メンバーはオプションを択一選"
+"択できます。"
+
+#: admin/partials/manage-fields.php:119
+msgid "A text area box with ability to add multiple lines of plain text."
+msgstr "複数行のプレーンテキストを追加できるテキストボックス。"
+
+#: admin/partials/manage-fields.php:124
+msgid "Checkbox"
+msgstr "チェックボックス"
+
+#: admin/partials/manage-fields.php:126
+msgid ""
+"A checkbox selection with predefined options. Members can select multiple "
+"options."
+msgstr ""
+"事前定義オプションを備えたチェックボックス選択。 メンバーは複数のオプションを"
+"選択できます。"
+
+#: admin/partials/manage-fields.php:133
+msgid "Large size read only text, useful for creating custom headings."
+msgstr "カスタム見出しを作成するのに便利な、大きな文字サイズの表示テキスト。"
+
+#: admin/partials/manage-fields.php:140
+msgid ""
+"This is a read only field which can be used to display formatted content "
+"inside the form. HTML is supported."
+msgstr ""
+"これは表示専用フィールドで、フォーム内の書式設定されたコンテンツを表示するた"
+"めに使用できます。"
+
+#: admin/partials/manage-fields.php:147
+msgid "Allows users to pick a date from dropdown calendar or type it manually."
+msgstr ""
+"ユーザーは、ドロップダウンカレンダーから日付を選択するか、手動で入力できま"
+"す。"
+
+#: admin/partials/manage-fields.php:154
+msgid "A secondary email field."
+msgstr "セカンドEメールアドレスフィールド。"
+
+#: admin/partials/manage-fields.php:161
+msgid "Allows user to input value in numbers."
+msgstr "ユーザーが数値を入力できるようにします。"
+
+#: admin/partials/manage-fields.php:168
+msgid "A drop down list of all countries appears to the user for selection."
+msgstr "すべての国のドロップダウンリストが選択用にユーザーに表示されます。"
+
+#: admin/partials/manage-fields.php:175
+msgid "A drop down list of all time-zones appears to the user for selection."
+msgstr ""
+"すべてのタイムゾーンのドロップダウンリストがユーザーに表示され、選択できま"
+"す。"
+
+#: admin/partials/manage-fields.php:182
+msgid ""
+"Useful for adding terms and conditions to the form. User must select the "
+"check box to continue with submission if you select “Is Required” below."
+msgstr ""
+"契約条件をフォームに追加するのに便利です。 以下の「必須」を選択した場合、ユー"
+"ザーはチェックボックスを選択して送信する必要があります。"
+
+#: admin/partials/manage-fields.php:187
+msgid "File"
+msgstr "ファイル"
+
+#: admin/partials/manage-fields.php:189
+msgid "Display a field to the user for attaching files from his/ her computer."
+msgstr "ユーザーのコンピューターからファイルを添付するフィールドを表示します。"
+
+#: admin/partials/manage-fields.php:196
+msgid ""
+"Allows user to add extra text field boxes to the form for submitting "
+"different values. Useful where a field requires multiple user input values."
+msgstr ""
+"ユーザーは、さまざまな値を送信するためにフォームに追加のテキストフィールド"
+"ボックスを追加できます。 フィールドに複数のユーザー入力値が必要な場合に便利で"
+"す。"
+
+#: admin/partials/manage-fields.php:203
+msgid "Adds a Mobile number field."
+msgstr "携帯電話番号フィールドを追加します。"
+
+#: admin/partials/manage-fields.php:211
+msgid "Adds a phone number field."
+msgstr "電話番号フィールドを追加します。"
+
+#: admin/partials/manage-fields.php:219
+msgid "Gender/ Sex selection radio box."
+msgstr "性別選択ラジオボックス。"
+
+#: admin/partials/manage-fields.php:227
+msgid ""
+"Adds a drop down language selection field with common languages as options."
+msgstr ""
+"オプションとして共通言語を含むドロップダウン言語選択フィールドを追加します。"
+
+#: admin/partials/manage-fields.php:243
+msgid "Divider for separating fields."
+msgstr "フィールドを分離するためのセパレータ。"
+
+#: admin/partials/manage-fields.php:251
+msgid "Useful for adding space between fields."
+msgstr "フィールド間にスペースを追加するのに便利です。"
+
+#: admin/partials/manage-fields.php:259
+msgid ""
+"A dropdown field with a twist. Users can now select more than one option."
+msgstr ""
+"ドロップダウンマルチ選択フィールド。 ユーザーは複数のオプションを選択できるよ"
+"うになりました。"
+
+#: admin/partials/manage-fields.php:267
+msgid "A speciality URL field for asking Facebook Profile page."
+msgstr "Facebookプロフィールページを要求するための特殊なURLフィールド。"
+
+#: admin/partials/manage-fields.php:275
+msgid "A speciality URL field for asking Twitter Profile page."
+msgstr "Twitterプロフィールページを尋ねるための特別なURLフィールド。"
+
+#: admin/partials/manage-fields.php:284
+msgid "A speciality URL field for asking Google+ Profile page."
+msgstr "Google+プロフィールページを確認するための特別なURLフィールド。"
+
+#: admin/partials/manage-fields.php:293
+msgid "A speciality URL field for asking Linkedin Profile page."
+msgstr "Linkedinプロフィールページを要求するための特殊なURLフィールド。"
+
+#: admin/partials/manage-fields.php:302
+msgid "A speciality URL field for asking YouTube Channel or Video page."
+msgstr "YouTubeチャンネルまたはビデオページを尋ねるための特別なURLフィールド。"
+
+#: admin/partials/manage-fields.php:311
+msgid "Asks User his/ her Instagram Profile."
+msgstr "ユーザーにInstagramプロフィールを尋ねます。"
+
+#: admin/partials/manage-fields.php:326
+msgid "Custom Fields Manager"
+msgstr "カスタムフィールドマネージャー"
+
+#: admin/partials/manage-fields.php:341
+msgid "Filter by"
+msgstr "フィルター"
+
+#: admin/partials/manage-fields.php:398
+msgid "You haven't created any Profile Fields for this Section yet."
+msgstr "このセクションのプロフィールフィールドはまだ作成されていません。"
+
+#: admin/partials/manage-fields.php:420
+msgid "Name of your Group."
+msgstr "グループの名前。"
+
+#: admin/partials/manage-fields.php:442
+msgid ""
+"There’s no password field in your sign up form. You can auto-generated and "
+"email password to registering users. To do that please add password field to "
+"Account Activation email template associated with this Group."
+msgstr ""
+"サインアップフォームにパスワードフィールドがありません。 パスワードを自動生成"
+"し、登録ユーザーにメールで送信できます。 そのためには、このグループに関連付け"
+"られているアカウントアクティベーションメールテンプレートにパスワードフィール"
+"ドを追加してください。"
+
+#: admin/partials/manage-groups.php:24
+msgid "Groups Manager"
+msgstr "グループマネージャー"
+
+#: admin/partials/manage-groups.php:30
+msgid "Add New"
+msgstr "新しく追加する"
+
+#: admin/partials/manage-groups.php:32
+msgid "Duplicate"
+msgstr "複製する"
+
+#: admin/partials/manage-groups.php:44
+msgid "This is required field"
+msgstr "これは必須フィールドです"
+
+#: admin/partials/manage-groups.php:48
+msgid "Create New Group"
+msgstr "新規グループの作成"
+
+#: admin/partials/manage-groups.php:68
+#: public/partials/themes/default/group-tpl.php:51
+msgid "Members"
+msgstr "メンバー"
+
+#: admin/partials/manage-groups.php:70
+msgid "At"
+msgstr "At(に)"
+
+#: admin/partials/manage-groups.php:73
+msgid "and"
+msgstr "and"
+
+#: admin/partials/manage-groups.php:73
+msgid "more"
+msgstr "もっと"
+
+#: admin/partials/manage-groups.php:78
+msgid "Fields"
+msgstr "フィールド"
+
+#: admin/partials/manage-groups.php:83
+msgid ""
+"You have not created any groups yet. Once you have created a new group, it "
+"will appear here."
+msgstr ""
+"まだグループを作成していません。 新しいグループを作成すると、ここに表示されま"
+"す。"
+
+#: admin/partials/manage-groups.php:92
+msgid ""
+"Note: Groups are optional. If you do not wish to create multiple groups, you "
+"can use the default group for all user profiles and sign ups."
+msgstr ""
+"注：グループはオプションです。 複数のグループを作成したくない場合は、すべての"
+"ユーザープロフィールとサインアップにデフォルトグループを使用できます。"
+
+#: admin/partials/message-settings.php:31
+msgid "Messaging Settings"
+msgstr "メッセージング設定"
+
+#: admin/partials/message-settings.php:42
+msgid "Enable Private Messaging"
+msgstr "プライベートメッセージングを有効にする"
+
+#: admin/partials/message-settings.php:48
+msgid ""
+"Turn on private messaging system for your site users. Registered users can "
+"start conversations with each other."
+msgstr ""
+"サイトユーザーのプライベートメッセージング機能を有効にします。 登録済みのユー"
+"ザーは、互いに会話を開始できます。"
+
+#: admin/partials/payment-settings-old.php:31
+#: admin/partials/payment-settings.php:33
+#: admin/partials/profile-magic-paypal-admin-display.php:7
+msgid "Payments"
+msgstr "お支払い"
+
+#: admin/partials/payment-settings-old.php:42
+msgid "Payment Processor:"
+msgstr "お支払い機関："
+
+#: admin/partials/payment-settings-old.php:49
+msgid ""
+"Select the payment system(s) you want to use for accepting payments. Make "
+"sure you configure them right."
+msgstr ""
+"支払いの受け取りに使用する支払いシステムを選択します。 必ず正しく設定してくだ"
+"さい。"
+
+#: admin/partials/payment-settings-old.php:54
+#: admin/partials/payment-settings.php:56
+msgid "Test Mode:"
+msgstr "テストモード："
+
+#: admin/partials/payment-settings-old.php:60
+#: admin/partials/payment-settings.php:62
+msgid ""
+"This will put ProfileGrid payments on test mode. Useful for testing payment "
+"system."
+msgstr ""
+"これにより、ProfileGridの支払いがテストモードになります。 支払いシステムのテ"
+"ストに役立ちます。"
+
+#: admin/partials/payment-settings-old.php:65
+#: admin/partials/payment-settings.php:67
+msgid "PayPal Email:"
+msgstr "PayPal Eメールアドレス："
+
+#: admin/partials/payment-settings-old.php:70
+#: admin/partials/payment-settings.php:72
+msgid "Your PayPal account email, to which you will accept the payments."
+msgstr "支払いを受け取るPayPalアカウントのEメールアドレス。"
+
+#: admin/partials/payment-settings-old.php:76
+#: admin/partials/payment-settings.php:93
+msgid "Currency:"
+msgstr "通貨："
+
+#: admin/partials/payment-settings-old.php:80
+#: admin/partials/payment-settings.php:97
+msgid "US Dollars"
+msgstr "米ドル"
+
+#: admin/partials/payment-settings-old.php:81
+#: admin/partials/payment-settings.php:98
+msgid "Euros"
+msgstr "ユーロ"
+
+#: admin/partials/payment-settings-old.php:82
+#: admin/partials/payment-settings.php:99
+msgid "Pounds Sterling"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:83
+#: admin/partials/payment-settings.php:100
+msgid "Australian Dollars"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:84
+#: admin/partials/payment-settings.php:101
+msgid "Brazilian Real"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:85
+#: admin/partials/payment-settings.php:102
+msgid "Canadian Dollars"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:86
+#: admin/partials/payment-settings.php:103
+msgid "Czech Koruna"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:87
+#: admin/partials/payment-settings.php:104
+msgid "Danish Krone"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:88
+#: admin/partials/payment-settings.php:105
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:89
+#: admin/partials/payment-settings.php:106
+msgid "Hungarian Forint"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:90
+#: admin/partials/payment-settings.php:107
+msgid "Israeli Shekel"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:91
+#: admin/partials/payment-settings.php:108
+msgid "Japanese Yen"
+msgstr "日本円"
+
+#: admin/partials/payment-settings-old.php:92
+#: admin/partials/payment-settings.php:109
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:93
+#: admin/partials/payment-settings.php:110
+msgid "Mexican Peso"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:94
+#: admin/partials/payment-settings.php:111
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:95
+#: admin/partials/payment-settings.php:112
+msgid "Norwegian Krone"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:96
+#: admin/partials/payment-settings.php:113
+msgid "Philippine Pesos"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:97
+#: admin/partials/payment-settings.php:114
+msgid "Polish Zloty"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:98
+#: admin/partials/payment-settings.php:115
+msgid "Singapore Dollar"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:99
+#: admin/partials/payment-settings.php:116
+msgid "Swedish Krona"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:100
+#: admin/partials/payment-settings.php:117
+msgid "Swiss Franc"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:101
+#: admin/partials/payment-settings.php:118
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:102
+#: admin/partials/payment-settings.php:119
+msgid "Thai Baht"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:103
+#: admin/partials/payment-settings.php:120
+msgid "Indian Rupee"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:104
+#: admin/partials/payment-settings.php:121
+msgid "Turkish Lira"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:105
+#: admin/partials/payment-settings.php:122
+msgid "Iranian Rial"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:106
+#: admin/partials/payment-settings.php:123
+msgid "Russian Rubles"
+msgstr ""
+
+#: admin/partials/payment-settings-old.php:109
+#: admin/partials/payment-settings.php:126
+msgid ""
+"Default Currency for accepting payments. Usually, this will be default "
+"currency in your PayPal account."
+msgstr ""
+"支払いを受け入れるためのデフォルト通貨。 通常、これはPayPalアカウントのデフォ"
+"ルト通貨になります。"
+
+#: admin/partials/payment-settings-old.php:114
+#: admin/partials/payment-settings.php:77
+msgid "PayPal Page Style:"
+msgstr "PayPalページスタイル："
+
+#: admin/partials/payment-settings-old.php:119
+#: admin/partials/payment-settings.php:82
+msgid ""
+"If you have created checkout pages in your PayPal account and want to show a "
+"specific page, you can enter it’s name here."
+msgstr ""
+"PayPalアカウントにチェックアウトページを作成し、特定のページを表示する場合"
+"は、ここに名前を入力できます。"
+
+#: admin/partials/payment-settings-old.php:124
+#: admin/partials/payment-settings.php:133
+msgid "Currency Symbol Position:"
+msgstr "通貨記号の位置："
+
+#: admin/partials/payment-settings-old.php:128
+#: admin/partials/payment-settings.php:137
+msgid "Before - $10"
+msgstr "前 - $10"
+
+#: admin/partials/payment-settings-old.php:129
+#: admin/partials/payment-settings.php:138
+msgid "After - 10$"
+msgstr "後ろ - 10$"
+
+#: admin/partials/payment-settings-old.php:132
+#: admin/partials/payment-settings.php:141
+msgid "Choose the location of the currency sign."
+msgstr "通貨記号の場所を選択します。"
+
+#: admin/partials/payment-settings.php:45
+msgid "Paypal Payment Processor"
+msgstr "PayPal支払い"
+
+#: admin/partials/payment-settings.php:51
+msgid ""
+"Turn on the payment system(s) you want to use for accepting payments. Make "
+"sure you configure them right."
+msgstr ""
+"支払いの受け取りに使用する支払いシステムをオンにします。 必ず正しく設定してく"
+"ださい。"
+
+#: admin/partials/pm-export-users.php:21 admin/partials/pm-tools.php:20
+msgid "Export Users"
+msgstr "ユーザーデータのエクスポート（書き出し）"
+
+#: admin/partials/pm-export-users.php:32
+msgid "Select Group(s):"
+msgstr "グループを選択："
+
+#: admin/partials/pm-export-users.php:45
+msgid ""
+"Step 1: Select the Group(s) from which you wish to export users. Press ctrl "
+"on Windows/Linux PC and ⌘ on Mac while selecting to choose multiple Groups."
+msgstr ""
+"ステップ1：ユーザーをエクスポートするグループを選択します。 複数のグループを"
+"選択するには、Windows / Linux PCではctrlを、Macでは⌘を押します。"
+
+#: admin/partials/pm-export-users.php:54 admin/partials/pm-import-users.php:53
+msgid "Columns separated by:"
+msgstr "カラム区切り(文字)："
+
+#: admin/partials/pm-export-users.php:60
+msgid ""
+"Step 3: Select the separator to separate columns in your CSV file. \",\" is "
+"most common separator and MS Excel, Apple Numbers and most other popular "
+"spreadsheet programs will open it normally. But if you want to import CSV in "
+"a specific app, do check what it recommends for separator."
+msgstr ""
+"ステップ3：CSVファイル内のカラムを区切る文字を選択します。 \\\",\\\"（カン"
+"マ）は最も一般的なセパレータであり、MS Excel、Apple Numbers、およびその他のほ"
+"とんどの一般的なスプレッドシートプログラムで有効です。"
+
+#: admin/partials/pm-import-users.php:14 admin/partials/pm-tools.php:32
+msgid "Import Users"
+msgstr "ユーザーデータのインポート（取込み）"
+
+#: admin/partials/pm-import-users.php:26
+msgid "Upload CSV File"
+msgstr "CSVファイルをアップロード"
+
+#: admin/partials/pm-import-users.php:34
+msgid ""
+"Step 1: Alrighty then, let's get rolling! First step is simple. Select the "
+"CSV file containing users you wish to import to ProfileGrid."
+msgstr ""
+"ステップ1：では、さあ、始めましょう！ 最初のステップは簡単です。 ProfileGrid"
+"にインポートするユーザーを含むCSVファイルを選択します。"
+
+#: admin/partials/pm-import-users.php:39
+msgid "Update Existing Users"
+msgstr "既存のユーザーを更新する"
+
+#: admin/partials/pm-import-users.php:48
+msgid ""
+"Step 2: Now there's a chance that this CSV file might have user(s) with same "
+"email as those already registered on your site. Turning this option ON will "
+"update the existing users with field data from this sheet. If you keep it "
+"OFF, ProfileGrid will simply ignore the data for these users. Secondly, if "
+"username is same (but email is different), ProfileGrid will create a new "
+"user with a random number appended to username in the CSV."
+msgstr ""
+"ステップ2：このCSVファイルには、サイトに既に登録されているユーザーと同じメー"
+"ルを持つユーザーが含まれている可能性があります。 このオプションをオンにする"
+"と、既存のユーザーがこのシートのフィールドデータで更新されます。 OFFのままに"
+"すると、ProfileGridはこれらのユーザーのデータを単に無視します。 次に、ユー"
+"ザー名が同じ場合（ただし、Eメールアドレスが異なる場合）、ProfileGridはCSVの"
+"ユーザー名に乱数を追加した新しいユーザーを作成します。"
+
+#: admin/partials/pm-import-users.php:61
+msgid ""
+"Step 3: Select the column separator in your sheet. If you are not sure, keep "
+"it as comma (,) the most common CSV separator."
+msgstr ""
+"ステップ3：シートのカラム区切り文字を選択します。 不明な場合は、最も一般的な"
+"CSV区切り文字であるカンマ（,）のままにしてください。"
+
+#: admin/partials/pm-import-users.php:66
+msgid "Group"
+msgstr "グループ"
+
+#: admin/partials/pm-import-users.php:70
+msgid "Select Group"
+msgstr "グループの選択"
+
+#: admin/partials/pm-import-users.php:80
+msgid "Step 4: The Group in which you want to import the users from CSV."
+msgstr "ステップ4：CSVからユーザーをインポートするグループ。"
+
+#: admin/partials/pm-settings.php:10
+msgid "Global Settings"
+msgstr "全般設定"
+
+#: admin/partials/pm-settings.php:21
+msgid "Form look, Default pages, Attachment settings etc."
+msgstr "フォームの外観、デフォルトページ、添付ファイルの設定など。"
+
+#: admin/partials/pm-settings.php:32 admin/partials/security-settings.php:35
+msgid "Security"
+msgstr "セキュリティ"
+
+#: admin/partials/pm-settings.php:33
+msgid "Spam Protection, Blacklists and more."
+msgstr "スパム保護、ブラックリストなど。"
+
+#: admin/partials/pm-settings.php:44 admin/partials/user-settings.php:37
+msgid "User Accounts"
+msgstr "ユーザーアカウント"
+
+#: admin/partials/pm-settings.php:45
+msgid "Activation link, Manual Approvals etc."
+msgstr "アクティベーションリンク、手動承認など"
+
+#: admin/partials/pm-settings.php:57
+msgid "Email Notifications"
+msgstr "Eメール通知"
+
+#: admin/partials/pm-settings.php:58
+msgid "Admin Notifications, Multiple Email Notifications, From Email"
+msgstr "管理者通知、複数の電子メール通知、Eメールから"
+
+#: admin/partials/pm-settings.php:69 admin/partials/pm-tools.php:10
+msgid "Tools"
+msgstr "ツール"
+
+#: admin/partials/pm-settings.php:70
+msgid "Import/ Export Options"
+msgstr "インポート/エクスポートオプション"
+
+#: admin/partials/pm-settings.php:80
+msgid "User Blogs"
+msgstr "ユーザーブログ"
+
+#: admin/partials/pm-settings.php:81
+msgid "Default post status, privacy settings etc."
+msgstr "デフォルトの投稿ステータス、プライバシー設定など"
+
+#: admin/partials/pm-settings.php:92
+msgid "Private Messaging"
+msgstr "プライベートメッセージング"
+
+#: admin/partials/pm-settings.php:93
+msgid "Turn Private Messaging on/ off"
+msgstr "プライベートメッセージングのオン/オフ"
+
+#: admin/partials/pm-tools.php:21
+msgid "Exporting made super simple!"
+msgstr "エクスポートが非常に簡単になりました！"
+
+#: admin/partials/pm-tools.php:33
+msgid "Different options to add users to your site from CSV file"
+msgstr "CSVファイルからサイトにユーザーを追加する様々なオプション"
+
+#: admin/partials/pm-tools.php:44
+msgid "Save Configuration"
+msgstr "設定の保存"
+
+#: admin/partials/pm-tools.php:45
+msgid "Download plugin settings file."
+msgstr "プラグイン設定ファイルをダウンロードします。"
+
+#: admin/partials/pm-tools.php:56
+msgid "Load Configuration"
+msgstr "ロード設定"
+
+#: admin/partials/pm-tools.php:57
+msgid "Upload plugin settings file."
+msgstr "プラグイン設定ファイルをアップロードします。"
+
+#: admin/partials/pm-tools.php:65
+msgid "Back"
+msgstr "戻る"
+
+#: admin/partials/pm_extensions.php:23
+msgid "Extensions"
+msgstr "拡張機能"
+
+#: admin/partials/profile-magic-group-option.php:7
+msgid "Is Paid Group"
+msgstr "有料グループです"
+
+#: admin/partials/profile-magic-group-option.php:17
+msgid "Group Membership Price"
+msgstr "グループメンバーシップ価格"
+
+#: admin/partials/profile-magic-group-option.php:23
+msgid ""
+"While signing up, users will be charged this amount for successful "
+"registration. User account will be automatically activated after successful "
+"payment. Make sure you have properly configured payment settings for this to "
+"work."
+msgstr ""
+"サインアップ処理に、ユーザーは登録の成功に対してこの金額が請求されます。 支払"
+"いが完了すると、ユーザーアカウントが自動的にアクティブになります。 これが機能"
+"するように、支払い設定が適切に構成されていることを確認してください。"
+
+#: admin/partials/profile-magic-paypal-admin-display.php:9
+msgid "Currency, Symbol Position, Checkout Page etc."
+msgstr "通貨、シンボルポジション、チェックアウトページなど"
+
+#: admin/partials/security-settings.php:46
+msgid "Enable reCAPTCHA:"
+msgstr "reCAPTCHAの有効化："
+
+#: admin/partials/security-settings.php:52
+msgid "Turns on reCAPTCHA on all registration forms."
+msgstr "すべての登録フォームでreCAPTCHAをオンにします。"
+
+#: admin/partials/security-settings.php:61
+msgid "reCAPTCHA Language:"
+msgstr "reCAPTCHA言語："
+
+#: admin/partials/security-settings.php:140
+msgid ""
+"Sometimes reCAPTCHA displays words as images. Choosing a language limits "
+"these words to a that specific language."
+msgstr ""
+"reCAPTCHAは、単語を画像として表示することがあります。 言語を選択すると、これ"
+"らの単語は特定の言語に制限されます。"
+
+#: admin/partials/security-settings.php:145
+msgid "Site Key"
+msgstr "サイトキー(Site Key)"
+
+#: admin/partials/security-settings.php:151
+msgid "Required to make reCAPTCHA work. You can generate site key from"
+msgstr "reCAPTCHAを機能させるために必要です。 サイトキーを生成できます"
+
+#: admin/partials/security-settings.php:151
+msgid "here"
+msgstr "ここ"
+
+#: admin/partials/security-settings.php:156
+msgid "Secret Key"
+msgstr "秘密鍵"
+
+#: admin/partials/security-settings.php:162
+msgid ""
+"Required to make reCAPTCHA work. It will be provided when you generate site "
+"key."
+msgstr ""
+"reCAPTCHAを機能させるために必要です。 サイトキー(site key)を生成するときに提"
+"供されます。"
+
+#: admin/partials/security-settings.php:166
+msgid "Request Method"
+msgstr "リクエスト方法"
+
+#: admin/partials/security-settings.php:170
+msgid "CurlPost"
+msgstr "CurlPost"
+
+#: admin/partials/security-settings.php:171
+msgid "SocketPost"
+msgstr "SocketPost"
+
+#: admin/partials/security-settings.php:175
+msgid ""
+"Depending on the PHP version configuration of the server, where site has "
+"been hosted, request method may be required to be updated. By default "
+"setting uses cURLPost, that is good for most of the cases. Change this "
+"setting to SocketPost (connection over SSL), only if your reCAPTCHA is not "
+"working as expected."
+msgstr ""
+"サイトがホストされているサーバーのPHPバージョン構成によっては、リクエストメ"
+"ソッドを更新する必要がある場合があります。 デフォルト設定ではcURLPostを使用し"
+"ますが、これはほとんどの場合に適しています。 reCAPTCHAが期待どおりに機能しな"
+"い場合にのみ、この設定をSocketPost（SSL経由の接続）に変更します。"
+
+#: admin/partials/security-settings.php:181
+msgid "Auto Logout After Inactivity"
+msgstr "非アクティブ後の自動ログアウト"
+
+#: admin/partials/security-settings.php:187
+msgid ""
+"Automatically logs out user when they are logged in but inactive for certain "
+"amount of time. Important for privacy and security of the users. You can "
+"also display a custom prompt before they are logged out."
+msgstr ""
+"ユーザーがログインしているが一定時間アクティブでない場合、ユーザーを自動的に"
+"ログアウトします。 ユーザーのプライバシーとセキュリティにとって重要です。 ロ"
+"グアウトする前にカスタムポップアップメッセージを表示することもできます。"
+
+#: admin/partials/security-settings.php:193
+msgid "Define Period of Inactivity (in Seconds)"
+msgstr "非アクティブ期間の定義（秒単位）"
+
+#: admin/partials/security-settings.php:199
+msgid ""
+"Users will be logged out (or prompted to be logged out, if set) after this "
+"time. For example, if you wish it to be 10 minutes of inactivity, use 600. A "
+"note: If your server is responding very slowly, please set this to a "
+"reasonable larger time window since users may experience minimal prompt time "
+"to reclaim their session."
+msgstr ""
+"この時間が経過すると、ユーザーはログアウトされます（または、設定されている場"
+"合はログアウトするように求められます）。 たとえば、10分間非アクティブにしたい"
+"場合は600を使用します。注：サーバーの応答が非常に遅い場合もあるので考慮に入れ"
+"てください。"
+
+#: admin/partials/security-settings.php:203
+msgid "Display a Prompt Before Being Logged Out"
+msgstr "ログアウトする前にポップアップメッセージを表示する"
+
+#: admin/partials/security-settings.php:209
+msgid ""
+"A prompt box will be displayed before logging out is activated. Users will "
+"have option to act on the prompt and continue the session."
+msgstr ""
+"ログアウトがアクティブになる前に、メッセージがポップアップ表示されます。 "
+
+#: admin/partials/security-settings.php:214
+msgid "Content of the Prompt Box"
+msgstr "ポップアップメッセージの内容"
+
+#: admin/partials/security-settings.php:220
+msgid "Write custom content to be displayed inside the pre-logout prompt box."
+msgstr ""
+"事前ログアウトポップアップメッセージ内に表示されるメッセージを記述します。"
+
+#: admin/partials/security-settings.php:227
+msgid "Whitelisted Dashboard IPs"
+msgstr "ホワイトリストに登録されたIPアドレス"
+
+#: admin/partials/security-settings.php:234
+msgid ""
+"Users coming from these IPs will always be allowed access to the dashboard "
+"area including login. Separate multiple entries with commas."
+msgstr ""
+"これらのIPアドレスからアクセスするユーザーは、ログインを含むダッシュボードエ"
+"リアへのアクセスが常に許可されます。 複数のエントリはカンマで区切ります。"
+
+#: admin/partials/security-settings.php:239
+msgid "Blacklisted IPs"
+msgstr "ブラックリストに登録されたIPアドレス"
+
+#: admin/partials/security-settings.php:246
+msgid ""
+"Users coming from these IPs will be blocked on both front-end and dashboard "
+"area. They cannot signup from this IP. You can use IP range or wildcard too. "
+"Separate multiple entries with commas."
+msgstr ""
+"これらのIPアドレスから来るユーザーは、フロントエンドとダッシュボードの両方の"
+"領域でブロックされます。 このIPアドレスからサインアップすることはできませ"
+"ん。 IPアドレス範囲またはワイルドカードも使用できます。 複数のエントリはカン"
+"マで区切ります。"
+
+#: admin/partials/security-settings.php:251
+msgid "Blocked Email Addresses"
+msgstr "ブロックされたメールアドレス"
+
+#: admin/partials/security-settings.php:258
+msgid ""
+"Users with blocked email addresses will not be allowed to register or login "
+"on your site. To block an entire domain, use *@domain.com. Separate multiple "
+"entries with commas."
+msgstr ""
+"メールアドレスがブロックされているユーザーは、サイトへの登録またはログインを"
+"許可されません。 ドメイン全体をブロックするには、* @ domain.comを使用しま"
+"す。 複数のエントリはカンマで区切ります。"
+
+#: admin/partials/security-settings.php:263
+msgid "Blacklisted Words"
+msgstr "ブラックリストワード（言葉）"
+
+#: admin/partials/security-settings.php:270
+msgid ""
+"Blacklisted words cannot be used by guests to signup as their usernames. You "
+"can also block keywords important to your business to be used as usernames. "
+"Separate multiple entries with commas."
+msgstr ""
+"ブラックリストに登録された単語は、ゲストがユーザー名としてサインアップするた"
+"めに使用できません。 ビジネスに重要なキーワードをブロックして、ユーザー名とし"
+"て使用することもできます。 複数のエントリはカンマで区切ります。"
+
+#: admin/partials/seo-settings.php:29
+msgid "SEO"
+msgstr "SEO"
+
+#: admin/partials/seo-settings.php:40
+msgid "User Profile Page Title"
+msgstr "ユーザープロフィールページのタイトル"
+
+#: admin/partials/seo-settings.php:46
+msgid "Define pattern for HTML page title for user profile pages."
+msgstr "ユーザープロフィールページのHTMLページタイトルのパターンを定義します。"
+
+#: admin/partials/seo-settings.php:51
+msgid "User Profile Description (HTML Meta)"
+msgstr "ユーザープロフィールの説明（HTMLメタ）"
+
+#: admin/partials/seo-settings.php:57
+msgid "Define pattern for HTML page description meta for user profile pages."
+msgstr "ユーザープロフィールページのHTMLページ記述メタのパターンを定義します。"
+
+#: admin/partials/shortcode.php:9
+msgid "Shortcodes"
+msgstr "ショートコード"
+
+#: admin/partials/shortcode.php:12
+msgid "Registration Form as a Single Page"
+msgstr "単一ページとしての登録フォーム"
+
+#: admin/partials/shortcode.php:15
+msgid ""
+"Displays sign up form for a group as a single page. Sections will be "
+"separated into separate blocks. Replace <i>x</i> with the Group ID."
+msgstr ""
+"グループのサインアップフォームを単一のページとして表示します。 セクションは個"
+"別のブロックに分割されます。 <i>x</i>をグループIDに置き換えます。"
+
+#: admin/partials/shortcode.php:18
+msgid "Registration Form as Multi-Page"
+msgstr "マルチページの登録フォーム"
+
+#: admin/partials/shortcode.php:21
+msgid ""
+"Displays sign up form for a group as a multi-page. Sections will be "
+"separated into pages. Replace x with the Group ID."
+msgstr ""
+"グループのサインアップフォームをマルチページとして表示します。 セクションは"
+"ページに分割されます。<i>x</i>をグループIDに置き換えます。"
+
+#: admin/partials/shortcode.php:24
+msgid "Single Group Page"
+msgstr "単一グループページ"
+
+#: admin/partials/shortcode.php:27
+msgid ""
+"Displays a Group with logo and description. Groups users are displayed below "
+"the Group Card. Replace x with the Group ID."
+msgstr ""
+"ロゴと説明付きのグループを表示します。 グループユーザーはグループカードの下に"
+"表示されます。XをグループIDに置き換えます。"
+
+#: admin/partials/shortcode.php:34
+msgid "Multi Group Page"
+msgstr "マルチグループページ"
+
+#: admin/partials/shortcode.php:37
+msgid ""
+"Displays all the Groups with logo, description and Sign Up buttons. Visitors "
+"can choose a Group to join."
+msgstr ""
+"すべてのグループロゴ、説明、およびサインアップボタンを表示します。 訪問者は、"
+"参加するグループを選択できます。"
+
+#: admin/partials/shortcode.php:40
+msgid "Profile Page"
+msgstr "プロフィールページ"
+
+#: admin/partials/shortcode.php:43
+msgid "Single profile page used for displaying logged in user's profile."
+msgstr ""
+"ログインしているユーザーのプロフィールを表示するために使用されるロファイル画"
+"面。"
+
+#: admin/partials/shortcode.php:46
+msgid "Login Form"
+msgstr "ログインフォーム"
+
+#: admin/partials/shortcode.php:49
+msgid ""
+"A login form with Username/ Email and Password fields. Also has Forgot "
+"Password link."
+msgstr ""
+"ユーザー名/Eメールアドレスおよびパスワードフィールドを持つログインフォーム。 "
+"パスワードを忘れた場合のリンクもあります。"
+
+#: admin/partials/shortcode.php:55
+msgid "Password Retrieval Form"
+msgstr "パスワード取得フォーム"
+
+#: admin/partials/shortcode.php:58
+msgid "A page where users can enter their email to reset their lost password."
+msgstr ""
+"ユーザーがEメールアドレスを入力して、失ったパスワードをリセットできるページ。"
+
+#: admin/partials/shortcode.php:61
+msgid "Password Reset Form"
+msgstr "パスワードリセットフォーム"
+
+#: admin/partials/shortcode.php:64
+msgid ""
+"The page where users arrive after clicking on password reset link sent to "
+"them after using Password Retrieval Form."
+msgstr ""
+"パスワード取得フォームを使用した後に送信されたパスワードリセットリンクをク"
+"リックした後にユーザーが到着するページ。"
+
+#: admin/partials/shortcode.php:67
+msgid "All Users Page"
+msgstr "すべてのユーザーページ"
+
+#: admin/partials/shortcode.php:70
+msgid ""
+"Shows all users with profile image and username on a single page with search "
+"capabilities."
+msgstr ""
+"プロフィール画像とユーザー名を持つすべてのユーザーを検索機能付きの単一ページ"
+"に表示します"
+
+#: admin/partials/shortcode.php:75
+msgid "Blog Submission Page"
+msgstr "ブログ投稿ページ"
+
+#: admin/partials/shortcode.php:78
+msgid ""
+"Allows users to post blogs if User Blogs are turned on. Blogs will be "
+"visible on respective profile pages."
+msgstr ""
+"ユーザーブログが有効になっている場合、ユーザーはブログを投稿できます。 ブログ"
+"はそれぞれのプロフィールページに表示されます。"
+
+#: admin/partials/thirdparty-settings.php:31
+msgid "Third Party Integrations"
+msgstr "サードパーティの統合"
+
+#: admin/partials/thirdparty-settings.php:42
+msgid "Allow User to Login using Facebook:"
+msgstr "ユーザーがFacebookを使用してログインできるようにします。"
+
+#: admin/partials/thirdparty-settings.php:48
+msgid ""
+"For your reference only. Not visible on front-end. Description can help you "
+"remember the purpose of the form."
+msgstr "フロントエンドには表示されません。 覚え書き、メモ欄です。"
+
+#: admin/partials/thirdparty-settings.php:56
+msgid "Facebook App ID"
+msgstr "FacebookアプリID"
+
+#: admin/partials/thirdparty-settings.php:67
+msgid "Facebook App Secret"
+msgstr "FacebookアプリSecret"
+
+#: admin/partials/upload-settings.php:29
+msgid "Uploads"
+msgstr "アップロード"
+
+#: admin/partials/upload-settings.php:40
+msgid "Profile Image Maximum File Size (in bytes)"
+msgstr "プロフィールイメージの最大ファイルサイズ（バイト単位）"
+
+#: admin/partials/upload-settings.php:46
+msgid ""
+"Set an upper limit to the size of profile images uploaded by users. Sizes "
+"are in Bytes. For example, for 2MB limit use 2097152. You can also use an <a "
+"href=\"http://whatsabyte.com/P1/byteconverter.htm\" target=\"_blank\">online "
+"convertor</a> for finding out exact values."
+msgstr ""
+"ユーザーがアップロードするプロフィール画像のサイズに上限を設定します。 サイズ"
+"はバイト単位です。 たとえば、2MBの制限では2097152（1MB=1024×1024）を使用しま"
+"す。<a href=\"http://whatsabyte.com/P1/byteconverter.htm\" target=\"_blank\">"
+"オンラインコンバーター</a>を使用して正確な値を見つけることもできます。"
+
+#: admin/partials/upload-settings.php:51
+msgid "Cover Image Maximum File Size (in bytes)"
+msgstr "カバーイメージの最大ファイルサイズ（バイト単位）"
+
+#: admin/partials/upload-settings.php:57
+msgid ""
+"Set an upper limit to the size of cover images uploaded by users. Sizes are "
+"in Bytes. For example, for 2MB limit use 2097152. You can also use an <a "
+"href=\"http://whatsabyte.com/P1/byteconverter.htm\" target=\"_blank\">online "
+"convertor</a> for finding out exact values."
+msgstr ""
+"ユーザーがアップロードするカバー画像のサイズに上限を設定します。 サイズはバイ"
+"ト単位です。 たとえば、2MBの制限では2097152を使用します。<a href=\"http://"
+"whatsabyte.com/P1/byteconverter.htm\" target=\"_blank\">オンラインコンバー"
+"ター</a>を使用して正確な値を見つけることもできます。"
+
+#: admin/partials/upload-settings.php:62
+msgid "Image Quality"
+msgstr "画質"
+
+#: admin/partials/upload-settings.php:68
+msgid ""
+"Set quality of images being rendered inside ProfileGrid. A lower quality can "
+"improve load times. Values vary between 1 to 100."
+msgstr ""
+"ProfileGrid内でレンダリングされる画像の品質を設定します。 品質を低くすると、"
+"ロード時間が速くなります。 値は1〜100です。"
+
+#: admin/partials/upload-settings.php:73
+msgid "Profile Image Minimum Width"
+msgstr "プロフィール画像の最小幅"
+
+#: admin/partials/upload-settings.php:79
+msgid ""
+"Set a minimum width (in pixels) for the photos users upload as their profile "
+"image."
+msgstr ""
+"ユーザーがプロフィール画像としてアップロードする写真の最小幅（ピクセル単位）"
+"を設定します。"
+
+#: admin/partials/upload-settings.php:84
+msgid "Cover Image Minimum Width"
+msgstr "カバー画像の最小幅"
+
+#: admin/partials/upload-settings.php:90
+msgid ""
+"Set a minimum width (in pixels) for the photos users upload as their cover "
+"image. While ProfileGrid automatically informs users a recommended width "
+"based on your site theme, disallowing smaller sizes will reduce possibility "
+"of blurry or stretched our cover images."
+msgstr ""
+"ユーザーがカバー画像としてアップロードする写真の最小幅（ピクセル単位）を設定"
+"します。 ProfileGridはサイトのテーマに基づいて推奨幅をユーザーに自動的に通知"
+"しますが、小さいサイズを許可しないと、カバー画像がぼやけたり引き伸ばされたり"
+"する可能性が低くなります。"
+
+#: admin/partials/user-manager.php:87
+msgid "Users Profiles"
+msgstr "ユーザープロフィール"
+
+#: admin/partials/user-manager.php:92
+msgid "New User"
+msgstr "新しいユーザー"
+
+#: admin/partials/user-manager.php:93 admin/partials/user-profile.php:76
+msgid "Deactivate"
+msgstr "無効化"
+
+#: admin/partials/user-manager.php:94 admin/partials/user-profile.php:74
+msgid "Activate"
+msgstr "有効化"
+
+#: admin/partials/user-manager.php:95
+msgid ""
+"You are going to delete selected users permanently. This action cannot be "
+"undone. Please confirm."
+msgstr "選択したユーザーを完全に削除します。 このアクションは元に戻せません。 "
+
+#: admin/partials/user-manager.php:96 admin/partials/user-manager.php:128
+msgid "Move"
+msgstr "移動する"
+
+#: admin/partials/user-manager.php:130
+msgid ""
+"You are changing the group of this user. All data associated with profile "
+"fields of old group will be hidden and the user will have to edit and fill "
+"profile fields associated with the new group."
+msgstr ""
+"このユーザーのグループを変更しています。 古いグループのプロフィールフィールド"
+"に関連付けられたすべてのデータは非表示になり、ユーザーは新しいグループに関連"
+"付けられたプロフィールフィールドを編集して入力する必要があります。 続行します"
+"か？"
+
+#: admin/partials/user-manager.php:145 admin/partials/user-manager.php:220
+msgid "Search"
+msgstr "検索"
+
+#: admin/partials/user-manager.php:151
+msgid "Time"
+msgstr "時間(時刻)"
+
+#: admin/partials/user-manager.php:154 admin/partials/user-manager.php:192
+msgid "All"
+msgstr "すべて"
+
+#: admin/partials/user-manager.php:157
+msgid "Today"
+msgstr "今日"
+
+#: admin/partials/user-manager.php:160
+msgid "Yesterday"
+msgstr "昨日"
+
+#: admin/partials/user-manager.php:163
+msgid "This Week"
+msgstr "今週"
+
+#: admin/partials/user-manager.php:166
+msgid "Last Week"
+msgstr "先週"
+
+#: admin/partials/user-manager.php:169
+msgid "This Month"
+msgstr "今月"
+
+#: admin/partials/user-manager.php:172
+msgid "This Year"
+msgstr "今年"
+
+#: admin/partials/user-manager.php:175
+msgid "Specific Period"
+msgstr "特定の期間"
+
+#: admin/partials/user-manager.php:178
+msgid "Start Date"
+msgstr "開始日"
+
+#: admin/partials/user-manager.php:182
+msgid "End Date"
+msgstr "終了日"
+
+#: admin/partials/user-manager.php:189 admin/partials/user-manager.php:231
+msgid "Status"
+msgstr "ステータス"
+
+#: admin/partials/user-manager.php:195 admin/partials/user-manager.php:257
+msgid "Active"
+msgstr "アクティブ"
+
+#: admin/partials/user-manager.php:198 admin/partials/user-manager.php:257
+msgid "Inactive"
+msgstr "非アクティブ"
+
+#: admin/partials/user-manager.php:200
+msgid "Match Field"
+msgstr "一致フィールド"
+
+#: admin/partials/user-manager.php:221
+#: public/partials/themes/default/search-tpl.php:19
+msgid "Reset"
+msgstr "リセット"
+
+#: admin/partials/user-manager.php:228
+#: public/partials/themes/default/add-blog-tpl.php:51
+msgid "Image"
+msgstr "画像"
+
+#: admin/partials/user-manager.php:229
+msgid "Display Name"
+msgstr "表示名"
+
+#: admin/partials/user-manager.php:258
+msgid "View"
+msgstr "閲覧"
+
+#: admin/partials/user-manager.php:265
+msgid "No user matches your search."
+msgstr "検索に一致するユーザーはいません。"
+
+#: admin/partials/user-profile.php:72
+msgid ""
+"Are you sure you want to delete this user permanently? You cannot undo this "
+"action."
+msgstr ""
+"このユーザーを完全に削除してもよろしいですか？ 削除すると元に戻すことはできま"
+"せん。"
+
+#: admin/partials/user-profile.php:105
+msgid "Role"
+msgstr "権限"
+
+#: admin/partials/user-profile.php:109
+msgid "Bio"
+msgstr "Bio"
+
+#: admin/partials/user-profile.php:178
+msgid "No User Profile Fields in this section."
+msgstr "このセクションにはユーザープロフィールフィールドはありません。"
+
+#: admin/partials/user-profile.php:189
+msgid ""
+"This profile is not yet associated with any parent profile group. To make it "
+"visible please associate it with a group first."
+msgstr ""
+"このプロフィールは、まだ親プロフィールグループに関連付けられていません。 表示"
+"するには、最初にグループに関連付けてください。"
+
+#: admin/partials/user-settings.php:49
+msgid "WP Registration Auto Approval:"
+msgstr "WordPress登録自動承認："
+
+#: admin/partials/user-settings.php:55
+msgid ""
+"Automatically activate user accounts after registration form is submitted. "
+"Keep this setting off if you want to manually approve each registering user."
+msgstr ""
+"登録フォームが送信された後、ユーザーアカウントを自動的にアクティブにします。 "
+"各登録ユーザーを手動で承認する場合は、この設定をオフのままにしてください。"
+
+#: admin/partials/user-settings.php:61
+msgid "Send user Activation link in email:"
+msgstr "ユーザーアクティベーションリンクをメールで送信："
+
+#: admin/partials/user-settings.php:67
+msgid ""
+"Send an activation link to user in an email. Keep this setting \"off\", if "
+"you want to automatically approve each registered user."
+msgstr ""
+"アクティベーションリンクをメールでユーザーに送信します。 登録済みの各ユーザー"
+"を自動的に承認する場合は、この設定を「オフ」のままにします。"
+
+#: admin/partials/user-settings.php:73
+msgid "Display Password Change"
+msgstr "パスワード変更の表示"
+
+#: admin/partials/user-settings.php:79
+msgid ""
+"Display an option for logged in users on their profile pages to change their "
+"passwords."
+msgstr ""
+"ログインしているユーザーのプロフィールページにオプションを表示して、パスワー"
+"ドを変更します。"
+
+#: admin/partials/user-settings.php:84
+msgid "Show Privacy Options"
+msgstr "プライバシーオプションを表示"
+
+#: admin/partials/user-settings.php:90
+msgid ""
+"Display a tab for modifying privacy settings in user account section of user "
+"profiles."
+msgstr ""
+"ユーザープロフィールのユーザーアカウントセクションでプライバシー設定を変更す"
+"るためのタブを表示します。"
+
+#: admin/partials/user-settings.php:95
+msgid "Allow Profile Deletion"
+msgstr "プロフィールの削除を許可"
+
+#: admin/partials/user-settings.php:101
+msgid ""
+"Allow users to delete their own profiles. If selected, users will see this "
+"option in user account section of their user profiles."
+msgstr ""
+"ユーザーが自分のプロフィールを削除できるようにします。 選択すると、ユーザープ"
+"ロファイルのユーザーアカウントセクションにこのオプションが表示されます。"
+
+#: admin/partials/user-settings.php:107
+msgid "Account Deletion Warning Text"
+msgstr "アカウント削除警告メッセージ"
+
+#: admin/partials/user-settings.php:110
+#: public/partials/themes/default/delete-account-tpl.php:5
+msgid ""
+"Are you sure you want to delete your account? This will erase all of your "
+"account data from the site. To delete your account enter your password below"
+msgstr ""
+"アカウントを削除してもよろしいですか？ これにより、サイトからすべてのアカウン"
+"トデータが消去されます。 アカウントを削除するには、以下にパスワードを入力して"
+"ください"
+
+#: admin/partials/user-settings.php:112
+msgid ""
+"Users will see this text as warning when they try to delete their profiles."
+msgstr ""
+"ユーザーは、プロフィールを削除しようとすると、このメッセージが警告表示されま"
+"す。"
+
+#: admin/partials/user-settings.php:118
+msgid "Allow Email Change"
+msgstr "メールアドレスの変更を許可"
+
+#: admin/partials/user-settings.php:124
+msgid ""
+"Allow users to change their registered emails when editing their profiles."
+msgstr ""
+"ユーザーがプロフィールを編集するときに、登録済みのメールアドレスを変更できる"
+"ようにします。"
+
+#: admin/partials/user-settings.php:129
+msgid "Allow Users to Hide Their Profiles from Directory and Groups"
+msgstr ""
+"ユーザーが自分のプロフィールをディレクトリおよびグループから隠すことを許可す"
+"る"
+
+#: admin/partials/user-settings.php:135
+msgid ""
+"Users can opt not to display their profile cards in user directories and "
+"groups."
+msgstr ""
+"ユーザーは、ユーザーディレクトリとグループにプロフィールカードを表示しないこ"
+"とを選択できます。"
+
+#: admin/partials/user-settings.php:140
+msgid "Default Profile Image"
+msgstr "デフォルトのプロフィール画像"
+
+#: admin/partials/user-settings.php:151
+msgid ""
+"Displays this image when a user has not selected or removed his/ her profile "
+"image."
+msgstr ""
+"ユーザーがプロフィール画像を選択または削除していないときにこの画像を表示しま"
+"す。"
+
+#: public/partials/pm-autologout-prompt.php:17
+#: public/partials/themes/default/forget-password-form-tpl.php:23
+#: public/partials/themes/default/login-form-tpl.php:18
+#: public/partials/themes/default/password-reset-form-tpl.php:25
+#: public/partials/themes/default/reg-form-multipage-tpl.php:25
+#: public/partials/themes/default/reg-form-tpl.php:23
+msgid "Logout"
+msgstr "ログアウト"
+
+#: public/partials/pm-autologout-prompt.php:18
+msgid "Continue"
+msgstr "継続する"
+
+#: public/partials/profile-magic-friends.php:34
+msgid "My Friends"
+msgstr "マイ フレンド"
+
+#: public/partials/profile-magic-friends.php:35
+msgid "Friend Requests"
+msgstr "フレンド リクエスト"
+
+#: public/partials/profile-magic-friends.php:36
+msgid "Requests Sent"
+msgstr "送信したリクエスト"
+
+#: public/partials/profile-magic-group.php:123
+msgid ""
+"Sorry, this group is currently not accessible. Either it was deleted or its "
+"ID does not matches."
+msgstr ""
+"現在、このグループにはアクセスできません。 削除されたか、IDが一致しません。"
+
+#: public/partials/profile-magic-groups.php:30
+msgid ""
+"There are no user groups available right now. If you are admin, you can "
+"create one from dashboard and start signing up users."
+msgstr ""
+"現在、利用可能なユーザーグループはありません。 管理者はダッシュボードからグ"
+"ループを作成して、ユーザーのグループ登録（サインアップ）を開始できます。"
+
+#: public/partials/profile-magic-login-form.php:21
+msgid "Check your email for a link to reset your password."
+msgstr "パスワードをリセットするためのリンクをメールで確認してください。"
+
+#: public/partials/profile-magic-login-form.php:22
+msgid "Your password has been changed. You can sign in now."
+msgstr "あなたのパスワードは変更されました。 サインインできます。"
+
+#: public/partials/profile-magic-login-form.php:98
+msgid "Captcha Failed"
+msgstr "キャプチャに失敗しました"
+
+#: public/partials/profile-magic-payment-process.php:50
+msgid "Transaction Cancelle"
+msgstr "取引がキャンセルされた"
+
+#: public/partials/profile-magic-profile.php:96
+msgid ""
+"Your profile is not yet associated with any parent profile group. To make it "
+"visible please associate it with a group first."
+msgstr ""
+"あなたのプロフィールはまだどの親プロフィールグループにも関連付けられていませ"
+"ん。 表示するには、最初にグループに関連付けてください。"
+
+#: public/partials/profile-magic-profile.php:99
+msgid "This user does not exists."
+msgstr "このユーザーは存在しません。"
+
+#: public/partials/profile-magic-registration-form.php:75
+msgid "captcha failed"
+msgstr "キャプチャに失敗しました"
+
+#: public/partials/profile-magic-registration-form.php:83
+msgid "Require Useremail field"
+msgstr "Usere Mailフィールドが必要です"
+
+#: public/partials/profile-magic-registration-form.php:100
+msgid ""
+"Payment system is not configured to accept payments. Please configure at "
+"least one payment processor for this to work."
+msgstr ""
+"支払いシステムは、支払いを受け入れるように構成されていません。 これが機能する"
+"ように、少なくとも1つの支払い機関を設定してください。"
+
+#: public/partials/profile-magic-settings.php:9
+msgid "You entered incorrect password. Please try again."
+msgstr "間違ったパスワードを入力しました。 もう一度やり直してください。"
+
+#: public/partials/profile-magic-settings.php:70
+msgid "This email is already registered. Please try with different email."
+msgstr ""
+"このメールアドレスは既に登録されています。 別のメールアドレスを入力してださ"
+"い。"
+
+#: public/partials/profile-magic-settings.php:96
+#: public/partials/themes/default/edit-profile-tpl - Copy.php:12
+#: public/partials/themes/default/edit-profile-tpl.php:12
+msgid "Edit Profile"
+msgstr "プロフィール編集"
+
+#: public/partials/profile-magic-settings.php:98
+#: public/partials/themes/default/profile-tpl.php:266
+#: public/partials/themes/default/profile-tpl.php:280
+msgid "Change Password"
+msgstr "パスワードを変更する"
+
+#: public/partials/profile-magic-settings.php:102
+msgid "Privacy"
+msgstr "プライバシー"
+
+#: public/partials/profile-magic-settings.php:105
+msgid "Delete Account"
+msgstr "アカウントを削除する"
+
+#: public/partials/themes/default/add-blog-tpl.php:23
+msgid "Description"
+msgstr "説明"
+
+#: public/partials/themes/default/add-blog-tpl.php:68
+msgid "Content Privacy"
+msgstr "コンテンツのプライバシー"
+
+#: public/partials/themes/default/add-blog-tpl.php:86
+msgid "Content accessible to my Group Member"
+msgstr "グループメンバーがアクセスできるコンテンツ"
+
+#: public/partials/themes/default/change-password-tpl.php:8
+#: public/partials/themes/default/password-reset-form-tpl.php:34
+#: public/partials/themes/default/profile-tpl.php:277
+msgid "New password"
+msgstr "新しいパスワード"
+
+#: public/partials/themes/default/change-password-tpl.php:19
+#: public/partials/themes/default/password-reset-form-tpl.php:35
+#: public/partials/themes/default/profile-tpl.php:278
+msgid "Repeat new password"
+msgstr "新しいパスワードを繰り返してください"
+
+#: public/partials/themes/default/change-password-tpl.php:30
+#: public/partials/themes/default/delete-account-tpl.php:21
+#: public/partials/themes/default/my-account-tpl.php:59
+#: public/partials/themes/default/privacy-settings-tpl.php:47
+#: public/partials/themes/default/reg-form-multipage-tpl.php:44
+#: public/partials/themes/default/reg-form-tpl.php:46
+msgid "Submit"
+msgstr "送信"
+
+#: public/partials/themes/default/edit-group-tpl.php:19
+msgid "Change Group Badge"
+msgstr "グループバッジの変更"
+
+#: public/partials/themes/default/edit-group-tpl.php:40
+msgid "Group Description"
+msgstr "グループの説明"
+
+#: public/partials/themes/default/edit-group-tpl.php:63
+msgid "Change Group Icon"
+msgstr "グループアイコンの変更"
+
+#: public/partials/themes/default/edit-group-tpl.php:72
+msgid "Upload"
+msgstr "アップロード"
+
+#: public/partials/themes/default/edit-profile-tpl - Copy.php:17
+#: public/partials/themes/default/edit-profile-tpl.php:17
+msgid "Expand All"
+msgstr "すべて展開"
+
+#: public/partials/themes/default/edit-profile-tpl - Copy.php:18
+#: public/partials/themes/default/edit-profile-tpl.php:18
+msgid "Collapse All"
+msgstr "折り畳む"
+
+#: public/partials/themes/default/forget-password-form-tpl.php:18
+msgid "You are already logged in."
+msgstr "あなたは既にログインしています。"
+
+#: public/partials/themes/default/forget-password-form-tpl.php:19
+#: public/partials/themes/default/login-form-tpl.php:14
+#: public/partials/themes/default/password-reset-form-tpl.php:21
+#: public/partials/themes/default/reg-form-multipage-tpl.php:21
+#: public/partials/themes/default/reg-form-tpl.php:19
+msgid "PROCEED TO"
+msgstr "進む"
+
+#: public/partials/themes/default/forget-password-form-tpl.php:22
+#: public/partials/themes/default/login-form-tpl.php:17
+#: public/partials/themes/default/password-reset-form-tpl.php:24
+#: public/partials/themes/default/reg-form-multipage-tpl.php:24
+#: public/partials/themes/default/reg-form-tpl.php:22
+msgid "My Profile"
+msgstr "私のプロフィール"
+
+#: public/partials/themes/default/forget-password-form-tpl.php:32
+#: public/partials/themes/default/login-form-tpl.php:28
+msgid "Email or Username"
+msgstr "メールアドレスまたはユーザー名"
+
+#: public/partials/themes/default/forget-password-form-tpl.php:36
+#: public/partials/themes/default/password-reset-form-tpl.php:37
+msgid "Reset Password"
+msgstr "パスワードリセット"
+
+#: public/partials/themes/default/group-tpl.php:61
+msgid "Details"
+msgstr "詳細"
+
+#: public/partials/themes/default/group-tpl.php:76
+#: public/partials/themes/default/privacy-settings-tpl.php:14
+msgid "Group Members"
+msgstr "グループメンバー"
+
+#: public/partials/themes/default/group-tpl.php:93
+#: public/partials/themes/default/group-tpl.php:116
+msgid "No User Profile is registered in this Group"
+msgstr "このグループにはユーザープロフィールが登録されていません"
+
+#: public/partials/themes/default/groups-tpl.php:6
+msgid "All Groups"
+msgstr "すべてのグループ"
+
+#: public/partials/themes/default/groups-tpl.php:46
+msgid "Sign Up"
+msgstr "サインアップ"
+
+#: public/partials/themes/default/groups-tpl.php:57
+msgid "Free"
+msgstr "フリー"
+
+#: public/partials/themes/default/login-form-tpl.php:13
+#: public/partials/themes/default/reg-form-multipage-tpl.php:20
+#: public/partials/themes/default/reg-form-tpl.php:18
+msgid "You have successfully logged in."
+msgstr "ログインに成功しました。"
+
+#: public/partials/themes/default/login-form-tpl.php:34
+msgid "Forgot Password?"
+msgstr "パスワードをお忘れですか？"
+
+#: public/partials/themes/default/password-reset-form-tpl.php:20
+msgid "You have already logged in."
+msgstr "すでにログインしています。"
+
+#: public/partials/themes/default/privacy-settings-tpl.php:8
+msgid "Profile Privacy"
+msgstr "プロフィールのプライバシー"
+
+#: public/partials/themes/default/privacy-settings-tpl.php:12
+msgid "Everyone"
+msgstr "全員"
+
+#: public/partials/themes/default/privacy-settings-tpl.php:15
+msgid "Friends & Group Members"
+msgstr "フレンドとグループメンバー"
+
+#: public/partials/themes/default/privacy-settings-tpl.php:16
+msgid "Only Me"
+msgstr "自分だけ"
+
+#: public/partials/themes/default/privacy-settings-tpl.php:26
+msgid "Hide My Profile From Groups, Directories and Search Results"
+msgstr "グループ、ディレクトリ、検索結果からプロフィールを非表示にする"
+
+#: public/partials/themes/default/profile-tpl.php:20
+#: public/partials/themes/default/profile-tpl.php:31
+msgid "Update Image"
+msgstr "画像の更新"
+
+#: public/partials/themes/default/profile-tpl.php:53
+msgid "About"
+msgstr "About"
+
+#: public/partials/themes/default/profile-tpl.php:55
+msgid "Blog"
+msgstr "ブログ"
+
+#: public/partials/themes/default/profile-tpl.php:60
+msgid "Messages"
+msgstr "メッセージ"
+
+#: public/partials/themes/default/profile-tpl.php:77
+msgid "Notifications"
+msgstr "通知"
+
+#: public/partials/themes/default/profile-tpl.php:168
+msgid "Change Profile Image"
+msgstr "プロフィール画像の変更"
+
+#: public/partials/themes/default/profile-tpl.php:207
+msgid ""
+"For best visibility choose square image with minimum size of 200 x 200 pixels"
+msgstr ""
+"良好に表示するには、最小サイズが200 × 200ピクセルの正方形の画像を選択してくだ"
+"さい"
+
+#: public/partials/themes/default/profile-tpl.php:216
+#: public/partials/themes/default/profile-tpl.php:224
+msgid "Change Cover Image"
+msgstr "カバー画像の変更"
+
+#: public/partials/themes/default/profile-tpl.php:227
+msgid "Upload Your Cover Image"
+msgstr "カバー画像をアップロードする"
+
+#: public/partials/themes/default/profile-tpl.php:256
+msgid ""
+"For best visibility choose a landscape aspect ratio image with size of <span "
+"id=\"pm-cover-image-width\">1200</span> x 300 pixels"
+msgstr ""
+"良好に表示するには、サイズが<span id=\"pm-cover-image-width\">1200</span>× "
+"300ピクセルの横長のアスペクト比の画像を選択してください"
+
+#: public/partials/themes/default/search-tpl.php:20
+msgid "Advance"
+msgstr "前進"
+
+#. Description of the plugin
+msgid ""
+"ProfileGrid adds user groups and user profiles functionality to your site."
+msgstr ""
+"ProfileGridは、ユーザーグループとユーザープロフィール機能をサイトに追加しま"
+"す。"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://profilegrid.co"
+msgstr "http://profilegrid.co"
+
+#. Author of the plugin
+msgid "profilegrid"
+msgstr "profilegrid"

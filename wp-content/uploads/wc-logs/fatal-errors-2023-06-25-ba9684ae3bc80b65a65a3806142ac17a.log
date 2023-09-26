@@ -1,0 +1,60 @@
+2023-06-25T20:38:46+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php:1431
+Stack trace:
+#0 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php(1431): array_diff(NULL, NULL)
+#1 D:\test\wordpress\wp-includes\class-wp-hook.php(308): Profile_Magic_Admin->pg_groupleader_assign_remove_fun('', '', NULL, 0, NULL)
+#2 D:\test\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 D:\test\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\partials\add-group.php(98): do_action('pg_groupleader_...', '', '', NULL, 0, NULL)
+#5 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php(455): include('D:\\test\\wordpre...')
+#6 D:\test\wordpress\wp-includes\class-wp-hook.php(308): Profile_Magic_Admin->pm_add_group('')
+#7 D:\test\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 D:\test\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\test\wordpress\wp-admin\admin.php(259): do_action('admin_page_pm_a...')
+#10 {main}
+  thrown in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php on line 1431
+
+2023-06-25T20:39:02+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php:1431
+Stack trace:
+#0 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php(1431): array_diff(NULL, NULL)
+#1 D:\test\wordpress\wp-includes\class-wp-hook.php(308): Profile_Magic_Admin->pg_groupleader_assign_remove_fun('', '', NULL, 0, NULL)
+#2 D:\test\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 D:\test\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\partials\add-group.php(98): do_action('pg_groupleader_...', '', '', NULL, 0, NULL)
+#5 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php(455): include('D:\\test\\wordpre...')
+#6 D:\test\wordpress\wp-includes\class-wp-hook.php(308): Profile_Magic_Admin->pm_add_group('')
+#7 D:\test\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 D:\test\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\test\wordpress\wp-admin\admin.php(259): do_action('admin_page_pm_a...')
+#10 {main}
+  thrown in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php on line 1431
+
+2023-06-25T20:43:44+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php:1431
+Stack trace:
+#0 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php(1431): array_diff(NULL, NULL)
+#1 D:\test\wordpress\wp-includes\class-wp-hook.php(308): Profile_Magic_Admin->pg_groupleader_assign_remove_fun(NULL, '', NULL, 0, NULL)
+#2 D:\test\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 D:\test\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\partials\add-group.php(98): do_action('pg_groupleader_...', NULL, '', NULL, 0, NULL)
+#5 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php(455): include('D:\\test\\wordpre...')
+#6 D:\test\wordpress\wp-includes\class-wp-hook.php(308): Profile_Magic_Admin->pm_add_group('')
+#7 D:\test\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 D:\test\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\test\wordpress\wp-admin\admin.php(259): do_action('admin_page_pm_a...')
+#10 {main}
+  thrown in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php on line 1431
+
+2023-06-25T20:48:57+00:00 CRITICAL Uncaught TypeError: array_diff(): Argument #1 ($array) must be of type array, null given in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php:1431
+Stack trace:
+#0 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php(1431): array_diff(NULL, Array)
+#1 D:\test\wordpress\wp-includes\class-wp-hook.php(308): Profile_Magic_Admin->pg_groupleader_assign_remove_fun(2, '', NULL, 0, Array)
+#2 D:\test\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 D:\test\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\partials\add-group.php(98): do_action('pg_groupleader_...', 2, '', NULL, 0, 'a:1:{s:7:"prima...')
+#5 D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php(455): include('D:\\test\\wordpre...')
+#6 D:\test\wordpress\wp-includes\class-wp-hook.php(308): Profile_Magic_Admin->pm_add_group('')
+#7 D:\test\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 D:\test\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 D:\test\wordpress\wp-admin\admin.php(259): do_action('admin_page_pm_a...')
+#10 {main}
+  thrown in D:\test\wordpress\wp-content\plugins\profilegrid-user-profiles-groups-and-communities\admin\class-profile-magic-admin.php on line 1431
+

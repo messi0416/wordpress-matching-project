@@ -1,0 +1,6 @@
+2023-06-26T03:11:30+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 1
+API response: cURL error 28: Connection timeout after 10010 ms
+2023-06-26T20:05:43+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
+Status Code: 1
+API response: cURL error 28: Connection timeout after 10012 ms

@@ -1,0 +1,310 @@
+# Translation of Plugins - String locator - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - String locator - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-15 06:07:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - String locator - Stable (latest release)\n"
+
+#: includes/Extension/SQL/class-search.php:97
+msgid "Database"
+msgstr "データベース"
+
+#: includes/class-string-locator.php:374
+msgid "File / Table"
+msgstr "ファイル / テーブル"
+
+#: includes/Extension/SQL/class-search.php:98
+msgid "All database tables"
+msgstr "すべてのデータベーステーブル"
+
+#. translators: Title on the editor page.
+#: includes/Extension/SQL/views/editor/sql.php:50
+msgid "String Locator - SQL Editor"
+msgstr "String Locator - SQL エディター"
+
+#: includes/Tests/class-loopback.php:172
+msgid "A 500 server error was detected on your sites backend after updating your file. We have restored the previous version of the file for you."
+msgstr "ファイルの更新後、サイトのバックエンドで500サーバーエラーを検出しました。このため、ファイルを以前のバージョンに復元しました。"
+
+#: includes/REST/class-directory-structure.php:51
+msgid "Invalid search source provided."
+msgstr "無効な検索ソースが指定されました。"
+
+#: includes/Extension/SQL/views/editor/sql.php:249
+#: views/editors/default.php:282
+msgid "Dismiss this notice."
+msgstr "この通知を非表示にする。"
+
+#. translators: File path.
+#: views/editors/default.php:197
+msgid "Full file path: %s"
+msgstr "完全なファイルパス: %s"
+
+#: views/search.php:31
+msgid "No previous searches could be restored."
+msgstr "以前の検索を復元できませんでした。"
+
+#: views/editors/default.php:202
+msgid "File size:"
+msgstr "ファイルサイズ:"
+
+#: includes/Extension/SQL/views/editor/sql.php:114
+#: views/editors/default.php:164
+msgid "Details"
+msgstr "詳細"
+
+#: includes/Tests/class-loopback.php:61
+msgid "Enable loopback tests after making a save."
+msgstr "保存後のループバックテストを有効化する。"
+
+#. translators: %s: The name of the file being edited.
+#: views/editors/default.php:99
+msgid "You are currently editing <em>%s</em>"
+msgstr "現在 <em>%s</em> を編集中"
+
+#: views/search.php:47
+msgid "String Locator is limited to search mode only."
+msgstr "String Locator は、検索モードのみに限定されます。"
+
+#: includes/Extension/SQL/views/editor/sql.php:152
+#: views/editors/default.php:181
+msgid "Save checks"
+msgstr "チェックを保存"
+
+#: includes/class-string-locator.php:376
+msgid "Line position"
+msgstr "行の位置"
+
+#: views/editors/default.php:210
+msgid "Last modified:"
+msgstr "最終更新日:"
+
+#. translators: %s: The file location that was sent.
+#: includes/class-save.php:106
+msgid "The file location provided, <strong>%s</strong>, is not valid."
+msgstr "指定されたファイルの位置 <strong>%s</strong> が無効です。"
+
+#: includes/Tests/class-loopback.php:65
+msgid "This feature is highly recommended, and is what WordPress does when using the plugin- or theme-editor."
+msgstr "この機能を強くおすすめします。これは、プラグインまたはテーマエディターを使用するときに WordPress が行っている機能です。"
+
+#: views/search.php:51
+msgid "Because this site is configured to not allow direct file editing, the String Locator plugin has limited functionality and may noy allow you to directly edit files with your string in them."
+msgstr "このサイトはファイルを直接編集できないように構成されているため、String Locator プラグインの機能は制限されており、文字列を含むファイルを直接編集できない場合があります。"
+
+#: views/search.php:89
+msgid "RegEx search"
+msgstr "正規表現検索"
+
+#: includes/Extension/SQL/views/editor/sql.php:85 views/editors/default.php:135
+msgid "Warning:"
+msgstr "警告:"
+
+#: includes/class-string-locator.php:96
+msgid "Must Use Plugins"
+msgstr "Must Use プラグイン"
+
+#: includes/class-string-locator.php:244
+msgid "All must-use plugins"
+msgstr "すべての must-use プラグイン"
+
+#: views/editors/default.php:135
+msgid "You appear to be editing a Core file."
+msgstr "コアファイルを編集しているようです。"
+
+#: includes/class-string-locator.php:466
+msgid "Next file: "
+msgstr "次のファイル: "
+
+#. translators: The WordPress description, used when a core file is opened in
+#. the editor.
+#: views/editors/default.php:26
+msgid "WordPress is web software you can use to create a beautiful website or blog. We like to say that WordPress is both free and priceless at the same time."
+msgstr "WordPress は美しいサイトやブログの作成に使用できるウェブソフトウェアです。 WordPress は無料であると同時にプライスレスな価値があります。"
+
+#: includes/class-search.php:233
+msgid "Filename matches search"
+msgstr "ファイル名一致検索"
+
+#. translators: %s: The search string used.
+#: includes/class-search.php:103 includes/Extension/SQL/class-search.php:204
+msgid "Your search string, <strong>%s</strong>, is not a valid pattern, and the search has been aborted."
+msgstr "検索した文字列「<strong>%s</strong>」は有効なパターンではないため、検索を中止しました。"
+
+#: views/editors/default.php:190
+msgid "File information"
+msgstr "ファイル情報"
+
+#: views/editors/default.php:193
+msgid "File location:"
+msgstr "ファイル位置:"
+
+#: includes/class-string-locator.php:472
+msgid "Warning"
+msgstr "警告"
+
+#: includes/class-string-locator.php:469
+msgid "Preparations completed, search started&hellip;"
+msgstr "準備が完了しました。検索を開始しました&hellip;"
+
+#: includes/class-string-locator.php:471
+msgid "Your search was completed, but no results were found."
+msgstr "検索は完了しましたが、一致する結果が見つかりませんでした。"
+
+#: includes/class-string-locator.php:470
+msgid "The above error was returned by your server, for more details please consult your servers error logs."
+msgstr "サーバーから上記のエラーが返されました。詳細については、サーバーのエラーログを参照してください。"
+
+#: includes/class-save.php:142
+msgid "We detected a PHP code tag ending, this has been automatically stripped out to help prevent errors in your code."
+msgstr "PHP コードタグの末尾が検出されましたが、コードのエラーを防ぐために自動的に削除しました。"
+
+#: includes/class-string-locator.php:467
+msgid "Saving search results&hellip;"
+msgstr "検索結果を保存中&hellip;"
+
+#. translators: %d: The numbered reference to a file being searched.
+#: includes/class-search.php:57
+msgid "The file-number, %d, that was sent could not be found."
+msgstr "送信されたファイル番号%dは見つかりませんでした。"
+
+#: includes/class-string-locator.php:90
+msgid "Everything under wp-content"
+msgstr "wp-content 内の全ファイル"
+
+#: includes/class-string-locator.php:468 views/search.php:110
+msgid "Preparing search&hellip;"
+msgstr "検索の準備中&hellip;"
+
+#: views/editors/default.php:123
+msgid "It seems you are making direct edits to a theme."
+msgstr "テーマを直接編集しているようです。"
+
+#. Description of the plugin
+msgid "Scan through theme and plugin files looking for text strings"
+msgstr "テーマやプラグインファイル内のテキスト文字列を検索"
+
+#. translators: The row-action edit link label.
+#: includes/class-string-locator.php:318
+#: includes/Extension/SearchReplace/REST/class-replace.php:164
+#: includes/Extension/SQL/class-search.php:71
+#: includes/Extension/SQL/views/template/search.php:17
+#: includes/Extension/SQL/views/template/search.php:18
+#: views/templates/search-default.php:17 views/templates/search-default.php:18
+msgid "Edit"
+msgstr "編集"
+
+#: includes/class-string-locator.php:373
+msgid "String"
+msgstr "文字列"
+
+#. translators: 1: Filename.
+#: includes/class-search.php:311
+msgid "Could not read file: %s"
+msgstr "ファイルを読み込めませんでした: %s"
+
+#: includes/class-save.php:95
+msgid "The file has been saved"
+msgstr "ファイルを保存しました"
+
+#: views/search.php:93
+msgid "Restore last search"
+msgstr "前回の検索を復元"
+
+#. translators: 1: Line number with an error.
+#: includes/Tests/class-smart-scan.php:138
+msgid "There is an inconsistency in the opening and closing braces, [ and ], of your file on line %s"
+msgstr "ファイル%s行目の開閉角括弧 [ と ] が一致していません"
+
+#. translators: 1: Line number with an error.
+#: includes/Tests/class-smart-scan.php:164
+msgid "There is an inconsistency in the opening and closing braces, ( and ), of your file on line %s"
+msgstr "ファイル%s行目の開閉丸括弧 ( と ) が一致していません"
+
+#. translators: 1: Line number with an error.
+#: includes/Tests/class-smart-scan.php:114
+msgid "There is an inconsistency in the opening and closing braces, { and }, of your file on line %s"
+msgstr "ファイル%s行目の開閉波括弧 { と } が一致していません"
+
+#: includes/Tests/class-loopback.php:133
+msgid "A 500 server error was detected on your site after updating your file. We have restored the previous version of the file for you."
+msgstr "ファイルの更新後、サイトで500サーバーエラーを検出しました。このため、ファイルを以前のバージョンに復元しました。"
+
+#: includes/class-save.php:42
+msgid "The file could not be written to, please check file permissions or edit it manually."
+msgstr "ファイルに書き込めませんでした。ファイルのアクセス許可を確認するか、手動で編集してください。"
+
+#: views/search.php:92
+msgid "Search"
+msgstr "検索"
+
+#: includes/class-string-locator.php:213
+msgid "All plugins"
+msgstr "すべてのプラグイン"
+
+#: views/search.php:86
+msgid "Search string"
+msgstr "検索する文字列"
+
+#: includes/class-string-locator.php:100
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: includes/class-string-locator.php:141
+msgid "All themes"
+msgstr "すべてのテーマ"
+
+#: includes/class-string-locator.php:92
+msgid "Themes"
+msgstr "テーマ"
+
+#: includes/class-string-locator.php:88
+msgid "Core"
+msgstr "コア"
+
+#: includes/Extension/SQL/views/editor/sql.php:233
+#: views/editors/default.php:266
+msgid "WordPress functions"
+msgstr "WordPress 関数"
+
+#: includes/class-string-locator.php:89
+msgid "The whole WordPress directory"
+msgstr "WordPress ディレクトリ全体"
+
+#. Plugin Name of the plugin
+#: includes/class-string-locator.php:523 includes/class-string-locator.php:524
+#: includes/class-string-locator.php:539 includes/class-string-locator.php:540
+#: views/search.php:38
+msgid "String Locator"
+msgstr "String Locator"
+
+#: views/search.php:77
+msgid "Search through"
+msgstr "検索するファイル"
+
+#: includes/Extension/SQL/views/editor/sql.php:71 views/editors/default.php:108
+msgid "Save changes"
+msgstr "変更を保存"
+
+#: includes/Tests/class-smart-scan.php:62
+msgid "Enable a smart-scan of your code to help detect bracket mismatches before saving."
+msgstr "保存する前に角括弧の不一致を検出できるよう、コードのスマートスキャンを有効化する。"
+
+#: views/editors/default.php:170
+msgid "By"
+msgstr "作者:"
+
+#. translators: Title on the editor page.
+#: views/editors/default.php:87
+msgid "String Locator - Editor"
+msgstr "String Locator - エディター"
+
+#: includes/Extension/SQL/views/editor/sql.php:70 views/editors/default.php:107
+msgid "Return to search results"
+msgstr "検索結果に戻る"

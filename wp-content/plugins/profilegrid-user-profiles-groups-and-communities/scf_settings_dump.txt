@@ -1,0 +1,27 @@
+$postサンプル
+
+array(12) {
+  
+  
+  ["textbox"]=> string(12) "てきつと"
+  ["url"]=> string(12) "あどれす"
+  ["price"]=> string(9) "かかく"
+  ["textarea"]=> string(15) "てきそてり"
+  ["chkbox_value2"]=> string(13) "chkbox_value2"
+  ["radiobtn"]=> string(15) "radiobtn_value2"
+  ["dropdown"]=> string(15) "dropdown_value1"
+  ["calendar"]=> string(10) "2021/04/04"
+  
+  ["blog_title"]=> string(6) "かか"
+  
+  ["blog_description"]=> string(0) ""
+  ["blog_tags"]=> string(0) ""
+  
+  ["pm_content_access"]=> string(1) "1" }
+
+
+$scf_settingsサンプルダンプ
+
+array(9) {
+  [0]=> array(3) { ["group-name"]=> int(16) ["fields"]=> array(1) { [0]=> array(6) { ["type"]=> string(4) "text" ["label"]=> string(39) "テキストボックスのサンプル" ["name"]=> string(7) "textbox" ["default"]=> string(0) "" ["instruction"]=> string(0) "" ["notes"]=> string(0) "" } } ["repeat"]=> bool(false) } [1]=> array(3) { ["group-name"]=> int(1) ["fields"]=> array(1) { [0]=> array(6) { ["type"]=> string(4) "text" ["label"]=> string(27) "サイトURLのサンプル" ["name"]=> string(3) "url" ["default"]=> string(0) "" ["instruction"]=> string(0) "" ["notes"]=> string(0) "" } } ["repeat"]=> bool(false) } [2]=> array(3) { ["group-name"]=> int(2) ["fields"]=> array(1) { [0]=> array(6) { ["type"]=> string(4) "text" ["label"]=> string(21) "価格のサンプル" ["name"]=> string(5) "price" ["default"]=> string(0) "" ["instruction"]=> string(0) "" ["notes"]=> string(0) "" } } ["repeat"]=> bool(false) } [3]=> array(3) { ["group-name"]=> int(3) ["fields"]=> array(1) { [0]=> array(7) { ["type"]=> string(8) "textarea" ["label"]=> string(36) "テキストエリアのサンプル" ["name"]=> string(8) "textarea" ["rows"]=> string(1) "5" ["default"]=> string(0) "" ["instruction"]=> string(0) "" ["notes"]=> string(0) "" } } ["repeat"]=> bool(false) } [4]=> array(3) { ["group-name"]=> int(4) ["fields"]=> array(1) { [0]=> array(8) { ["type"]=> string(5) "check" ["label"]=> string(39) "チェックボックスのサンプル" ["name"]=> string(6) "chkbox" ["choices"]=> string(94) "チェック１=>chkbox_value1 チェック２=>chkbox_value2 チェック３=>chkbox_value3" ["check_direction"]=> string(10) "horizontal" ["default"]=> string(0) "" ["instruction"]=> string(0) "" ["notes"]=> string(0) "" } } ["repeat"]=> bool(false) } [5]=> array(3) { ["group-name"]=> int(5) ["fields"]=> array(1) { [0]=> array(8) { ["type"]=> string(5) "radio" ["label"]=> string(33) "ラジオボタンのサンプル" ["name"]=> string(8) "radiobtn" ["choices"]=> string(118) "ラジオボタン１=>radiobtn_value1 ラジオボタン２=>radiobtn_value2 ラジオボタン３=>radiobtn_value3" ["radio_direction"]=> string(10) "horizontal" ["default"]=> string(0) "" ["instruction"]=> string(0) "" ["notes"]=> string(0) "" } } ["repeat"]=> bool(false) } [6]=> array(3) { ["group-name"]=> int(6) ["fields"]=> array(1) { [0]=> array(7) { ["type"]=> string(6) "select" ["label"]=> string(36) "ドロップダウンのサンプル" ["name"]=> string(8) "dropdown" ["choices"]=> string(127) "ドロップダウン１=>dropdown_value1 ドロップダウン２=>dropdown_value2 ドロップダウン３=>dropdown_value3" ["default"]=> string(0) "" ["instruction"]=> string(0) "" ["notes"]=> string(0) "" } } ["repeat"]=> bool(false) } [7]=> array(3) { ["group-name"]=> int(7) ["fields"]=> array(1) { [0]=> array(9) { ["type"]=> string(10) "datepicker" ["label"]=> string(30) "カレンダーのサンプル" ["name"]=> string(8) "calendar" ["default"]=> string(0) "" ["date_format"]=> string(0) "" ["max_date"]=> string(0) "" ["min_date"]=> string(0) "" ["instruction"]=> string(0) "" ["notes"]=> string(0) "" } } ["repeat"]=> bool(false) } [8]=> array(3) { ["group-name"]=> int(17) ["fields"]=> array(1) { [0]=> array(6) { ["type"]=> string(5) "image" ["label"]=> string(21) "画像のサンプル" ["name"]=> string(5) "image" ["instruction"]=> string(0) "" ["notes"]=> string(0) "" ["size"]=> string(4) "full" } } ["repeat"]=> bool(false) }
+  }
